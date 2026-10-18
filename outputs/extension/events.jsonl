@@ -1,0 +1,1582 @@
+{"state": "started", "kind": "base", "task_id": "base_25", "repeat": 0}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_59", "repeat": 0}
+{"state": "started", "kind": "base", "task_id": "base_11", "repeat": 0}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_15", "repeat": 0}
+{"state": "started", "kind": "base", "task_id": "base_91", "repeat": 0}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_65", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_15", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.16994009499999999, "gemini": 0.6539583}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_15", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_15", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.15412584, "gemini": 0.6877001}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_15", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_65", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.152132795, "gemini": 0.6858231}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_65", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_11", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.11224632999999999, "gemini": 0.7441725}}
+{"state": "started", "kind": "base", "task_id": "base_11", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_25", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.13078383, "gemini": 0.7186938}}
+{"state": "started", "kind": "base", "task_id": "base_25", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_15", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.13078383, "gemini": 0.7177485}}
+{"state": "started", "kind": "base", "task_id": "base_83", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_91", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.15342677, "gemini": 0.7087038}}
+{"state": "started", "kind": "base", "task_id": "base_91", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_59", "repeat": 0, "reward": 0.0, "cost": {"openai": 0.1944619, "gemini": 0.6516583}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_59", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_65", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.15510684, "gemini": 0.6818979}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_65", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_11", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.17674099, "gemini": 0.6866727}}
+{"state": "started", "kind": "base", "task_id": "base_11", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_25", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.15831596, "gemini": 0.6889707}}
+{"state": "started", "kind": "base", "task_id": "base_25", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_59", "repeat": 1, "reward": 0.0, "cost": {"openai": 0.16149162, "gemini": 0.7272134}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_59", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_91", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.118967545, "gemini": 0.7861244}}
+{"state": "started", "kind": "base", "task_id": "base_91", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_65", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.118967545, "gemini": 0.7829098}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_85", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_25", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.199768395, "gemini": 0.6818306}}
+{"state": "started", "kind": "base", "task_id": "base_39", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_11", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.22371771999999998, "gemini": 0.6595631}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_41", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_85", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.161933675, "gemini": 0.7429937}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_85", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_85", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.190059525, "gemini": 0.7305323}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_85", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_59", "repeat": 2, "reward": 0.0, "cost": {"openai": 0.14868866, "gemini": 0.7864204}}
+{"state": "started", "kind": "base", "task_id": "base_53", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_41", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.189836105, "gemini": 0.7361006}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_41", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_83", "repeat": 0, "reward": 0.0, "cost": {"openai": 0.173166545, "gemini": 0.7660827}}
+{"state": "started", "kind": "base", "task_id": "base_83", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_91", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.19397899999999998, "gemini": 0.7437826}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_39", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_85", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.17387302999999998, "gemini": 0.7442922}}
+{"state": "started", "kind": "base", "task_id": "base_47", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_39", "repeat": 0, "reward": 0.0, "cost": {"openai": 0.203183245, "gemini": 0.7522973}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_39", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_41", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.247420945, "gemini": 0.6994376}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_41", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_53", "repeat": 0, "reward": 0.0, "cost": {"openai": 0.17987665, "gemini": 0.7852695}}
+{"state": "started", "kind": "base", "task_id": "base_53", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_39", "repeat": 1, "reward": 0.0, "cost": {"openai": 0.18187557, "gemini": 0.8131896}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_39", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_41", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.2067915, "gemini": 0.7973732}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_55", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_39", "repeat": 0, "reward": 0.0, "cost": {"openai": 0.183495255, "gemini": 0.8266341}}
+{"state": "started", "kind": "base", "task_id": "base_39", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_39", "repeat": 2, "reward": 0.0, "cost": {"openai": 0.16160063, "gemini": 0.8535256999999999}}
+{"state": "started", "kind": "base", "task_id": "base_85", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_53", "repeat": 1, "reward": 0.0, "cost": {"openai": 0.21300755, "gemini": 0.8109328}}
+{"state": "started", "kind": "base", "task_id": "base_53", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_83", "repeat": 1, "reward": 0.0, "cost": {"openai": 0.20725612999999998, "gemini": 0.8178205}}
+{"state": "started", "kind": "base", "task_id": "base_83", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_55", "repeat": 0, "reward": 0.0, "cost": {"openai": 0.24319598, "gemini": 0.8049442}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_55", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_47", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.219597385, "gemini": 0.8353857}}
+{"state": "started", "kind": "base", "task_id": "base_47", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_53", "repeat": 2, "reward": 0.0, "cost": {"openai": 0.246496885, "gemini": 0.8099063}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_77", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_77", "repeat": 0, "reward": 0.0, "cost": {"openai": 0.19827159, "gemini": 0.8956459999999999}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_77", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_55", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.19854167, "gemini": 0.9090344}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_55", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_39", "repeat": 1, "reward": 0.0, "cost": {"openai": 0.199135895, "gemini": 0.9171385}}
+{"state": "started", "kind": "base", "task_id": "base_39", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_77", "repeat": 1, "reward": 0.0, "cost": {"openai": 0.201996665, "gemini": 0.9271402}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_77", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_85", "repeat": 0, "reward": 0.0, "cost": {"openai": 0.201996665, "gemini": 0.9250671}}
+{"state": "started", "kind": "base", "task_id": "base_85", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_83", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.243585555, "gemini": 0.8707613}}
+{"state": "started", "kind": "base", "task_id": "base_35", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_55", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.2722168, "gemini": 0.849203}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_35", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_77", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.20327019, "gemini": 0.8817621999999999}}
+{"state": "started", "kind": "base", "task_id": "base_43", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_35", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.21644625, "gemini": 0.9446507}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_35", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_35", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.214609945, "gemini": 0.9677258}}
+{"state": "started", "kind": "base", "task_id": "base_35", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_43", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.19460261, "gemini": 0.9731263}}
+{"state": "started", "kind": "base", "task_id": "base_43", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_47", "repeat": 1, "reward": 0.0, "cost": {"openai": 0.21486636, "gemini": 0.9721079}}
+{"state": "started", "kind": "base", "task_id": "base_47", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_35", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.234598745, "gemini": 0.9289217}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_35", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_39", "repeat": 2, "reward": 0.0, "cost": {"openai": 0.23000475, "gemini": 0.9569604}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_81", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_43", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.24047812999999998, "gemini": 0.9771396}}
+{"state": "started", "kind": "base", "task_id": "base_43", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_85", "repeat": 1, "reward": 0.0, "cost": {"openai": 0.197262925, "gemini": 1.042826}}
+{"state": "started", "kind": "base", "task_id": "base_85", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_35", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.223597425, "gemini": 1.0162114}}
+{"state": "started", "kind": "base", "task_id": "base_35", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_81", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.223597425, "gemini": 1.0145277}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_81", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_35", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.249347835, "gemini": 0.9928519}}
+{"state": "started", "kind": "base", "task_id": "base_57", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_43", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.243836705, "gemini": 1.0037831}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_96", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_81", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.22774424499999998, "gemini": 1.0462807}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_81", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_47", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.25495349, "gemini": 1.0244378}}
+{"state": "started", "kind": "base", "task_id": "base_87", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_57", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.255322645, "gemini": 1.0493569999999999}}
+{"state": "started", "kind": "base", "task_id": "base_57", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_35", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.25622287, "gemini": 1.0500005}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_9", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_81", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.263304095, "gemini": 1.059388}}
+{"state": "started", "kind": "base", "task_id": "base_41", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_9", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.214244405, "gemini": 1.1137705}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_9", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_96", "repeat": 0, "reward": 0.0, "cost": {"openai": 0.23255821499999998, "gemini": 1.0948188}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_96", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_87", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.254940095, "gemini": 1.0715967}}
+{"state": "started", "kind": "base", "task_id": "base_87", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_85", "repeat": 2, "reward": 0.0, "cost": {"openai": 0.255788545, "gemini": 1.0697996}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_83", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_9", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.23402061, "gemini": 1.0995434}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_9", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_41", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.25470173, "gemini": 1.0755945}}
+{"state": "started", "kind": "base", "task_id": "base_41", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_9", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.27869513, "gemini": 1.0536249}}
+{"state": "started", "kind": "base", "task_id": "base_49", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_41", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.249599895, "gemini": 1.1206074}}
+{"state": "started", "kind": "base", "task_id": "base_41", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_57", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.22840938, "gemini": 1.148789}}
+{"state": "started", "kind": "base", "task_id": "base_57", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_87", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.26139017999999997, "gemini": 1.0457655}}
+{"state": "started", "kind": "base", "task_id": "base_87", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_83", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.22895562, "gemini": 1.1522451}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_83", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_41", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.244705035, "gemini": 1.1319798}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_21", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_96", "repeat": 1, "reward": 0.0, "cost": {"openai": 0.24560723, "gemini": 1.1402041}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_96", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_21", "repeat": 0, "reward": 0.0, "cost": {"openai": 0.269125815, "gemini": 1.115792}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_21", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_87", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.2506641, "gemini": 1.1552483}}
+{"state": "started", "kind": "base", "task_id": "base_59", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_21", "repeat": 1, "reward": 0.0, "cost": {"openai": 0.271422745, "gemini": 1.1329884}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_21", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_57", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.27281863, "gemini": 1.1461254}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_63", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_83", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.27371973, "gemini": 1.1446442}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_83", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_49", "repeat": 0, "reward": 0.0, "cost": {"openai": 0.29646251, "gemini": 1.1209986}}
+{"state": "started", "kind": "base", "task_id": "base_49", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_21", "repeat": 2, "reward": 0.0, "cost": {"openai": 0.29646251, "gemini": 1.1206525}}
+{"state": "started", "kind": "base", "task_id": "base_15", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_63", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.30927520999999997, "gemini": 1.1260449}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_63", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_96", "repeat": 2, "reward": 0.0, "cost": {"openai": 0.302636175, "gemini": 1.1293571}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_25", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_59", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.30553923, "gemini": 1.132227}}
+{"state": "started", "kind": "base", "task_id": "base_59", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_15", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.307389795, "gemini": 1.1336272}}
+{"state": "started", "kind": "base", "task_id": "base_15", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_25", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.259824905, "gemini": 1.1935422}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_25", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_83", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.26008078, "gemini": 1.1917625}}
+{"state": "started", "kind": "base", "task_id": "base_77", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_63", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.25950405, "gemini": 1.1960022}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_63", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_25", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.284247495, "gemini": 1.17644}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_25", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_15", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.263034265, "gemini": 1.2050503}}
+{"state": "started", "kind": "base", "task_id": "base_15", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_25", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.2677269, "gemini": 1.2152825}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_7", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_63", "repeat": 2, "reward": 0.0, "cost": {"openai": 0.24801399999999998, "gemini": 1.2521294}}
+{"state": "started", "kind": "base", "task_id": "base_93", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_49", "repeat": 1, "reward": 0.0, "cost": {"openai": 0.24801399999999998, "gemini": 1.2510816}}
+{"state": "started", "kind": "base", "task_id": "base_49", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_59", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.22798289, "gemini": 1.2790532}}
+{"state": "started", "kind": "base", "task_id": "base_59", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_7", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.24662814, "gemini": 1.2530741}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_7", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_15", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.303703815, "gemini": 1.1796061}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_1", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_7", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.28881523, "gemini": 1.2120221}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_7", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_1", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.29048244, "gemini": 1.2184667}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_1", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_77", "repeat": 0, "reward": 0.0, "cost": {"openai": 0.25275045, "gemini": 1.2721624}}
+{"state": "started", "kind": "base", "task_id": "base_77", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_7", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.33382396999999997, "gemini": 1.1701559}}
+{"state": "started", "kind": "base", "task_id": "base_95", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_1", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.276323845, "gemini": 1.222709}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_1", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_93", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.23685251999999998, "gemini": 1.2895289}}
+{"state": "started", "kind": "base", "task_id": "base_93", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_59", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.25727777, "gemini": 1.2911244}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_89", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_1", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.23950491, "gemini": 1.3344797}}
+{"state": "started", "kind": "base", "task_id": "base_63", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_89", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.27806241, "gemini": 1.289262}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_89", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_49", "repeat": 2, "reward": 0.0, "cost": {"openai": 0.258299375, "gemini": 1.2903743}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_95", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_77", "repeat": 1, "reward": 0.0, "cost": {"openai": 0.283777685, "gemini": 1.3114348}}
+{"state": "started", "kind": "base", "task_id": "base_77", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_89", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.283777685, "gemini": 1.3115158}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_89", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_93", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.2636238, "gemini": 1.3428404}}
+{"state": "started", "kind": "base", "task_id": "base_93", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_95", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.28291392, "gemini": 1.3191404}}
+{"state": "started", "kind": "base", "task_id": "base_95", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_63", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.309191385, "gemini": 1.3017144}}
+{"state": "started", "kind": "base", "task_id": "base_63", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_95", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.309191385, "gemini": 1.300135}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_95", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_89", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.30610017, "gemini": 1.3072392}}
+{"state": "started", "kind": "base", "task_id": "base_19", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_93", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.309242375, "gemini": 1.3169975}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_71", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_95", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.290212745, "gemini": 1.3544184}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_95", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_77", "repeat": 2, "reward": 0.0, "cost": {"openai": 0.29167831, "gemini": 1.3603316}}
+{"state": "started", "kind": "base", "task_id": "base_75", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_63", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.252677875, "gemini": 1.3902847}}
+{"state": "started", "kind": "base", "task_id": "base_63", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_19", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.29033849, "gemini": 1.3405194}}
+{"state": "started", "kind": "base", "task_id": "base_19", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_95", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.31177288, "gemini": 1.3502738}}
+{"state": "started", "kind": "base", "task_id": "base_95", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_71", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.331790135, "gemini": 1.3252221}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_71", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_95", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.2937798, "gemini": 1.3764309}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_93", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_63", "repeat": 2, "reward": 0.0, "cost": {"openai": 0.32057589, "gemini": 1.3574017999999999}}
+{"state": "started", "kind": "base", "task_id": "base_51", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_19", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.303070365, "gemini": 1.3872539}}
+{"state": "started", "kind": "base", "task_id": "base_19", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_93", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.3013301, "gemini": 1.3885248}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_93", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_71", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.32416237, "gemini": 1.3675487}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_71", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_93", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.30143605, "gemini": 1.398947}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_93", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_19", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.30372063, "gemini": 1.4035562}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_69", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_75", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.32178884, "gemini": 1.3798489}}
+{"state": "started", "kind": "base", "task_id": "base_75", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_93", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.302657105, "gemini": 1.4171611}}
+{"state": "started", "kind": "base", "task_id": "base_33", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_71", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.284001345, "gemini": 1.4413255}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_47", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_51", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.284310245, "gemini": 1.4463276999999999}}
+{"state": "started", "kind": "base", "task_id": "base_51", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_95", "repeat": 2, "reward": 0.0, "cost": {"openai": 0.321883995, "gemini": 1.3963637}}
+{"state": "started", "kind": "base", "task_id": "base_29", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_29", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.335936425, "gemini": 1.4091711}}
+{"state": "started", "kind": "base", "task_id": "base_29", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_33", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.35781491, "gemini": 1.3841277}}
+{"state": "started", "kind": "base", "task_id": "base_33", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_69", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.314266355, "gemini": 1.4415681}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_69", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_51", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.311556825, "gemini": 1.4472537}}
+{"state": "started", "kind": "base", "task_id": "base_51", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_75", "repeat": 1, "reward": 0.0, "cost": {"openai": 0.357258505, "gemini": 1.375359}}
+{"state": "started", "kind": "base", "task_id": "base_75", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_29", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.339240635, "gemini": 1.4310197}}
+{"state": "started", "kind": "base", "task_id": "base_29", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_33", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.334678915, "gemini": 1.4391537}}
+{"state": "started", "kind": "base", "task_id": "base_33", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_47", "repeat": 0, "reward": 0.0, "cost": {"openai": 0.334612905, "gemini": 1.4379657}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_47", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_29", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.32104729, "gemini": 1.4680865}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_13", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_51", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.344337915, "gemini": 1.4463963}}
+{"state": "started", "kind": "base", "task_id": "base_71", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_33", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.32778954, "gemini": 1.4502745}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_79", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_13", "repeat": 0, "reward": 0.0, "cost": {"openai": 0.31989088, "gemini": 1.4881926}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_13", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_69", "repeat": 1, "reward": 0.0, "cost": {"openai": 0.321887435, "gemini": 1.4883789}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_69", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_47", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.321927095, "gemini": 1.4884886}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_47", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_75", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.321317515, "gemini": 1.4648866}}
+{"state": "started", "kind": "base", "task_id": "base_5", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_79", "repeat": 0, "reward": 0.0, "cost": {"openai": 0.32259656999999997, "gemini": 1.4904428}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_79", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_13", "repeat": 1, "reward": 0.0, "cost": {"openai": 0.35886612, "gemini": 1.4425925}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_13", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_13", "repeat": 2, "reward": 0.0, "cost": {"openai": 0.3083238, "gemini": 1.5006197}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_61", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_79", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.33044877, "gemini": 1.4796407}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_79", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_5", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.347752425, "gemini": 1.4878752}}
+{"state": "started", "kind": "base", "task_id": "base_5", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_47", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.347752425, "gemini": 1.484329}}
+{"state": "started", "kind": "base", "task_id": "base_17", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_79", "repeat": 2, "reward": 0.0, "cost": {"openai": 0.31279543, "gemini": 1.5544485}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_29", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_69", "repeat": 2, "reward": 0.0, "cost": {"openai": 0.331633955, "gemini": 1.4994076}}
+{"state": "started", "kind": "base", "task_id": "base_37", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_17", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.352551455, "gemini": 1.5013378}}
+{"state": "started", "kind": "base", "task_id": "base_17", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_71", "repeat": 0, "reward": 0.0, "cost": {"openai": 0.352565945, "gemini": 1.5072645}}
+{"state": "started", "kind": "base", "task_id": "base_71", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_61", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.33480296, "gemini": 1.542103}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_61", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_29", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.33480296, "gemini": 1.5409331}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_29", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_17", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.316746575, "gemini": 1.5692398}}
+{"state": "started", "kind": "base", "task_id": "base_17", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_5", "repeat": 1, "reward": 0.0, "cost": {"openai": 0.358699465, "gemini": 1.5275932}}
+{"state": "started", "kind": "base", "task_id": "base_5", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_17", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.339344935, "gemini": 1.5615831}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_37", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_29", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.339344935, "gemini": 1.5598642}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_29", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_37", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.32015092, "gemini": 1.5934478}}
+{"state": "started", "kind": "base", "task_id": "base_37", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_37", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.319197945, "gemini": 1.5980601}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_37", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_61", "repeat": 1, "reward": 0.0, "cost": {"openai": 0.319197945, "gemini": 1.5976949}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_61", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_29", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.356775425, "gemini": 1.5531427}}
+{"state": "started", "kind": "base", "task_id": "base_61", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_5", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.364043375, "gemini": 1.5664777}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_11", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_71", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.364043375, "gemini": 1.5662931}}
+{"state": "started", "kind": "base", "task_id": "base_71", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_37", "repeat": 1, "reward": 0.0, "cost": {"openai": 0.30429109, "gemini": 1.6269508}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_37", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_11", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.343119825, "gemini": 1.6051313}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_11", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_61", "repeat": 2, "reward": 0.0, "cost": {"openai": 0.36882163, "gemini": 1.5852171}}
+{"state": "started", "kind": "base", "task_id": "base_67", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_61", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.369229535, "gemini": 1.589456}}
+{"state": "started", "kind": "base", "task_id": "base_61", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_11", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.307969325, "gemini": 1.643906}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_11", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_37", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.345531825, "gemini": 1.6211128}}
+{"state": "started", "kind": "base", "task_id": "base_37", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_37", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.345531825, "gemini": 1.6183141}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_31", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_31", "repeat": 0, "reward": 0.0, "cost": {"openai": 0.3315604, "gemini": 1.6336079}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_31", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_11", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.3315604, "gemini": 1.6666836999999999}}
+{"state": "started", "kind": "base", "task_id": "base_23", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_61", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.370969655, "gemini": 1.6279974}}
+{"state": "started", "kind": "base", "task_id": "base_61", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_71", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.35404253, "gemini": 1.6548817}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_87", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_23", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.352945645, "gemini": 1.6637231}}
+{"state": "started", "kind": "base", "task_id": "base_23", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_37", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.414610535, "gemini": 1.5841691}}
+{"state": "started", "kind": "base", "task_id": "base_7", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_31", "repeat": 1, "reward": 0.0, "cost": {"openai": 0.355765695, "gemini": 1.6712827}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_31", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_23", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.358550345, "gemini": 1.6406313}}
+{"state": "started", "kind": "base", "task_id": "base_23", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_67", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.35932447, "gemini": 1.6667418}}
+{"state": "started", "kind": "base", "task_id": "base_67", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_61", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.37819225, "gemini": 1.6463897}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_3", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_7", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.39838929, "gemini": 1.6219052999999999}}
+{"state": "started", "kind": "base", "task_id": "base_7", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_31", "repeat": 2, "reward": 0.0, "cost": {"openai": 0.383448255, "gemini": 1.6504651}}
+{"state": "started", "kind": "base", "task_id": "base_31", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_3", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.384799525, "gemini": 1.6519841}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_3", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_23", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.406177325, "gemini": 1.6293374999999999}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_19", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_31", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.384732655, "gemini": 1.662486}}
+{"state": "started", "kind": "base", "task_id": "base_31", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_7", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.35447769, "gemini": 1.7206041}}
+{"state": "started", "kind": "base", "task_id": "base_7", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_3", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.415764965, "gemini": 1.6151837}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_3", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_19", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.395907475, "gemini": 1.6472374}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_19", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_67", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.37640701, "gemini": 1.6974121}}
+{"state": "started", "kind": "base", "task_id": "base_67", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_31", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.37640701, "gemini": 1.6988254999999999}}
+{"state": "started", "kind": "base", "task_id": "base_31", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_3", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.37640701, "gemini": 1.6975538}}
+{"state": "started", "kind": "base", "task_id": "base_3", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_7", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.3652983, "gemini": 1.726745}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_33", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_19", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.421619475, "gemini": 1.6528304}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_19", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_87", "repeat": 0, "reward": 0.0, "cost": {"openai": 0.352750155, "gemini": 1.7374297}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_87", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_33", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.37298428499999997, "gemini": 1.7105187}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_33", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_67", "repeat": 2, "reward": 0.0, "cost": {"openai": 0.37298428499999997, "gemini": 1.7125295}}
+{"state": "started", "kind": "base", "task_id": "base_55", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_31", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.37082551, "gemini": 1.7170025}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_97", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_19", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.39057436, "gemini": 1.6914965}}
+{"state": "started", "kind": "base", "task_id": "base_73", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_33", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.414574935, "gemini": 1.6671097}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_33", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_3", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.39572499, "gemini": 1.6726321}}
+{"state": "started", "kind": "base", "task_id": "base_3", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_33", "repeat": 2, "reward": 0.0, "cost": {"openai": 0.36700538, "gemini": 1.7394277}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_45", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_73", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.36700538, "gemini": 1.7656611}}
+{"state": "started", "kind": "base", "task_id": "base_73", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_3", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.39811926, "gemini": 1.7461832}}
+{"state": "started", "kind": "base", "task_id": "base_3", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_97", "repeat": 0, "reward": 0.0, "cost": {"openai": 0.434477805, "gemini": 1.6992175}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_97", "repeat": 1}
+{"state": "interrupted", "kind": "base", "task_id": "base_55", "repeat": 0, "error": "litellm.ServiceUnavailableError: GeminiException - {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"The service is currently unavailable.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n", "exception": "ExperimentStop"}
+{"state": "interrupted", "kind": "hallucination", "task_id": "hallucination_87", "repeat": 1, "error": "Stopped after another request failed", "exception": "ExperimentStop"}
+{"state": "interrupted", "kind": "base", "task_id": "base_3", "repeat": 2, "error": "Stopped after another request failed", "exception": "ExperimentStop"}
+{"state": "interrupted", "kind": "hallucination", "task_id": "hallucination_45", "repeat": 0, "error": "Stopped after another request failed", "exception": "ExperimentStop"}
+{"state": "interrupted", "kind": "base", "task_id": "base_73", "repeat": 1, "error": "Stopped after another request failed", "exception": "ExperimentStop"}
+{"state": "interrupted", "kind": "hallucination", "task_id": "hallucination_97", "repeat": 1, "error": "Stopped after another request failed", "exception": "ExperimentStop"}
+{"state": "finished", "cost": {"openai": 0.34677203, "gemini": 1.702647}, "unresolved_reservations": 1}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_87", "repeat": 1}
+{"state": "started", "kind": "base", "task_id": "base_3", "repeat": 2}
+{"state": "started", "kind": "base", "task_id": "base_55", "repeat": 0}
+{"state": "started", "kind": "base", "task_id": "base_73", "repeat": 1}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_97", "repeat": 1}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_45", "repeat": 0}
+{"state": "interrupted", "kind": "base", "task_id": "base_73", "repeat": 1, "error": "litellm.ServiceUnavailableError: GeminiException - {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"The service is currently unavailable.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n", "exception": "ExperimentStop"}
+{"state": "interrupted", "kind": "base", "task_id": "base_55", "repeat": 0, "error": "Stopped after another request failed", "exception": "ExperimentStop"}
+{"state": "interrupted", "kind": "hallucination", "task_id": "hallucination_87", "repeat": 1, "error": "Stopped after another request failed", "exception": "ExperimentStop"}
+{"state": "interrupted", "kind": "base", "task_id": "base_3", "repeat": 2, "error": "Stopped after another request failed", "exception": "ExperimentStop"}
+{"state": "interrupted", "kind": "hallucination", "task_id": "hallucination_45", "repeat": 0, "error": "Stopped after another request failed", "exception": "ExperimentStop"}
+{"state": "interrupted", "kind": "hallucination", "task_id": "hallucination_97", "repeat": 1, "error": "Stopped after another request failed", "exception": "ExperimentStop"}
+{"state": "finished", "cost": {"openai": 0.34903878, "gemini": 1.7350433}, "unresolved_reservations": 1}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_87", "repeat": 1}
+{"state": "started", "kind": "base", "task_id": "base_55", "repeat": 0}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_97", "repeat": 1}
+{"state": "started", "kind": "base", "task_id": "base_3", "repeat": 2}
+{"state": "started", "kind": "base", "task_id": "base_73", "repeat": 1}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_45", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_73", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.4257084, "gemini": 1.8014182}}
+{"state": "started", "kind": "base", "task_id": "base_73", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_3", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.45022838, "gemini": 1.7808301}}
+{"state": "started", "kind": "base", "task_id": "base_27", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_45", "repeat": 0, "reward": 0.0, "cost": {"openai": 0.43327609, "gemini": 1.8117097}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_45", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_97", "repeat": 1, "reward": 0.0, "cost": {"openai": 0.4275143, "gemini": 1.8190269}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_97", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_27", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.40975536, "gemini": 1.8520033}}
+{"state": "started", "kind": "base", "task_id": "base_27", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_55", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.449313445, "gemini": 1.7998129999999999}}
+{"state": "started", "kind": "base", "task_id": "base_55", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_73", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.40827554, "gemini": 1.8358395}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_73", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_27", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.409025845, "gemini": 1.8378942}}
+{"state": "started", "kind": "base", "task_id": "base_27", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_87", "repeat": 1, "reward": 0.0, "cost": {"openai": 0.431222345, "gemini": 1.8322299}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_87", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_45", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.4503526, "gemini": 1.812312}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_45", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_97", "repeat": 2, "reward": 0.0, "cost": {"openai": 0.44822456, "gemini": 1.8135884}}
+{"state": "started", "kind": "base", "task_id": "base_9", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_27", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.43229667, "gemini": 1.8433974}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_53", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_73", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.40842485, "gemini": 1.8733224}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_73", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_53", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.43889269999999997, "gemini": 1.8271153}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_53", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_45", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.398948645, "gemini": 1.8890485}}
+{"state": "started", "kind": "base", "task_id": "base_97", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_9", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.418587895, "gemini": 1.8910213}}
+{"state": "started", "kind": "base", "task_id": "base_9", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_73", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.418587895, "gemini": 1.888383}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_73", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_55", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.418587895, "gemini": 1.8892077}}
+{"state": "started", "kind": "base", "task_id": "base_55", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_53", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.47524583, "gemini": 1.8166487}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_53", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_73", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.420273085, "gemini": 1.9043395}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_51", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_53", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.441632585, "gemini": 1.8786284}}
+{"state": "started", "kind": "base", "task_id": "base_65", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_87", "repeat": 2, "reward": 0.0, "cost": {"openai": 0.421570125, "gemini": 1.8991867}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_27", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_9", "repeat": 1, "reward": 0.0, "cost": {"openai": 0.441016915, "gemini": 1.8532513}}
+{"state": "started", "kind": "base", "task_id": "base_9", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_27", "repeat": 0, "reward": 0.0, "cost": {"openai": 0.45356935, "gemini": 1.8864946}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_27", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_65", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.435462315, "gemini": 1.9240744}}
+{"state": "started", "kind": "base", "task_id": "base_65", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_55", "repeat": 2, "reward": 0.0, "cost": {"openai": 0.435462315, "gemini": 1.923331}}
+{"state": "started", "kind": "base", "task_id": "base_89", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_9", "repeat": 2, "reward": 0.0, "cost": {"openai": 0.435462315, "gemini": 1.9257367}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_67", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_27", "repeat": 1, "reward": 0.0, "cost": {"openai": 0.47352451, "gemini": 1.8779352}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_27", "repeat": 2}
+{"state": "interrupted", "kind": "hallucination", "task_id": "hallucination_51", "repeat": 0, "error": "Gemini output truncated", "exception": "ExperimentStop"}
+{"state": "interrupted", "kind": "base", "task_id": "base_97", "repeat": 0, "error": "Stopped after another request failed", "exception": "ExperimentStop"}
+{"state": "interrupted", "kind": "base", "task_id": "base_65", "repeat": 1, "error": "Stopped after another request failed", "exception": "ExperimentStop"}
+{"state": "interrupted", "kind": "hallucination", "task_id": "hallucination_27", "repeat": 2, "error": "Stopped after another request failed", "exception": "ExperimentStop"}
+{"state": "interrupted", "kind": "hallucination", "task_id": "hallucination_67", "repeat": 0, "error": "Stopped after another request failed", "exception": "ExperimentStop"}
+{"state": "interrupted", "kind": "base", "task_id": "base_89", "repeat": 0, "error": "Stopped after another request failed", "exception": "ExperimentStop"}
+{"state": "finished", "cost": {"openai": 0.390072145, "gemini": 1.8793464}, "unresolved_reservations": 0}
+{"state": "started", "kind": "base", "task_id": "base_97", "repeat": 0}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_51", "repeat": 0}
+{"state": "started", "kind": "base", "task_id": "base_65", "repeat": 1}
+{"state": "started", "kind": "base", "task_id": "base_89", "repeat": 0}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_67", "repeat": 0}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_27", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_67", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.41480004, "gemini": 1.9969314}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_67", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_27", "repeat": 2, "reward": 0.0, "cost": {"openai": 0.41480004, "gemini": 1.9956111}}
+{"state": "started", "kind": "base", "task_id": "base_99", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_51", "repeat": 0, "reward": 0.0, "cost": {"openai": 0.41647071, "gemini": 1.9670905}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_51", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_65", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.49834196, "gemini": 1.8962062}}
+{"state": "started", "kind": "base", "task_id": "base_65", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_51", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.51226358, "gemini": 1.898437}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_51", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_89", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.45414735, "gemini": 1.9835618}}
+{"state": "started", "kind": "base", "task_id": "base_89", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_65", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.47646688, "gemini": 1.9695939}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_75", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_51", "repeat": 2, "reward": 0.0, "cost": {"openai": 0.45117039999999997, "gemini": 1.9967071}}
+{"state": "started", "kind": "base", "task_id": "base_45", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_67", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.469721025, "gemini": 1.9691878999999999}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_67", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_75", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.50197897, "gemini": 1.9471474}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_75", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_97", "repeat": 0, "reward": 0.0, "cost": {"openai": 0.494192395, "gemini": 1.9939505}}
+{"state": "started", "kind": "base", "task_id": "base_97", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_75", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.50294703, "gemini": 1.9928944}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_75", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_67", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.477974, "gemini": 2.0191178}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_91", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_75", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.511433375, "gemini": 2.0010235}}
+{"state": "started", "kind": "base", "task_id": "base_69", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_91", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.459945815, "gemini": 2.0097073}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_91", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_45", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.42380395, "gemini": 2.1569869}}
+{"state": "started", "kind": "base", "task_id": "base_45", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_89", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.42380395, "gemini": 2.1021285}}
+{"state": "started", "kind": "base", "task_id": "base_89", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_91", "repeat": 1, "reward": 0.0, "cost": {"openai": 0.44245595, "gemini": 2.1431623}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_91", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_99", "repeat": 0, "reward": 0.0, "cost": {"openai": 0.481143, "gemini": 2.0863599}}
+{"state": "started", "kind": "base", "task_id": "base_99", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_69", "repeat": 0, "reward": 0.0, "cost": {"openai": 0.449045145, "gemini": 2.1302751}}
+{"state": "started", "kind": "base", "task_id": "base_69", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_91", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.470479145, "gemini": 2.129525}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_43", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_97", "repeat": 1, "reward": 0.0, "cost": {"openai": 0.509966945, "gemini": 2.0563782}}
+{"state": "started", "kind": "base", "task_id": "base_97", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_43", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.49731459, "gemini": 2.0919113}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_43", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_89", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.52636457, "gemini": 2.0983765}}
+{"state": "started", "kind": "base", "task_id": "base_13", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_43", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.4661319, "gemini": 2.1918839}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_43", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_45", "repeat": 1, "reward": 0.0, "cost": {"openai": 0.469211115, "gemini": 2.1909283}}
+{"state": "started", "kind": "base", "task_id": "base_45", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_13", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.511053865, "gemini": 2.1410037}}
+{"state": "started", "kind": "base", "task_id": "base_13", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_13", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.500169635, "gemini": 2.1840748}}
+{"state": "started", "kind": "base", "task_id": "base_13", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_43", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.500169635, "gemini": 2.1559666}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_5", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_69", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.500169635, "gemini": 2.1815189999999998}}
+{"state": "started", "kind": "base", "task_id": "base_69", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_13", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.487814885, "gemini": 2.132154}}
+{"state": "started", "kind": "base", "task_id": "base_81", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_5", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.51972261, "gemini": 2.1654985}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_5", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_97", "repeat": 2, "reward": 0.0, "cost": {"openai": 0.473207945, "gemini": 2.2632049}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_17", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_5", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.476068745, "gemini": 2.2616019}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_5", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_17", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.471678005, "gemini": 2.2758468}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_17", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_45", "repeat": 2, "reward": 0.0, "cost": {"openai": 0.492064785, "gemini": 2.2681724}}
+{"state": "started", "kind": "base", "task_id": "base_79", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_5", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.49309142, "gemini": 2.2927271}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_57", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_17", "repeat": 1, "reward": 0.0, "cost": {"openai": 0.474963175, "gemini": 2.3203608}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_17", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_81", "repeat": 0, "reward": 0.0, "cost": {"openai": 0.474963175, "gemini": 2.2734916}}
+{"state": "started", "kind": "base", "task_id": "base_81", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_69", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.49569285, "gemini": 2.309127}}
+{"state": "started", "kind": "base", "task_id": "base_21", "repeat": 0}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_17", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.5370673499999999, "gemini": 2.2705441}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_23", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_99", "repeat": 1, "reward": 0.0, "cost": {"openai": 0.540205465, "gemini": 2.2550696}}
+{"state": "started", "kind": "base", "task_id": "base_99", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_57", "repeat": 0, "reward": 0.0, "cost": {"openai": 0.499553125, "gemini": 2.311213}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_57", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_79", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.499553125, "gemini": 2.3130026}}
+{"state": "started", "kind": "base", "task_id": "base_79", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_23", "repeat": 0, "reward": 0.0, "cost": {"openai": 0.520796375, "gemini": 2.2915401}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_23", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_21", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.521249965, "gemini": 2.2958897}}
+{"state": "started", "kind": "base", "task_id": "base_21", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_81", "repeat": 1, "reward": 0.0, "cost": {"openai": 0.56649101, "gemini": 2.2512238}}
+{"state": "started", "kind": "base", "task_id": "base_81", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_23", "repeat": 1, "reward": 0.0, "cost": {"openai": 0.547154335, "gemini": 2.2782391}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_23", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_21", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.57739799, "gemini": 2.2570826999999998}}
+{"state": "started", "kind": "base", "task_id": "base_21", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_23", "repeat": 2, "reward": 0.0, "cost": {"openai": 0.51677006, "gemini": 2.3157999}}
+{"state": "started", "kind": "base", "task_id": "base_1", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_79", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.51677006, "gemini": 2.3157999}}
+{"state": "started", "kind": "base", "task_id": "base_79", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_57", "repeat": 1, "reward": 0.0, "cost": {"openai": 0.51677006, "gemini": 2.3375052}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_57", "repeat": 2}
+{"state": "completed", "kind": "base", "task_id": "base_21", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.56324916, "gemini": 2.3030566}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_49", "repeat": 0}
+{"state": "completed", "kind": "base", "task_id": "base_81", "repeat": 2, "reward": 0.0, "cost": {"openai": 0.545044855, "gemini": 2.3317767}}
+{"state": "completed", "kind": "base", "task_id": "base_1", "repeat": 0, "reward": 0.0, "cost": {"openai": 0.491529195, "gemini": 2.3094675}}
+{"state": "started", "kind": "base", "task_id": "base_1", "repeat": 1}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_57", "repeat": 2, "reward": 0.0, "cost": {"openai": 0.57081122, "gemini": 2.2846294}}
+{"state": "completed", "kind": "base", "task_id": "base_79", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.514268265, "gemini": 2.3166691}}
+{"state": "completed", "kind": "base", "task_id": "base_1", "repeat": 1, "reward": 1.0, "cost": {"openai": 0.475034215, "gemini": 2.3679369}}
+{"state": "started", "kind": "base", "task_id": "base_1", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_49", "repeat": 0, "reward": 1.0, "cost": {"openai": 0.475034215, "gemini": 2.3643395}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_49", "repeat": 1}
+{"state": "completed", "kind": "base", "task_id": "base_99", "repeat": 2, "reward": 0.0, "cost": {"openai": 0.51509461, "gemini": 2.3199012}}
+{"state": "completed", "kind": "base", "task_id": "base_1", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.49784878, "gemini": 2.3213737}}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_49", "repeat": 1, "reward": 0.0, "cost": {"openai": 0.47638472, "gemini": 2.3238398}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_49", "repeat": 2}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_49", "repeat": 2, "reward": 1.0, "cost": {"openai": 0.477511005, "gemini": 2.3294912}}
+{"state": "extra_sweep", "repeat": 3}
+{"state": "started", "kind": "base", "task_id": "base_25", "repeat": 3}
+{"state": "started", "kind": "base", "task_id": "base_11", "repeat": 3}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_15", "repeat": 3}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_59", "repeat": 3}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_65", "repeat": 3}
+{"state": "started", "kind": "base", "task_id": "base_91", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_15", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.54176652, "gemini": 2.3869663}}
+{"state": "started", "kind": "base", "task_id": "base_83", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_65", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.506544355, "gemini": 2.3915158}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_85", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_25", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.527606845, "gemini": 2.3924405}}
+{"state": "started", "kind": "base", "task_id": "base_39", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_59", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.524694605, "gemini": 2.4221537}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_41", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_11", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.547341905, "gemini": 2.3737959}}
+{"state": "started", "kind": "base", "task_id": "base_53", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_91", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.570604405, "gemini": 2.3799216}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_39", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_85", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.51137801, "gemini": 2.4067675}}
+{"state": "started", "kind": "base", "task_id": "base_47", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_41", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.58387776, "gemini": 2.3875284}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_55", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_39", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.585607285, "gemini": 2.3876513999999998}}
+{"state": "started", "kind": "base", "task_id": "base_85", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_53", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.51917899, "gemini": 2.4675096}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_77", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_55", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.57096875, "gemini": 2.455494}}
+{"state": "started", "kind": "base", "task_id": "base_35", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_83", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.54530314, "gemini": 2.4819454}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_35", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_39", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.618556375, "gemini": 2.4072643}}
+{"state": "started", "kind": "base", "task_id": "base_43", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_77", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.52511879, "gemini": 2.4658096}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_81", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_35", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.54921077, "gemini": 2.4789768}}
+{"state": "started", "kind": "base", "task_id": "base_57", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_47", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.548516495, "gemini": 2.5129407}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_96", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_43", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.5480754449999999, "gemini": 2.5260275}}
+{"state": "started", "kind": "base", "task_id": "base_87", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_81", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.530491555, "gemini": 2.5560986}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_9", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_35", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.5698775, "gemini": 2.5095507}}
+{"state": "started", "kind": "base", "task_id": "base_41", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_9", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.576462125, "gemini": 2.5202554}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_83", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_85", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.581567015, "gemini": 2.5277379}}
+{"state": "started", "kind": "base", "task_id": "base_49", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_41", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.5837783599999999, "gemini": 2.5276134}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_21", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_87", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.55550714, "gemini": 2.5660523}}
+{"state": "started", "kind": "base", "task_id": "base_59", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_57", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.60832847, "gemini": 2.5150228}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_63", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_21", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.609213295, "gemini": 2.5148406}}
+{"state": "started", "kind": "base", "task_id": "base_15", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_96", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.598420785, "gemini": 2.5180629}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_25", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_25", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.60704452, "gemini": 2.5243501999999998}}
+{"state": "started", "kind": "base", "task_id": "base_77", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_83", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.54346842, "gemini": 2.6020024999999998}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_7", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_15", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.580826795, "gemini": 2.5314967999999998}}
+{"state": "started", "kind": "base", "task_id": "base_93", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_7", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.585279725, "gemini": 2.5611997}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_1", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_63", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.5666425, "gemini": 2.5866862999999998}}
+{"state": "started", "kind": "base", "task_id": "base_95", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_1", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.58734693, "gemini": 2.5772809}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_89", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_49", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.58734693, "gemini": 2.5485886}}
+{"state": "started", "kind": "base", "task_id": "base_63", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_93", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.5643476199999999, "gemini": 2.6105092}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_95", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_59", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.563673385, "gemini": 2.5660081}}
+{"state": "started", "kind": "base", "task_id": "base_19", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_89", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.563673385, "gemini": 2.6223222}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_71", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_77", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.58580093, "gemini": 2.6056201}}
+{"state": "started", "kind": "base", "task_id": "base_75", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_95", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.5477769299999999, "gemini": 2.6330159}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_93", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_19", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.588466275, "gemini": 2.6173}}
+{"state": "started", "kind": "base", "task_id": "base_51", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_71", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.589422885, "gemini": 2.620521}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_69", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_95", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.60948376, "gemini": 2.6038381}}
+{"state": "started", "kind": "base", "task_id": "base_33", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_63", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.589681585, "gemini": 2.6339728}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_47", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_93", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.595589845, "gemini": 2.6388571}}
+{"state": "started", "kind": "base", "task_id": "base_29", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_47", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.57493214, "gemini": 2.6667967}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_13", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_33", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.57493214, "gemini": 2.6684627}}
+{"state": "started", "kind": "base", "task_id": "base_71", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_75", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.557629695, "gemini": 2.6958121999999998}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_79", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_51", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.557629695, "gemini": 2.6993899}}
+{"state": "started", "kind": "base", "task_id": "base_5", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_13", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.60317623, "gemini": 2.6538785}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_61", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_29", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.584031535, "gemini": 2.6556034}}
+{"state": "started", "kind": "base", "task_id": "base_17", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_79", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.625868655, "gemini": 2.6292311}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_29", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_69", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.599372515, "gemini": 2.6599075}}
+{"state": "started", "kind": "base", "task_id": "base_37", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_17", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.58098564, "gemini": 2.6657798}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_37", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_61", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.57815841, "gemini": 2.6944639}}
+{"state": "started", "kind": "base", "task_id": "base_61", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_29", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.57904536, "gemini": 2.6700076999999998}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_11", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_5", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.6196511, "gemini": 2.6478654}}
+{"state": "started", "kind": "base", "task_id": "base_67", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_37", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.562422475, "gemini": 2.7217347}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_31", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_37", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.56252646, "gemini": 2.7605304999999998}}
+{"state": "started", "kind": "base", "task_id": "base_23", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_71", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.54404499, "gemini": 2.7601594}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_87", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_11", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.56427099, "gemini": 2.7341652}}
+{"state": "started", "kind": "base", "task_id": "base_7", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_61", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.58292499, "gemini": 2.7351378}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_3", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_31", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.603374605, "gemini": 2.7137039}}
+{"state": "started", "kind": "base", "task_id": "base_31", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_23", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.58810046, "gemini": 2.7403659}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_19", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_3", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.607009735, "gemini": 2.7142752}}
+{"state": "started", "kind": "base", "task_id": "base_3", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_7", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.605976525, "gemini": 2.6974917}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_33", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_19", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.587948305, "gemini": 2.747509}}
+{"state": "started", "kind": "base", "task_id": "base_55", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_67", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.587948305, "gemini": 2.7485592}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_97", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_31", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.64967058, "gemini": 2.6748344}}
+{"state": "started", "kind": "base", "task_id": "base_73", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_33", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.63184315, "gemini": 2.7042303}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_45", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_3", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.661181795, "gemini": 2.6857813999999998}}
+{"state": "started", "kind": "base", "task_id": "base_27", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_27", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.632998105, "gemini": 2.7455777}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_73", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_73", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.632998105, "gemini": 2.7469861}}
+{"state": "started", "kind": "base", "task_id": "base_9", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_45", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.64786223, "gemini": 2.7265478}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_53", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_97", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.57573235, "gemini": 2.812095}}
+{"state": "started", "kind": "base", "task_id": "base_97", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_87", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.57573235, "gemini": 2.8074981}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_51", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_55", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.63380415, "gemini": 2.7113116}}
+{"state": "started", "kind": "base", "task_id": "base_65", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_53", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.616415035, "gemini": 2.7680028}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_27", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_73", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.597940715, "gemini": 2.7693751}}
+{"state": "started", "kind": "base", "task_id": "base_89", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_9", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.597940715, "gemini": 2.7693751}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_67", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_51", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.6220989, "gemini": 2.7766224999999998}}
+{"state": "started", "kind": "base", "task_id": "base_99", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_27", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.624893915, "gemini": 2.7750411}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_75", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_65", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.663825455, "gemini": 2.728383}}
+{"state": "started", "kind": "base", "task_id": "base_45", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_67", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.655210365, "gemini": 2.7591928}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_91", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_75", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.655210365, "gemini": 2.7583977}}
+{"state": "started", "kind": "base", "task_id": "base_69", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_89", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.651975395, "gemini": 2.7715858}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_43", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_91", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.680985555, "gemini": 2.7781341999999998}}
+{"state": "started", "kind": "base", "task_id": "base_13", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_43", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.6626914, "gemini": 2.8119872}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_5", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_13", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.6277742749999999, "gemini": 2.8545924}}
+{"state": "started", "kind": "base", "task_id": "base_81", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_69", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.6395196, "gemini": 2.8768013}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_17", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_5", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.64042053, "gemini": 2.8765632}}
+{"state": "started", "kind": "base", "task_id": "base_79", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_45", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.6427262, "gemini": 2.856826}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_57", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_17", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.6644911649999999, "gemini": 2.8704722}}
+{"state": "started", "kind": "base", "task_id": "base_21", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_97", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.602743985, "gemini": 2.9176551}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_23", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_81", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.622467625, "gemini": 2.8851175}}
+{"state": "started", "kind": "base", "task_id": "base_1", "repeat": 3}
+{"state": "completed", "kind": "base", "task_id": "base_21", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.603483225, "gemini": 2.9719714}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_49", "repeat": 3}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_57", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.603483225, "gemini": 2.9712579}}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_23", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.603483225, "gemini": 2.9452892}}
+{"state": "completed", "kind": "base", "task_id": "base_79", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.6028516899999999, "gemini": 2.9204863}}
+{"state": "completed", "kind": "base", "task_id": "base_1", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.584599285, "gemini": 2.9032455}}
+{"state": "completed", "kind": "base", "task_id": "base_99", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.606387085, "gemini": 2.8667072}}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_49", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.585168545, "gemini": 2.8701122}}
+{"state": "extra_sweep", "repeat": 4}
+{"state": "started", "kind": "base", "task_id": "base_25", "repeat": 4}
+{"state": "started", "kind": "base", "task_id": "base_11", "repeat": 4}
+{"state": "started", "kind": "base", "task_id": "base_91", "repeat": 4}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_59", "repeat": 4}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_65", "repeat": 4}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_15", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_15", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.667365465, "gemini": 2.9022755}}
+{"state": "started", "kind": "base", "task_id": "base_83", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_65", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.650552905, "gemini": 2.9307067}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_85", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_25", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.627120315, "gemini": 2.9643733}}
+{"state": "started", "kind": "base", "task_id": "base_39", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_11", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.60983863, "gemini": 2.9128869}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_41", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_59", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.60983863, "gemini": 2.9377781}}
+{"state": "started", "kind": "base", "task_id": "base_53", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_91", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.67330558, "gemini": 2.9199431}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_39", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_85", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.650069385, "gemini": 2.9193592}}
+{"state": "started", "kind": "base", "task_id": "base_47", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_39", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.686970065, "gemini": 2.9275539999999998}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_55", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_41", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.686970065, "gemini": 2.9284934}}
+{"state": "started", "kind": "base", "task_id": "base_85", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_53", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.669385205, "gemini": 2.9881195}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_77", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_83", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.619365975, "gemini": 3.026109}}
+{"state": "started", "kind": "base", "task_id": "base_35", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_55", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.66177827, "gemini": 2.9700035}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_35", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_77", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.66835192, "gemini": 2.9829546}}
+{"state": "started", "kind": "base", "task_id": "base_43", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_39", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.68795488, "gemini": 2.9876722}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_81", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_47", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.66635476, "gemini": 3.0342904}}
+{"state": "started", "kind": "base", "task_id": "base_57", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_35", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.6464628649999999, "gemini": 3.0644399}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_96", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_35", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.671662215, "gemini": 3.0496919}}
+{"state": "started", "kind": "base", "task_id": "base_87", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_43", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.671662215, "gemini": 3.0516012}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_9", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_81", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.629240185, "gemini": 3.0656747}}
+{"state": "started", "kind": "base", "task_id": "base_41", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_9", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.629240185, "gemini": 3.1177281}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_83", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_85", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.665637045, "gemini": 3.0446825}}
+{"state": "started", "kind": "base", "task_id": "base_49", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_41", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.660607625, "gemini": 3.0804968}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_21", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_87", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.660607625, "gemini": 3.1096889}}
+{"state": "started", "kind": "base", "task_id": "base_59", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_57", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.660607625, "gemini": 3.1100233}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_63", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_21", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.729657625, "gemini": 3.0375212}}
+{"state": "started", "kind": "base", "task_id": "base_15", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_96", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.698820305, "gemini": 3.0681927}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_25", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_83", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.617592165, "gemini": 3.1564325}}
+{"state": "started", "kind": "base", "task_id": "base_77", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_25", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.657146915, "gemini": 3.1292974}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_7", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_63", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.637675125, "gemini": 3.1555039}}
+{"state": "started", "kind": "base", "task_id": "base_93", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_15", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.63683974, "gemini": 3.1406497}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_1", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_7", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.677715775, "gemini": 3.1170278}}
+{"state": "started", "kind": "base", "task_id": "base_95", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_49", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.661382395, "gemini": 3.0981277}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_89", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_1", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.680808645, "gemini": 3.1241024}}
+{"state": "started", "kind": "base", "task_id": "base_63", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_59", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.640871955, "gemini": 3.191125}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_95", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_89", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.6633907649999999, "gemini": 3.1652725999999998}}
+{"state": "started", "kind": "base", "task_id": "base_19", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_93", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.64398459, "gemini": 3.1210714}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_71", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_77", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.6629989, "gemini": 3.1570715}}
+{"state": "started", "kind": "base", "task_id": "base_75", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_95", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.645310885, "gemini": 3.1934398}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_93", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_95", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.662323495, "gemini": 3.120586}}
+{"state": "started", "kind": "base", "task_id": "base_51", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_71", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.662323495, "gemini": 3.1461546}}
+{"state": "completed", "kind": "base", "task_id": "base_19", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.662323495, "gemini": 3.1461546}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_69", "repeat": 4}
+{"state": "started", "kind": "base", "task_id": "base_33", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_63", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.6825442899999999, "gemini": 3.1731322}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_47", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_93", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.685784155, "gemini": 3.1517638}}
+{"state": "started", "kind": "base", "task_id": "base_29", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_33", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.68790513, "gemini": 3.1845233}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_13", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_47", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.66922825, "gemini": 3.1825347}}
+{"state": "started", "kind": "base", "task_id": "base_71", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_75", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.669322725, "gemini": 3.2182811}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_79", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_29", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.67016661, "gemini": 3.2215886}}
+{"state": "started", "kind": "base", "task_id": "base_5", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_13", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.67177385, "gemini": 3.1744854}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_61", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_51", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.6912961, "gemini": 3.1499033}}
+{"state": "started", "kind": "base", "task_id": "base_17", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_69", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.707551925, "gemini": 3.1794601}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_29", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_79", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.68868775, "gemini": 3.205452}}
+{"state": "started", "kind": "base", "task_id": "base_37", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_17", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.695845055, "gemini": 3.2096396}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_37", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_29", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.674643565, "gemini": 3.2421808}}
+{"state": "started", "kind": "base", "task_id": "base_61", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_5", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.676051155, "gemini": 3.2354905}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_11", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_37", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.65642853, "gemini": 3.2623409}}
+{"state": "started", "kind": "base", "task_id": "base_67", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_71", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.68070076, "gemini": 3.2161483}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_31", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_37", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.636767455, "gemini": 3.2711069999999998}}
+{"state": "started", "kind": "base", "task_id": "base_23", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_11", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.658914955, "gemini": 3.3033227}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_87", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_61", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.693273475, "gemini": 3.2546577}}
+{"state": "started", "kind": "base", "task_id": "base_7", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_23", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.69688512, "gemini": 3.2382598}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_3", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_61", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.67824544, "gemini": 3.2637696}}
+{"state": "started", "kind": "base", "task_id": "base_31", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_31", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.67824544, "gemini": 3.2870616}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_19", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_3", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.70189862, "gemini": 3.2688492}}
+{"state": "started", "kind": "base", "task_id": "base_3", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_19", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.70189862, "gemini": 3.2661351}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_33", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_7", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.703214675, "gemini": 3.2700003}}
+{"state": "started", "kind": "base", "task_id": "base_55", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_31", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.660636805, "gemini": 3.3084934}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_97", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_33", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.74693289, "gemini": 3.2255297}}
+{"state": "started", "kind": "base", "task_id": "base_73", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_67", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.708263825, "gemini": 3.254501}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_45", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_87", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.704270215, "gemini": 3.2862935}}
+{"state": "started", "kind": "base", "task_id": "base_27", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_3", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.72755764, "gemini": 3.2633604}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_73", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_97", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.68721318, "gemini": 3.3234413}}
+{"state": "started", "kind": "base", "task_id": "base_9", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_27", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.669603935, "gemini": 3.3255358}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_53", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_73", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.70912508, "gemini": 3.3035911}}
+{"state": "started", "kind": "base", "task_id": "base_97", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_73", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.70990062, "gemini": 3.2575639}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_51", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_55", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.710975385, "gemini": 3.3188802}}
+{"state": "started", "kind": "base", "task_id": "base_65", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_45", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.690874975, "gemini": 3.3431728}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_27", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_53", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.690874975, "gemini": 3.3431427}}
+{"state": "started", "kind": "base", "task_id": "base_89", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_9", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.71114604, "gemini": 3.2961947}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_67", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_51", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.71342705, "gemini": 3.2962010999999998}}
+{"state": "started", "kind": "base", "task_id": "base_99", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_27", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.67417391, "gemini": 3.3275548}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_75", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_65", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.737945595, "gemini": 3.3067747}}
+{"state": "started", "kind": "base", "task_id": "base_45", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_75", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.75627361, "gemini": 3.3118498}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_91", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_67", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.728728305, "gemini": 3.3387449}}
+{"state": "started", "kind": "base", "task_id": "base_69", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_89", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.727186435, "gemini": 3.3296397}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_43", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_97", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.744190675, "gemini": 3.3707488}}
+{"state": "started", "kind": "base", "task_id": "base_13", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_91", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.764732595, "gemini": 3.3522341}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_5", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_13", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.724615405, "gemini": 3.414335}}
+{"state": "started", "kind": "base", "task_id": "base_81", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_43", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.724615405, "gemini": 3.4128747}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_17", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_45", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.68610822, "gemini": 3.3880725}}
+{"state": "started", "kind": "base", "task_id": "base_79", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_17", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.749155365, "gemini": 3.4024431}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_57", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_5", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.70974349, "gemini": 3.4568449}}
+{"state": "started", "kind": "base", "task_id": "base_21", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_69", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.72835349, "gemini": 3.4298826}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_23", "repeat": 4}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_23", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.73684356, "gemini": 3.4158589999999998}}
+{"state": "started", "kind": "base", "task_id": "base_1", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_21", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.736067415, "gemini": 3.447118}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_49", "repeat": 4}
+{"state": "completed", "kind": "base", "task_id": "base_79", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.736067415, "gemini": 3.4490551}}
+{"state": "completed", "kind": "base", "task_id": "base_81", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.71341883, "gemini": 3.4030443}}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_57", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.766450235, "gemini": 3.3836266999999998}}
+{"state": "completed", "kind": "base", "task_id": "base_1", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.67577929, "gemini": 3.4613959}}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_49", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.67577929, "gemini": 3.4347849}}
+{"state": "completed", "kind": "base", "task_id": "base_99", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.67577929, "gemini": 3.41946}}
+{"state": "extra_sweep", "repeat": 5}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_59", "repeat": 5}
+{"state": "started", "kind": "base", "task_id": "base_11", "repeat": 5}
+{"state": "started", "kind": "base", "task_id": "base_25", "repeat": 5}
+{"state": "started", "kind": "base", "task_id": "base_91", "repeat": 5}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_15", "repeat": 5}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_65", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_15", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.737444165, "gemini": 3.4766786}}
+{"state": "started", "kind": "base", "task_id": "base_83", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_59", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.700024735, "gemini": 3.5378695}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_85", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_11", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.67968516, "gemini": 3.5409836}}
+{"state": "started", "kind": "base", "task_id": "base_39", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_25", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.70093441, "gemini": 3.5445119}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_41", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_91", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.758209565, "gemini": 3.4785571}}
+{"state": "started", "kind": "base", "task_id": "base_53", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_65", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.75878465, "gemini": 3.4478852}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_39", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_85", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.72253589, "gemini": 3.4768251}}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_41", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.72253589, "gemini": 3.4768251}}
+{"state": "started", "kind": "base", "task_id": "base_47", "repeat": 5}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_55", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_39", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.791073995, "gemini": 3.45426}}
+{"state": "started", "kind": "base", "task_id": "base_85", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_55", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.758943105, "gemini": 3.5023423}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_77", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_53", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.758943105, "gemini": 3.5279175}}
+{"state": "started", "kind": "base", "task_id": "base_35", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_83", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.77943054, "gemini": 3.4792943}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_35", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_77", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.74664712, "gemini": 3.5159536}}
+{"state": "started", "kind": "base", "task_id": "base_43", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_35", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.7345756, "gemini": 3.5498428}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_81", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_39", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.696176795, "gemini": 3.6285081}}
+{"state": "started", "kind": "base", "task_id": "base_57", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_35", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.736742045, "gemini": 3.6077932}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_96", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_43", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.735192195, "gemini": 3.6239708}}
+{"state": "started", "kind": "base", "task_id": "base_87", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_81", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.717612275, "gemini": 3.6239427}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_9", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_47", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.775396995, "gemini": 3.5814582}}
+{"state": "started", "kind": "base", "task_id": "base_41", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_85", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.78278653, "gemini": 3.5598696}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_83", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_9", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.78278653, "gemini": 3.5858654}}
+{"state": "started", "kind": "base", "task_id": "base_49", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_41", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.7638661, "gemini": 3.620425}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_21", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_87", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.721129905, "gemini": 3.683437}}
+{"state": "started", "kind": "base", "task_id": "base_59", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_96", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.724514245, "gemini": 3.6288291}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_63", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_57", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.7648737449999999, "gemini": 3.6327153}}
+{"state": "started", "kind": "base", "task_id": "base_15", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_21", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.74056175, "gemini": 3.5826263}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_25", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_25", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.766886225, "gemini": 3.6458318}}
+{"state": "started", "kind": "base", "task_id": "base_77", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_83", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.72572221, "gemini": 3.6988164}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_7", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_63", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.724640555, "gemini": 3.698332}}
+{"state": "started", "kind": "base", "task_id": "base_93", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_15", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.744375735, "gemini": 3.6752745}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_1", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_7", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.784773485, "gemini": 3.6332819}}
+{"state": "started", "kind": "base", "task_id": "base_95", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_49", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.790030495, "gemini": 3.6395677}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_89", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_1", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.79308287, "gemini": 3.6509617}}
+{"state": "started", "kind": "base", "task_id": "base_63", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_89", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.772905855, "gemini": 3.6850933}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_95", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_93", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.728979585, "gemini": 3.7537871}}
+{"state": "started", "kind": "base", "task_id": "base_19", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_77", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.728979585, "gemini": 3.7477911}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_71", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_59", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.77158296, "gemini": 3.7035636}}
+{"state": "started", "kind": "base", "task_id": "base_75", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_95", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.814265235, "gemini": 3.6611858}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_93", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_95", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.714462605, "gemini": 3.7177539}}
+{"state": "started", "kind": "base", "task_id": "base_51", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_71", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.752700605, "gemini": 3.7411934}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_69", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_19", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.752700605, "gemini": 3.7432426}}
+{"state": "started", "kind": "base", "task_id": "base_33", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_63", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.75345026, "gemini": 3.743851}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_47", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_93", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.81544092, "gemini": 3.6718121}}
+{"state": "started", "kind": "base", "task_id": "base_29", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_47", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.73962799, "gemini": 3.7858073}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_13", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_33", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.73962799, "gemini": 3.7891602}}
+{"state": "started", "kind": "base", "task_id": "base_71", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_29", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.778600845, "gemini": 3.741542}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_79", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_75", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.778600845, "gemini": 3.7425209}}
+{"state": "started", "kind": "base", "task_id": "base_5", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_51", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.797456255, "gemini": 3.7220536}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_61", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_13", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.778566175, "gemini": 3.7478675}}
+{"state": "started", "kind": "base", "task_id": "base_17", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_79", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.810404825, "gemini": 3.7255049}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_29", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_17", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.74514451, "gemini": 3.7873619}}
+{"state": "started", "kind": "base", "task_id": "base_37", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_69", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.74514451, "gemini": 3.8103897}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_37", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_5", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.745144445, "gemini": 3.8261644}}
+{"state": "started", "kind": "base", "task_id": "base_61", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_29", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.74620013, "gemini": 3.8232782}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_11", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_61", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.78425797, "gemini": 3.7759415}}
+{"state": "started", "kind": "base", "task_id": "base_67", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_37", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.80508896, "gemini": 3.7499740999999998}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_31", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_11", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.787879265, "gemini": 3.7839967}}
+{"state": "started", "kind": "base", "task_id": "base_23", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_71", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.78549169, "gemini": 3.7932050999999998}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_87", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_31", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.74684594, "gemini": 3.8229882}}
+{"state": "started", "kind": "base", "task_id": "base_7", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_37", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.74684594, "gemini": 3.8483454999999998}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_3", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_61", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.76754801, "gemini": 3.8231761}}
+{"state": "started", "kind": "base", "task_id": "base_31", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_23", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.78619976, "gemini": 3.8008214}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_19", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_19", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.75072669, "gemini": 3.8339351}}
+{"state": "started", "kind": "base", "task_id": "base_3", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_7", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.75107855, "gemini": 3.835554}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_33", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_3", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.75107855, "gemini": 3.8610548}}
+{"state": "started", "kind": "base", "task_id": "base_55", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_31", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.832116765, "gemini": 3.7605246}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_97", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_33", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.79173019, "gemini": 3.7911072}}
+{"state": "started", "kind": "base", "task_id": "base_73", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_67", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.79742406, "gemini": 3.8200879}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_45", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_3", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.84872333, "gemini": 3.7779398}}
+{"state": "started", "kind": "base", "task_id": "base_27", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_87", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.78075421, "gemini": 3.8645167}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_73", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_73", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.80577523, "gemini": 3.8398647}}
+{"state": "started", "kind": "base", "task_id": "base_9", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_27", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.78575056, "gemini": 3.8484507}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_53", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_73", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.7831578, "gemini": 3.8282337}}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_97", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.7831578, "gemini": 3.8282337}}
+{"state": "started", "kind": "base", "task_id": "base_97", "repeat": 5}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_51", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_55", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.822360585, "gemini": 3.8326322}}
+{"state": "started", "kind": "base", "task_id": "base_65", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_53", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.78123381, "gemini": 3.8071265}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_27", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_45", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.818322915, "gemini": 3.8335668}}
+{"state": "started", "kind": "base", "task_id": "base_89", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_9", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.78164675, "gemini": 3.8622757}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_67", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_27", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.78780515, "gemini": 3.8967799}}
+{"state": "started", "kind": "base", "task_id": "base_99", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_51", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.78780515, "gemini": 3.8947963}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_75", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_67", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.78780515, "gemini": 3.8942405}}
+{"state": "started", "kind": "base", "task_id": "base_45", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_65", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.803225675, "gemini": 3.8794648}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_91", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_75", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.76728915, "gemini": 3.9141348}}
+{"state": "started", "kind": "base", "task_id": "base_69", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_89", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.81857087, "gemini": 3.8938626}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_43", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_91", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.805287435, "gemini": 3.9088207}}
+{"state": "started", "kind": "base", "task_id": "base_13", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_43", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.826965615, "gemini": 3.9168723}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_5", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_97", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.80887235, "gemini": 3.9366935}}
+{"state": "started", "kind": "base", "task_id": "base_81", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_13", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.80887235, "gemini": 3.9364232}}
+{"state": "completed", "kind": "base", "task_id": "base_45", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.80887235, "gemini": 3.9364232}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_17", "repeat": 5}
+{"state": "started", "kind": "base", "task_id": "base_79", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_17", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.83684615, "gemini": 3.9223422}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_57", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_5", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.81750327, "gemini": 3.9763236}}
+{"state": "started", "kind": "base", "task_id": "base_21", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_69", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.84056361, "gemini": 3.9295633}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_23", "repeat": 5}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_23", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.80411198, "gemini": 3.9657329}}
+{"state": "started", "kind": "base", "task_id": "base_1", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_81", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.85159498, "gemini": 3.9647151}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_49", "repeat": 5}
+{"state": "completed", "kind": "base", "task_id": "base_21", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.82872904, "gemini": 3.9984717}}
+{"state": "completed", "kind": "base", "task_id": "base_79", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.856044545, "gemini": 3.9469324}}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_57", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.85872174, "gemini": 3.9229262}}
+{"state": "completed", "kind": "base", "task_id": "base_1", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.820765905, "gemini": 3.9515002}}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_49", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.823099485, "gemini": 3.9290591}}
+{"state": "completed", "kind": "base", "task_id": "base_99", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.768237225, "gemini": 3.9632262}}
+{"state": "extra_sweep", "repeat": 6}
+{"state": "started", "kind": "base", "task_id": "base_25", "repeat": 6}
+{"state": "started", "kind": "base", "task_id": "base_11", "repeat": 6}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_59", "repeat": 6}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_15", "repeat": 6}
+{"state": "started", "kind": "base", "task_id": "base_91", "repeat": 6}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_65", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_15", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.829294945, "gemini": 4.0205058}}
+{"state": "started", "kind": "base", "task_id": "base_83", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_25", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.813710555, "gemini": 4.0558667}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_85", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_65", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.793263995, "gemini": 4.0565193}}
+{"state": "started", "kind": "base", "task_id": "base_39", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_59", "repeat": 6, "reward": 0.0, "cost": {"openai": 0.8117574949999999, "gemini": 4.053848}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_41", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_11", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.8117574949999999, "gemini": 4.056667}}
+{"state": "started", "kind": "base", "task_id": "base_53", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_91", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.836488775, "gemini": 4.0137414}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_39", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_85", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.838184025, "gemini": 4.039991}}
+{"state": "started", "kind": "base", "task_id": "base_47", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_41", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.865851805, "gemini": 4.0212957}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_55", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_39", "repeat": 6, "reward": 0.0, "cost": {"openai": 0.889113835, "gemini": 3.998161}}
+{"state": "started", "kind": "base", "task_id": "base_85", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_53", "repeat": 6, "reward": 0.0, "cost": {"openai": 0.846030085, "gemini": 4.0309595}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_77", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_55", "repeat": 6, "reward": 0.0, "cost": {"openai": 0.834563605, "gemini": 4.0771606}}
+{"state": "started", "kind": "base", "task_id": "base_35", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_77", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.828703285, "gemini": 4.1176962999999995}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_35", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_39", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.85030888, "gemini": 4.1135814}}
+{"state": "started", "kind": "base", "task_id": "base_43", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_83", "repeat": 6, "reward": 0.0, "cost": {"openai": 0.870247865, "gemini": 4.0826345}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_81", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_35", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.806927395, "gemini": 4.1248689}}
+{"state": "started", "kind": "base", "task_id": "base_57", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_47", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.870868765, "gemini": 4.0987133}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_96", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_85", "repeat": 6, "reward": 0.0, "cost": {"openai": 0.8290093199999999, "gemini": 4.166287}}
+{"state": "started", "kind": "base", "task_id": "base_87", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_43", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.83263794, "gemini": 4.1433359}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_9", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_81", "repeat": 6, "reward": 0.0, "cost": {"openai": 0.81300617, "gemini": 4.2054038}}
+{"state": "started", "kind": "base", "task_id": "base_41", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_35", "repeat": 6, "reward": 0.0, "cost": {"openai": 0.83190192, "gemini": 4.1571202}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_83", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_9", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.8505609199999999, "gemini": 4.1576582}}
+{"state": "started", "kind": "base", "task_id": "base_49", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_57", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.88263834, "gemini": 4.1392159}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_21", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_41", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.84101601, "gemini": 4.14118}}
+{"state": "started", "kind": "base", "task_id": "base_59", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_87", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.900999835, "gemini": 4.1205594}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_63", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_21", "repeat": 6, "reward": 0.0, "cost": {"openai": 0.857004485, "gemini": 4.1759912}}
+{"state": "started", "kind": "base", "task_id": "base_15", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_96", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.8610534599999999, "gemini": 4.1854973}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_25", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_83", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.83729723, "gemini": 4.2168458}}
+{"state": "started", "kind": "base", "task_id": "base_77", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_63", "repeat": 6, "reward": 0.0, "cost": {"openai": 0.81874566, "gemini": 4.2158619999999996}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_7", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_15", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.836271485, "gemini": 4.227736}}
+{"state": "started", "kind": "base", "task_id": "base_93", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_25", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.818428835, "gemini": 4.2269686}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_1", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_7", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.8588336599999999, "gemini": 4.176514}}
+{"state": "started", "kind": "base", "task_id": "base_95", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_1", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.860263175, "gemini": 4.1823675}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_89", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_49", "repeat": 6, "reward": 0.0, "cost": {"openai": 0.862209245, "gemini": 4.2095195}}
+{"state": "started", "kind": "base", "task_id": "base_63", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_59", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.80334278, "gemini": 4.2746498}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_95", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_89", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.80334278, "gemini": 4.3008326}}
+{"state": "started", "kind": "base", "task_id": "base_19", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_93", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.881627175, "gemini": 4.2037964}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_71", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_77", "repeat": 6, "reward": 0.0, "cost": {"openai": 0.866837655, "gemini": 4.2471157}}
+{"state": "started", "kind": "base", "task_id": "base_75", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_63", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.827028945, "gemini": 4.3014262}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_93", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_71", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.82485664, "gemini": 4.2816518}}
+{"state": "completed", "kind": "base", "task_id": "base_19", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.82485664, "gemini": 4.2816518}}
+{"state": "started", "kind": "base", "task_id": "base_51", "repeat": 6}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_69", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_95", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.82485664, "gemini": 4.2827972}}
+{"state": "started", "kind": "base", "task_id": "base_33", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_95", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.8621289599999999, "gemini": 4.2328898}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_47", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_93", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.828133385, "gemini": 4.288968}}
+{"state": "started", "kind": "base", "task_id": "base_29", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_33", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.852052535, "gemini": 4.2949472}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_13", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_13", "repeat": 6, "reward": 0.0, "cost": {"openai": 0.8338438499999999, "gemini": 4.3261676}}
+{"state": "started", "kind": "base", "task_id": "base_71", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_51", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.836964855, "gemini": 4.3289045}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_79", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_29", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.836964855, "gemini": 4.3313387}}
+{"state": "started", "kind": "base", "task_id": "base_5", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_75", "repeat": 6, "reward": 0.0, "cost": {"openai": 0.916892265, "gemini": 4.2330944}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_61", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_79", "repeat": 6, "reward": 0.0, "cost": {"openai": 0.89708694, "gemini": 4.2651405}}
+{"state": "started", "kind": "base", "task_id": "base_17", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_69", "repeat": 6, "reward": 0.0, "cost": {"openai": 0.854128185, "gemini": 4.3202185}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_29", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_61", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.862420115, "gemini": 4.3237665}}
+{"state": "started", "kind": "base", "task_id": "base_37", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_17", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.83563257, "gemini": 4.3389346}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_37", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_47", "repeat": 6, "reward": 0.0, "cost": {"openai": 0.854572925, "gemini": 4.3338629}}
+{"state": "started", "kind": "base", "task_id": "base_61", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_29", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.854572925, "gemini": 4.3318095}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_11", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_5", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.835862405, "gemini": 4.3640071}}
+{"state": "started", "kind": "base", "task_id": "base_67", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_11", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.84069143, "gemini": 4.3748517}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_31", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_71", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.900626195, "gemini": 4.304136}}
+{"state": "started", "kind": "base", "task_id": "base_23", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_61", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.842509485, "gemini": 4.3942232}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_87", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_37", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.842509485, "gemini": 4.3965638}}
+{"state": "started", "kind": "base", "task_id": "base_7", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_31", "repeat": 6, "reward": 0.0, "cost": {"openai": 0.842509485, "gemini": 4.3935465}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_3", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_23", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.843570015, "gemini": 4.3961375}}
+{"state": "started", "kind": "base", "task_id": "base_31", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_37", "repeat": 6, "reward": 0.0, "cost": {"openai": 0.843570015, "gemini": 4.3933014}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_19", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_19", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.88653357, "gemini": 4.3492132}}
+{"state": "started", "kind": "base", "task_id": "base_3", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_3", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.84462803, "gemini": 4.37953}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_33", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_7", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.86326953, "gemini": 4.3764931}}
+{"state": "started", "kind": "base", "task_id": "base_55", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_31", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.84285633, "gemini": 4.4072533}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_97", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_67", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.86152283, "gemini": 4.3852019}}
+{"state": "started", "kind": "base", "task_id": "base_73", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_33", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.846695315, "gemini": 4.3914834}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_45", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_3", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.913574345, "gemini": 4.3419379}}
+{"state": "started", "kind": "base", "task_id": "base_27", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_73", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.94003244, "gemini": 4.3189882}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_73", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_27", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.91112013, "gemini": 4.3774285}}
+{"state": "started", "kind": "base", "task_id": "base_9", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_45", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.896772905, "gemini": 4.384442}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_53", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_87", "repeat": 6, "reward": 0.0, "cost": {"openai": 0.87280312, "gemini": 4.4116685}}
+{"state": "started", "kind": "base", "task_id": "base_97", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_97", "repeat": 6, "reward": 0.0, "cost": {"openai": 0.85262291, "gemini": 4.4153630999999995}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_51", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_73", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.85353138, "gemini": 4.3667183}}
+{"state": "started", "kind": "base", "task_id": "base_65", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_55", "repeat": 6, "reward": 0.0, "cost": {"openai": 0.89285005, "gemini": 4.3940814}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_27", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_53", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.912574525, "gemini": 4.3707418}}
+{"state": "started", "kind": "base", "task_id": "base_89", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_9", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.913945455, "gemini": 4.3712318}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_67", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_27", "repeat": 6, "reward": 0.0, "cost": {"openai": 0.921864215, "gemini": 4.378539}}
+{"state": "started", "kind": "base", "task_id": "base_99", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_51", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.92451359, "gemini": 4.3816203}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_75", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_65", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.85948768, "gemini": 4.4434778999999995}}
+{"state": "started", "kind": "base", "task_id": "base_45", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_67", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.88009268, "gemini": 4.4420756}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_91", "repeat": 6}
+{"state": "completed", "kind": "hallucination", "task_id": "hallucination_75", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.93469823, "gemini": 4.36428}}
+{"state": "started", "kind": "base", "task_id": "base_69", "repeat": 6}
+{"state": "completed", "kind": "base", "task_id": "base_89", "repeat": 6, "reward": 1.0, "cost": {"openai": 0.88713354, "gemini": 4.4502996}}
+{"state": "started", "kind": "hallucination", "task_id": "hallucination_43", "repeat": 6}
+{"state": "budget_stop", "kind": "hallucination", "task_id": "hallucination_91", "repeat": 6, "error": "Budget guard stopped gemini", "exception": "BudgetStop"}
+{"state": "interrupted", "kind": "base", "task_id": "base_99", "repeat": 6, "error": "Stopped after another request failed", "exception": "ExperimentStop"}
+{"state": "interrupted", "kind": "base", "task_id": "base_97", "repeat": 6, "error": "Stopped after another request failed", "exception": "ExperimentStop"}
+{"state": "interrupted", "kind": "base", "task_id": "base_69", "repeat": 6, "error": "Stopped after another request failed", "exception": "ExperimentStop"}
+{"state": "interrupted", "kind": "hallucination", "task_id": "hallucination_43", "repeat": 6, "error": "Stopped after another request failed", "exception": "ExperimentStop"}
+{"state": "interrupted", "kind": "base", "task_id": "base_45", "repeat": 6, "error": "Stopped after another request failed", "exception": "ExperimentStop"}
+{"state": "finished", "cost": {"openai": 0.844545635, "gemini": 4.3750401}, "unresolved_reservations": 0}
+{"state": "user_stop", "kind": "base_and_hallucination", "reason": "User stopped seventh round; subsequent authorization only supplements Disambiguation to six total rounds"}
+{"state": "disambiguation_supplement_sweep", "repeat": 3}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_15", "repeat": 3}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_15", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.8451274599999999, "gemini": 4.3775894}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_5", "repeat": 3}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_5", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.84578389, "gemini": 4.3810463}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_17", "repeat": 3}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_17", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.846653485, "gemini": 4.3866151}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_27", "repeat": 3}
+{"state": "topup_authorized", "amount_nzd": 10, "conservative_extra_usd": 5, "total_local_gemini_cap_usd": 9.5, "reason": "User requires all six Disambiguation repeats. Restart from completed checkpoints; retain any in-flight reservation.", "uncertain_requests": 1}
+{"state": "disambiguation_supplement_sweep", "repeat": 3}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_27", "repeat": 3}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_21", "repeat": 3}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_31", "repeat": 3}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_9", "repeat": 3}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_29", "repeat": 3}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_25", "repeat": 3}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_9", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.91025169, "gemini": 4.4194474}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_45", "repeat": 3}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_21", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.94058203, "gemini": 4.4253115}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_13", "repeat": 3}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_27", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.854547525, "gemini": 4.5719531}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_19", "repeat": 3}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_25", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.854547525, "gemini": 4.5735113}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_43", "repeat": 3}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_13", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.854547525, "gemini": 4.5755237}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_3", "repeat": 3}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_31", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.895572905, "gemini": 4.5524562}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_37", "repeat": 3}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_45", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.85690058, "gemini": 4.5795741}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_47", "repeat": 3}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_3", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.89560683, "gemini": 4.5611732}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_33", "repeat": 3}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_29", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.89560683, "gemini": 4.5604267}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_49", "repeat": 3}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_43", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.92126967, "gemini": 4.5384691}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_23", "repeat": 3}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_19", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.92126967, "gemini": 4.5382084}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_35", "repeat": 3}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_33", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.862390005, "gemini": 4.5713875999999996}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_7", "repeat": 3}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_7", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.930657555, "gemini": 4.5306593}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_41", "repeat": 3}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_37", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.91181368, "gemini": 4.5774156999999995}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_39", "repeat": 3}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_23", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.95721439, "gemini": 4.5634467}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_11", "repeat": 3}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_47", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.9395874, "gemini": 4.5629994}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_1", "repeat": 3}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_35", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.92315468, "gemini": 4.5690041}}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_11", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.896655635, "gemini": 4.6323823}}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_1", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.90916799, "gemini": 4.6104951}}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_41", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.914325605, "gemini": 4.5696266}}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_39", "repeat": 3, "reward": 1.0, "cost": {"openai": 0.914325605, "gemini": 4.5696266}}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_49", "repeat": 3, "reward": 0.0, "cost": {"openai": 0.880415225, "gemini": 4.5989369}}
+{"state": "disambiguation_supplement_sweep", "repeat": 4}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_15", "repeat": 4}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_5", "repeat": 4}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_21", "repeat": 4}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_9", "repeat": 4}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_17", "repeat": 4}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_27", "repeat": 4}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_21", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.90595306, "gemini": 4.6835878}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_31", "repeat": 4}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_5", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.92732031, "gemini": 4.6627483}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_29", "repeat": 4}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_15", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.92732031, "gemini": 4.6877817}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_25", "repeat": 4}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_9", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.92552335, "gemini": 4.6933929}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_45", "repeat": 4}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_17", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.943093545, "gemini": 4.6190127}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_13", "repeat": 4}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_27", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.946988385, "gemini": 4.6259529}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_19", "repeat": 4}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_13", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.88831329, "gemini": 4.7654925}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_43", "repeat": 4}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_45", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.89071594, "gemini": 4.7364694}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_3", "repeat": 4}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_25", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.91087894, "gemini": 4.7376965}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_37", "repeat": 4}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_43", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.910190595, "gemini": 4.75023}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_47", "repeat": 4}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_19", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.929535985, "gemini": 4.7504517}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_33", "repeat": 4}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_3", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.929535985, "gemini": 4.7597755}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_49", "repeat": 4}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_29", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.95187873, "gemini": 4.7161767}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_23", "repeat": 4}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_31", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.952799785, "gemini": 4.7451315}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_35", "repeat": 4}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_37", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.97124581, "gemini": 4.7674198}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_7", "repeat": 4}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_33", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.94602178, "gemini": 4.7795965}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_41", "repeat": 4}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_23", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.995727235, "gemini": 4.724479}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_39", "repeat": 4}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_35", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.999483475, "gemini": 4.7542003}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_11", "repeat": 4}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_7", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.98252507, "gemini": 4.7559338}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_1", "repeat": 4}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_11", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.9242213, "gemini": 4.8604476}}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_49", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.9061201799999999, "gemini": 4.8786304}}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_1", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.9061201799999999, "gemini": 4.8550385}}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_39", "repeat": 4, "reward": 1.0, "cost": {"openai": 0.9061201799999999, "gemini": 4.8482271}}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_41", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.9061201799999999, "gemini": 4.83008}}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_47", "repeat": 4, "reward": 0.0, "cost": {"openai": 0.9061201799999999, "gemini": 4.8001093}}
+{"state": "disambiguation_supplement_sweep", "repeat": 5}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_15", "repeat": 5}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_5", "repeat": 5}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_27", "repeat": 5}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_17", "repeat": 5}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_9", "repeat": 5}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_21", "repeat": 5}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_5", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.973301595, "gemini": 4.8634268}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_31", "repeat": 5}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_15", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.93081972, "gemini": 4.8627472}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_29", "repeat": 5}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_21", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.91104488, "gemini": 4.9185834999999996}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_25", "repeat": 5}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_9", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.9483773799999999, "gemini": 4.8728195}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_45", "repeat": 5}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_27", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.97037091, "gemini": 4.8759004}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_13", "repeat": 5}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_17", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.990965635, "gemini": 4.8531693}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_19", "repeat": 5}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_13", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.9595421199999999, "gemini": 4.8908595}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_43", "repeat": 5}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_19", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.917334845, "gemini": 4.9821815}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_3", "repeat": 5}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_45", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.917334845, "gemini": 4.9832367}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_37", "repeat": 5}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_25", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.973857345, "gemini": 4.9157642}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_47", "repeat": 5}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_3", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.9584655049999999, "gemini": 4.9284758}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_33", "repeat": 5}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_43", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.93775315, "gemini": 4.9706308}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_49", "repeat": 5}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_31", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.95859895, "gemini": 4.9535246}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_23", "repeat": 5}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_29", "repeat": 5, "reward": 0.0, "cost": {"openai": 1.001615985, "gemini": 4.901397}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_35", "repeat": 5}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_33", "repeat": 5, "reward": 0.0, "cost": {"openai": 1.00526862, "gemini": 4.9273033}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_7", "repeat": 5}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_7", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.9657471599999999, "gemini": 4.9992362}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_41", "repeat": 5}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_37", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.9657471599999999, "gemini": 5.0009622}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_39", "repeat": 5}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_23", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.97541091, "gemini": 4.9871198}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_11", "repeat": 5}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_11", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.97302602, "gemini": 5.034722}}
+{"state": "started", "kind": "disambiguation", "task_id": "disambiguation_1", "repeat": 5}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_47", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.949513645, "gemini": 5.0150426999999995}}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_39", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.972563145, "gemini": 4.9930122}}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_49", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.93056752, "gemini": 5.0619984}}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_35", "repeat": 5, "reward": 1.0, "cost": {"openai": 0.93068786, "gemini": 5.0139763}}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_41", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.9520508599999999, "gemini": 4.9882306}}
+{"state": "completed", "kind": "disambiguation", "task_id": "disambiguation_1", "repeat": 5, "reward": 0.0, "cost": {"openai": 0.930797165, "gemini": 4.9896778}}
+{"state": "finished", "cost": {"openai": 0.930797165, "gemini": 4.9896778}, "unresolved_reservations": 0}

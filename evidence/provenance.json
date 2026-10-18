@@ -499,13 +499,15 @@
     "docs/submission.html",
     "docs/tracks.html",
     "interactive_app.py",
+    "results/base/tool-calling-gpt-5-thinking-reasoning-effort-medium-1.0_range_0-101_user-gemini/gemini-2.5-flash-user-thinking-llm_0925104715.json",
     "results/disambiguation/tool-calling-gpt-5-thinking-reasoning-effort-medium-1.0_range_0-101_user-gemini/gemini-2.5-flash-user-thinking-llm_0926113631.json",
+    "results/hallucination/tool-calling-gpt-5-thinking-reasoning-effort-medium-1.0_range_0-101_user-gemini/gemini-2.5-flash-user-thinking-llm_0925134653.json",
     "run.py",
     "setup.py",
     "templates/interactive.html",
     "upload_to_huggingface.py"
   ],
-  "omitted": "Other historical result files; full Git history. Included original GPT-5 Disambiguation baseline used in analysis.",
+  "omitted": "Other historical model result files and Git history. Included GPT-5 Base, Hallucination and Disambiguation historical results used in comparisons.",
   "dataset": "https://huggingface.co/datasets/johanneskirmayr/car-bench-dataset",
   "dataset_revision": "1fcf24ad802c42e04a0d8fe05b5ca0d481a4e7af",
   "paper_sha256": "1aed86dc7bd7c0cda682ffd8a505a2747bfed9c07f03653c37b328723f259460"

@@ -1,0 +1,132 @@
+{
+  "task_order": [
+    [
+      "disambiguation",
+      "disambiguation_15"
+    ],
+    [
+      "disambiguation",
+      "disambiguation_5"
+    ],
+    [
+      "disambiguation",
+      "disambiguation_17"
+    ],
+    [
+      "disambiguation",
+      "disambiguation_27"
+    ],
+    [
+      "disambiguation",
+      "disambiguation_21"
+    ],
+    [
+      "disambiguation",
+      "disambiguation_9"
+    ],
+    [
+      "disambiguation",
+      "disambiguation_31"
+    ],
+    [
+      "disambiguation",
+      "disambiguation_29"
+    ],
+    [
+      "disambiguation",
+      "disambiguation_25"
+    ],
+    [
+      "disambiguation",
+      "disambiguation_45"
+    ],
+    [
+      "disambiguation",
+      "disambiguation_13"
+    ],
+    [
+      "disambiguation",
+      "disambiguation_19"
+    ],
+    [
+      "disambiguation",
+      "disambiguation_43"
+    ],
+    [
+      "disambiguation",
+      "disambiguation_3"
+    ],
+    [
+      "disambiguation",
+      "disambiguation_37"
+    ],
+    [
+      "disambiguation",
+      "disambiguation_47"
+    ],
+    [
+      "disambiguation",
+      "disambiguation_33"
+    ],
+    [
+      "disambiguation",
+      "disambiguation_49"
+    ],
+    [
+      "disambiguation",
+      "disambiguation_23"
+    ],
+    [
+      "disambiguation",
+      "disambiguation_35"
+    ],
+    [
+      "disambiguation",
+      "disambiguation_7"
+    ],
+    [
+      "disambiguation",
+      "disambiguation_41"
+    ],
+    [
+      "disambiguation",
+      "disambiguation_39"
+    ],
+    [
+      "disambiguation",
+      "disambiguation_11"
+    ],
+    [
+      "disambiguation",
+      "disambiguation_1"
+    ]
+  ],
+  "primary_repeats": 3,
+  "extra_repeats": "Disambiguation only, repeats 3,4,5 (zero-based); stop after six total repeats or budget guard",
+  "code_commit": "ce6dc9d08f4ff81eb4c1a5c317aff25112ee950b",
+  "data_revision": "1fcf24ad802c42e04a0d8fe05b5ca0d481a4e7af",
+  "agent": "gpt-6-luna",
+  "reasoning": "medium",
+  "simulator": "gemini-2.5-flash",
+  "user_thinking": true,
+  "judge": "gemini-2.5-flash",
+  "split": "test",
+  "jobs": 6,
+  "gemini_concurrency_after_503": 2,
+  "transport_retry_attempts": 3,
+  "transport_retry_backoff_seconds": [
+    20,
+    40
+  ],
+  "gemini_truncation_fallback_max_tokens": 16384,
+  "seed": 769,
+  "budget_limits": {
+    "openai": 9.5,
+    "gemini": 9.5
+  },
+  "prior_spend": {
+    "openai": 0.102828915,
+    "gemini": 0.5964163
+  },
+  "analysis": "Primary comparison uses first 3 completed repetitions per task; extra repetitions analyzed separately. Budget-stopped trials excluded, model failures retained."
+}

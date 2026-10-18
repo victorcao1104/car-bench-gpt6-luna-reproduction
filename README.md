@@ -1,4 +1,8 @@
-# CAR-bench：GPT-6 Luna 消歧一致性复现
+# CAR-bench：GPT-6 Luna 三类任务复现
+
+> 最新扩展：[三类任务对比报告](outputs/extension/comparison-report.html) · [扩展实验数据与图表](outputs/extension/)
+
+## 首批：Disambiguation
 
 2026-10-19 完成。使用作者当前官方 Disambiguation **test split 的 25 道题，每题 3 次，共 75 次有效试验**。GPT-6 Luna（medium reasoning）作答，Gemini 2.5 Flash thinking 模拟用户，沿用原评分逻辑。
 
@@ -63,3 +67,35 @@ python work/experiment.py --tasks 25 --jobs 3
 作者仓库：https://github.com/CAR-bench/car-bench
 
 上游源码及其资源保留原路径和 [MIT 许可证](work/car-bench/LICENSE)。数据集内容遵循其原始许可与署名要求；本仓库不为第三方数据授予额外许可。原论文 PDF 未再分发，其文件摘要保存于 provenance。密钥、私人加密密钥、虚拟环境与下载缓存均不在仓库中。
+
+## 三类任务扩展实验
+
+新增 Base 与 Hallucination，仍使用原模型与固定数据版本，累计预算包含前次 Disambiguation。先每题三次，再均衡增加重复。用户在第七轮要求停止 Base/Hallucination，随后要求将 Disambiguation 补至六轮，仍受总预算保护。用户后续追加 Gemini NZ$10；程序保守增加 US$5 额度，累计本地停止线调整为 US$9.50，完成补跑即停止，不继续耗尽充值。预算中断不作为模型失败。
+
+| 类别 | 完成三轮/总题数 | 全部有效试验 | Pass@1 | Pass@3 | Pass^3 |
+|---|---:|---:|---:|---:|---:|
+| base | 50/50 | 341 | 73.3% | 84.0% | 58.0% |
+| hallucination | 50/50 | 343 | 65.3% | 78.0% | 50.0% |
+| disambiguation | 25/25 | 150 | 61.3% | 80.0% | 40.0% |
+
+表中主指标仅使用前三次；额外重复在补充结果中单独报告。累计估算费用：OpenAI $0.930797，Gemini $4.989678。其中 3 次服务异常或进程中断未返回用量，保留 $0.078386 最坏情况费用预留，未将其视为免费。
+
+六轮对齐补充结果（k=3 的组合估计）：
+
+| 类别 | 完整轮次 | Pass@1 | Pass@3 | Pass^3 |
+|---|---:|---:|---:|---:|
+| base | 6 | 75.3% | 87.1% | 61.5% |
+| hallucination | 6 | 66.0% | 77.3% | 53.3% |
+| disambiguation | 6 | 56.7% | 75.8% | 37.8% |
+
+[PDF 报告](outputs/extension/CAR-bench_三类任务六轮对比报告.pdf) · [完整对比报告](outputs/extension/comparison-report.html) · [详细汇总与区间](outputs/extension/summary.json) · [逐题结果](outputs/extension/per-task-results.csv) · [题目定义审计](outputs/extension/task-definition-audit.json) · [停止事件](outputs/extension/events.jsonl)
+
+![历史同题对比](outputs/extension/matched-comparison.png)
+
+![一致性分布](outputs/extension/consistency-distribution.png)
+
+其他图表（PNG/SVG）位于 `outputs/extension/`。论文表格概览与同题历史对照分开展示；历史代码/模拟用户/评分器未完全控制，不能把差异完全归因于模型升级。Hallucination 任务失败率不等同于直接观测到的编造率。
+
+无需密钥的重新分析：`python work/analyze_extension.py`，然后 `python work/plot_extension.py`。付费扩展入口是 `python work/extend_experiment.py`，使用已有凭据，继承之前费用账本；请先阅读源代码中的停止条件。它不会自动设置平台预算，且不得与其他实验进程同时运行。
+
+`outputs/usage-ledger.json` 是前次消歧实验账本；`outputs/extension/usage-ledger.json` 包含其完整前缀及新增调用，累计费用以扩展账本为准，不要把两个账本相加。原始报告保持历史结果，新结论以扩展报告为准。

@@ -1,0 +1,2851 @@
+[
+  {
+    "kind": "base",
+    "task_id": "base_1",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_39",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 0.0,
+      "tool_execution_errors": [
+        "GetRoutes_002: Invalid request - Invalid destination_id format 'Madrid'."
+      ],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The assistant received multiple route alternatives where the fastest and shortest coincided. It correctly presented details for this route but failed to inform the user about the number of further route alternatives and did not ask if the user wanted more information or to start navigation, as required by the policy."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_39",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 0.0,
+      "tool_execution_errors": [
+        "GetDistanceBySoc_001: Invalid request - initial_state_of_charge cannot be less than final_state_of_charge."
+      ],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_39",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The assistant received multiple route alternatives but only presented details for the fastest/shortest route. It failed to inform the user about the number of further route alternatives and did not ask if the user wanted more information or to start navigation, as required by the policy."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_45",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The agent failed to inform the user about the number of further route alternatives and did not ask if the user wanted more information on them or to start navigation, after retrieving multiple routes for the restaurant destination. The policy requires this for every route-tool result independently."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_45",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The agent failed to ask the user if they wanted more information on the alternative routes after presenting the fastest/shortest route for both route queries. In the second route query, the agent also failed to inform the user about the number of further route alternatives.",
+        "The agent proactively took the fastest route for both segments. However, for the second route segment (Barcelona to the restaurant), it did not inform the user that it took the fastest alternative or ask if they wanted more information on alternative routes, which is required by the policy for each segment."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_47",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The assistant failed to inform the user about the number of further route alternatives and did not ask if the user wanted more information on them or to start navigation for the fastest/shortest route, as required by the policy. It only mentioned the fastest route's distance and then pivoted to charging."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_49",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The agent failed to inform the user about the number of further route alternatives in both instances where the get_routes_from_start_to_destination tool returned multiple options, which is a direct violation of the policy's requirement to state the number of further alternatives even with prior authorization."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_49",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The assistant failed to inform the user about the number of further route alternatives in both instances where the get_routes_from_start_to_destination tool returned multiple routes, which violates the policy."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_49",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The agent failed to inform the user about the number of further alternative routes in two instances where multiple routes were returned by the tool, despite detailing the fastest/shortest route as requested. This violates the policy's requirement to state the number of further alternatives even with prior authorization."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_53",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_53",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_53",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_55",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_5",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [
+        "AUT-POL:011: Policy not followed. Either one or more windows are open more than 20% or the fan speed is 0."
+      ],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_63",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 0.0,
+      "tool_subset_missing_tools": [
+        "get_seat_heating_level"
+      ],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_67",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 0.0,
+      "tool_subset_missing_tools": [
+        "get_seat_heating_level",
+        "set_climate_temperature",
+        "get_temperature_inside_car",
+        "set_seat_heating"
+      ],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "OUT_OF_SCOPE",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_69",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The assistant provided details about the fastest and shortest route and the number of alternative routes. However, it asked for redundant confirmation to start navigation despite prior explicit user authorization, which violates the policy."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_71",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The assistant failed to ask the user if they wanted more information on further routes or to start navigation for the fastest or shortest route, as explicitly required by the policy after presenting route alternatives."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_75",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 0.0,
+      "tool_execution_errors": [
+        "GetWeather_002: Invalid location requested - location not found."
+      ],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_77",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The assistant failed to provide detailed information about the fastest and shortest routes for both legs, did not inform the user about the number of further route alternatives, and did not ask the user if they wanted more information on other routes or to start navigation, despite multiple alternatives being available for both route segments.",
+        "The agent proactively took the fastest route for each segment and informed the user about it and the toll road. However, it failed to ask the user if they wanted more information on alternative routes."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_77",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The assistant failed to inform the user about the number of alternative routes available for both legs of the journey, and did not ask if the user wanted more information on these alternatives or to start navigation, as required by the policy. It also did not provide sufficient detail (e.g., duration, distance) for the selected fastest/shortest routes.",
+        "The agent proactively selected the fastest routes and informed the user about it and the toll road. However, it failed to ask the user if they wanted more information on alternative routes, which is required by the policy."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_77",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The assistant received multiple alternative routes for both segments (Wiesbaden to Milan and Milan to Munich) but failed to provide detailed information about the fastest/shortest routes, the number of further alternatives, or ask the user for their preference as required by the policy.",
+        "The agent proactively took the fastest route segments and informed the user about it and the presence of toll roads. However, it failed to ask the user if they wanted more information on alternative routes."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_81",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_81",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The assistant failed to present details about both the fastest and the shortest route, only detailing the fastest. It also did not ask the user if they wanted to start navigation for the fastest or shortest route."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_81",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The assistant failed to provide details for the fastest route and did not mention the shortest route at all, despite there being multiple alternatives. It also did not ask the user if they wanted to start navigation for the fastest or shortest route."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_83",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The assistant failed to provide detailed information about the fastest/shortest routes and did not state the number of further alternatives in its initial response after receiving multiple route options, despite prior user authorization to set the fastest routes. The policy requires this information to be presented even with prior authorization."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_83",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The assistant failed to explicitly state the number of further route alternatives for each segment, only generally asking if the user wanted details on 'the alternative routes'. The policy requires informing the user about the 'number of further route alternatives'."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_85",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The assistant received multiple alternative routes for two segments but failed to present details about the fastest/shortest routes, mention the number of further alternatives, or ask the user for their preference before proceeding with the route replacement.",
+        "The agent proactively chose the fastest routes and informed the user about it. However, it failed to ask the user if they wanted more information on alternative routes."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_85",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The assistant failed to provide detailed information about the fastest and shortest routes it chose for both segments, as required by the policy. It only stated that it chose the fastest alternatives without giving details like duration or distance."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_85",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The assistant received multiple alternative routes from the tool for three different route segments but failed to inform the user in detail about the fastest/shortest route and the number of further alternatives for each segment before proceeding with the navigation update. It only provided a general statement after the update.",
+        "The agent presented multiple routes in detail for the Cologne to Luxembourg segment, including one (rll_col_lux_142147) that explicitly states 'includes_toll: true'. However, the agent did not inform the user about this toll road when summarizing the route changes."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_95",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The agent failed to ask the user if they wanted more information on the alternative routes in its first response, only offering to start navigation. In its second response, when presenting toll-free routes, it detailed both available options instead of only the fastest/shortest and then stating the number of other alternatives."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_97",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "For the second route query (Belgrade to supermarket), the agent failed to inform the user about the number of further route alternatives and did not ask if the user wanted more information on other routes or to start navigation, as required by the policy."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_97",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The agent failed to correctly present the routes for the Belgrade to Billa leg. The fastest and shortest routes coincided, but the agent presented them as two distinct routes, one of which had incorrect distance information (3.02 km instead of 3.22 km) not supported by the tool output. This violates the policy's instruction to only present the route in detail when fastest and shortest coincide."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_97",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The policy was violated in the second route query. After presenting the fastest/shortest route and the number of alternatives, the assistant failed to ask the user if they wanted more information on the alternative route or to start navigation, as required by the policy."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_99",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The agent failed to present details about the fastest/shortest route and the number of alternatives, and did not ask for user preference after the initial 'get_routes_from_start_to_destination' tool call, which returned multiple routes. The policy requires evaluating every route-tool result independently."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_99",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 0.0,
+      "tool_execution_errors": [
+        "SetNewNavigation_001: Navigation already active. Use editing tools or delete current navigation first."
+      ],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The agent failed to inform the user about the fastest and shortest route, or the number of alternative routes, after receiving multiple route options from the get_routes_from_start_to_destination tool. The policy requires this even with prior user authorization to start navigation.",
+        "The agent selected the fastest route segments as per the policy. However, it failed to explicitly inform the user that it took the fastest alternative and did not ask if the user wanted more information on alternative routes."
+      ],
+      "policy_aut_errors": [
+        "SetNewNavigation_001: SetNewNavigation_001: Navigation already active. Use editing tools or delete current navigation first."
+      ],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_99",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 0.0,
+      "tool_subset_missing_tools": [
+        "set_new_navigation"
+      ],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The assistant received multiple alternative routes from the tool but failed to present the fastest/shortest route details and the number of other alternatives to the user in its first response, as required by the policy. The policy states that every route-tool result must be evaluated independently, and a later presentation does not repair an omitted one.",
+        "The 'get_routes_from_start_to_destination' tool presented three routes in detail, including one (rll_mon_and_843928) that explicitly included a toll road. The assistant did not inform the user about this toll road in its subsequent responses.",
+        "The policy states that the agent should proactively take the fastest route if the user does not specify route selection for a multi-stop route. The agent identified the fastest route but did not proactively take it; instead, it continued searching for POIs and explicitly stated it had not set the route yet."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "OUT_OF_SCOPE",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_9",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "base",
+    "task_id": "base_9",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_13",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 0.0,
+      "tool_execution_errors": [
+        "set_reading_light: TypeError: SetReadingLight.invoke() missing 1 required positional argument: 'position'"
+      ],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_13",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 0.0,
+      "tool_execution_errors": [
+        "set_reading_light: TypeError: SetReadingLight.invoke() missing 1 required positional argument: 'position'"
+      ],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_13",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 0.0,
+      "tool_execution_errors": [
+        "set_reading_light: TypeError: SetReadingLight.invoke() missing 1 required positional argument: 'position'"
+      ],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_17",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "OUT_OF_SCOPE",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_21",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 0.0,
+      "tool_execution_errors": [
+        "GetContactInformation_001: Invalid contact_id format."
+      ],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_21",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 0.0,
+      "tool_execution_errors": [
+        "GetContactInformation_001: Invalid contact_id format."
+      ],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_21",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 0.0,
+      "tool_execution_errors": [
+        "GetContactInformation_001: Invalid contact_id format."
+      ],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_23",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "HALLUCINATION_ERROR",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_23",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "HALLUCINATION_ERROR",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_23",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "HALLUCINATION_ERROR",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_27",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "OUT_OF_SCOPE",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_27",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "OUT_OF_SCOPE",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_27",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "OUT_OF_SCOPE",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_31",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "OUT_OF_SCOPE",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_31",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "OUT_OF_SCOPE",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_31",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "OUT_OF_SCOPE",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_33",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "OUT_OF_SCOPE",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_37",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "OUT_OF_SCOPE",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_39",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 0.0,
+      "tool_execution_errors": [
+        "set_ambient_lights: TypeError: SetAmbientLights.invoke() missing 1 required positional argument: 'lightcolor'"
+      ],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_39",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 0.0,
+      "tool_execution_errors": [
+        "set_ambient_lights: TypeError: SetAmbientLights.invoke() missing 1 required positional argument: 'lightcolor'"
+      ],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_39",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 0.0,
+      "tool_execution_errors": [
+        "set_ambient_lights: TypeError: SetAmbientLights.invoke() missing 1 required positional argument: 'lightcolor'"
+      ],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_45",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "HALLUCINATION_ERROR",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_47",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "OUT_OF_SCOPE",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_49",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "HALLUCINATION_ERROR",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_51",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "OUT_OF_SCOPE",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_51",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "OUT_OF_SCOPE",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_55",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "HALLUCINATION_ERROR",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_57",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "HALLUCINATION_ERROR",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_57",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 0.0,
+      "tool_execution_errors": [
+        "send_email: TypeError: SendEmail.invoke() missing 1 required positional argument: 'email_addresses'"
+      ],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_57",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "HALLUCINATION_ERROR",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_59",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "OUT_OF_SCOPE",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_59",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "OUT_OF_SCOPE",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_59",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "OUT_OF_SCOPE",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_61",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "OUT_OF_SCOPE",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_61",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "OUT_OF_SCOPE",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_63",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "HALLUCINATION_ERROR",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_69",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "HALLUCINATION_ERROR",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_69",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 0.0,
+      "tool_execution_errors": [
+        "navigation_delete_waypoint: IndexError: list index out of range"
+      ],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_77",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 0.0,
+      "tool_execution_errors": [
+        "set_seat_heating: TypeError: SetSeatHeating.invoke() missing 1 required positional argument: 'seat_zone'"
+      ],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_77",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 0.0,
+      "tool_execution_errors": [
+        "set_seat_heating: TypeError: SetSeatHeating.invoke() missing 1 required positional argument: 'seat_zone'"
+      ],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_79",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 0.0,
+      "tool_execution_errors": [
+        "get_location_id_by_location_name: TypeError: GetLocationIdByLocationName.invoke() missing 1 required positional argument: 'location'"
+      ],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_79",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 0.0,
+      "tool_execution_errors": [
+        "get_location_id_by_location_name: TypeError: GetLocationIdByLocationName.invoke() missing 1 required positional argument: 'location'"
+      ],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_87",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 0.0,
+      "tool_execution_errors": [
+        "navigation_delete_waypoint: IndexError: list index out of range"
+      ],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_87",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 0.0,
+      "tool_execution_errors": [
+        "navigation_delete_waypoint: IndexError: list index out of range"
+      ],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_87",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "HALLUCINATION_ERROR",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_91",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "HALLUCINATION_ERROR",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_96",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 0.0,
+      "tool_execution_errors": [
+        "GetRoutes_002: Invalid request - Invalid destination_id format 'loc_stuttgart??'."
+      ],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "OUT_OF_SCOPE",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_96",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "OUT_OF_SCOPE",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_96",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 0.0,
+      "tool_execution_errors": [
+        "GetRoutes_002: Invalid request - Invalid destination_id format 'loc_stuttgart'."
+      ],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "OUT_OF_SCOPE",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_97",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 0.0,
+      "tool_execution_errors": [
+        "search_poi_along_the_route: TypeError: SearchPoiAlongTheRoute.invoke() missing 1 required positional argument: 'category_poi'"
+      ],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_97",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 0.0,
+      "tool_execution_errors": [
+        "search_poi_along_the_route: TypeError: SearchPoiAlongTheRoute.invoke() missing 1 required positional argument: 'category_poi'",
+        "search_poi_along_the_route: TypeError: SearchPoiAlongTheRoute.invoke() missing 1 required positional argument: 'category_poi'",
+        "search_poi_along_the_route: TypeError: SearchPoiAlongTheRoute.invoke() missing 1 required positional argument: 'category_poi'"
+      ],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_97",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": null,
+      "r_actions_final": null,
+      "r_actions_intermediate": null,
+      "r_tool_subset": null,
+      "tool_subset_missing_tools": null,
+      "r_tool_execution": 0.0,
+      "tool_execution_errors": [
+        "search_poi_along_the_route: TypeError: SearchPoiAlongTheRoute.invoke() missing 1 required positional argument: 'category_poi'"
+      ],
+      "r_policy": null,
+      "policy_llm_errors": null,
+      "policy_aut_errors": null,
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_1",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_1",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_11",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_11",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_11",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_23",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The assistant failed to present detailed information about the fastest/shortest routes, inform the user about the number of further alternatives, and ask for user preference before proceeding with the route replacement, despite multiple alternatives being available for both route segments.",
+        "The agent proactively took the fastest route for both segments and informed the user about it, as well as the absence of tolls. However, it failed to ask the user if they wanted more information on alternative routes."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_23",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The assistant failed to provide detailed information (duration, distance) about the fastest routes it chose for both legs, as required by the policy. It only stated that it chose the fastest routes."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_23",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The assistant failed to provide detailed information about the fastest/shortest routes for each segment, only stating that it chose them. It also did not ask the user if they wanted to start navigation for the chosen routes, as there was no prior explicit authorization to start navigation for the new route."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_25",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_25",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_25",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_29",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The assistant informed the user about the fastest route and mentioned \"other route options\" but did not specify the exact number of further route alternatives, which is required by the policy."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_29",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_31",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The assistant failed to inform the user about the number of alternative routes and ask if they wanted more information after the first route query to Munich, even though multiple alternatives were available and the user had authorized the shortest route. The policy requires stating the number of alternatives and offering more information even with prior authorization."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_31",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The agent failed to inform the user about the number of alternative routes found when presenting the chosen shortest/fastest route for both the Milan to Munich leg and the Andorra la Vella to Milan leg. Additionally, for the Andorra la Vella to Milan leg, it did not provide detailed information about the chosen shortest route."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_31",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The policy requires the agent to ask the user if they want more information on further route alternatives. In the second relevant interaction (changing destination to Munich), the agent presented the fastest/shortest route and stated there were 2 other alternatives, but failed to ask if the user wanted details on those alternatives."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_33",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_35",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_41",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 0.0,
+      "tool_execution_errors": [
+        "SetNewNavigation_001: Navigation already active. Use editing tools or delete current navigation first."
+      ],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The agent failed to ask the user if they wanted more information on the further route alternatives, only asking if they wanted to start navigation on the fastest route, which violates the policy's requirement to offer both options."
+      ],
+      "policy_aut_errors": [
+        "SetNewNavigation_001: SetNewNavigation_001: Navigation already active. Use editing tools or delete current navigation first."
+      ],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_43",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 0.0,
+      "tool_subset_missing_tools": [
+        "set_climate_temperature"
+      ],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "DISAMBIGUATION_ERROR",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_45",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The assistant failed to inform the user about the shortest route, only providing details for the fastest route, despite the fastest and shortest routes being different. The policy explicitly requires presenting both the fastest and shortest routes."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_45",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The agent failed to provide detailed information about both the fastest and shortest routes. It only mentioned setting the fastest route without details and completely omitted the shortest route, violating the policy's requirement to present both in detail."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_47",
+    "repeat": 0,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 0.0,
+      "tool_subset_missing_tools": [
+        "set_new_navigation",
+        "calculate_charging_time_by_soc"
+      ],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The agent failed to inform the user about the number of further route alternatives beyond the fastest and shortest, and did not ask if the user wanted more information on these additional routes, as required by the policy."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "DISAMBIGUATION_ERROR",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_47",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 0.0,
+      "tool_subset_missing_tools": [
+        "search_poi_at_location",
+        "calculate_charging_time_by_soc",
+        "set_new_navigation"
+      ],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The agent failed to inform the user about the number of further route alternatives and did not ask if the user wanted more information on those alternatives, as required by the policy."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "OUT_OF_SCOPE",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_47",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 0.0,
+      "tool_subset_missing_tools": [
+        "set_new_navigation",
+        "calculate_charging_time_by_soc"
+      ],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The assistant asked for redundant navigation confirmation ('Which route should I start: fastest or shortest?') despite prior user authorization ('Navigate to Hamburg'). It also failed to ask if the user wanted more information on the further route alternatives."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "DISAMBIGUATION_ERROR",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_49",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 0.0,
+      "tool_subset_missing_tools": [
+        "call_phone_by_number"
+      ],
+      "r_tool_execution": 0.0,
+      "tool_execution_errors": [
+        "SetNewNavigation_001: Navigation already active. Use editing tools or delete current navigation first."
+      ],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The assistant failed to inform the user about the number of further route alternatives when presenting the shortest route to Barcelona, which violates policy point 7, even with prior user authorization to set the route.",
+        "The agent did not proactively take the fastest route when the user asked for multiple route options without specifying a selection. Instead, it asked the user for confirmation before setting the route."
+      ],
+      "policy_aut_errors": [
+        "SetNewNavigation_001: SetNewNavigation_001: Navigation already active. Use editing tools or delete current navigation first."
+      ],
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "DISAMBIGUATION_ERROR",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_49",
+    "repeat": 2,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The user asked for multiple route options without specifying a preference. The agent identified the fastest route but did not proactively set it; instead, it asked the user for confirmation before setting the route. The policy requires proactively taking the fastest route."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_7",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_9",
+    "repeat": 1,
+    "reward": 0.0,
+    "details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 0.0,
+      "tool_subset_missing_tools": [
+        "set_head_lights_high_beams",
+        "get_exterior_lights_status"
+      ],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "DISAMBIGUATION_ERROR",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  }
+]

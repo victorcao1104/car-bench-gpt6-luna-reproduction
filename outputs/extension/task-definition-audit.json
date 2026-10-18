@@ -1,0 +1,910 @@
+[
+  {
+    "kind": "base",
+    "task_id": "base_1",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_3",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_5",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_7",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_9",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_11",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_13",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_15",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_17",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_19",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_21",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_23",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_25",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_27",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_29",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_31",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_33",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_35",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_37",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_39",
+    "different_fields": [
+      "instruction"
+    ],
+    "historical_trials": 5,
+    "eligible": false
+  },
+  {
+    "kind": "base",
+    "task_id": "base_41",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_43",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_45",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_47",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_49",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_51",
+    "different_fields": [
+      "instruction"
+    ],
+    "historical_trials": 5,
+    "eligible": false
+  },
+  {
+    "kind": "base",
+    "task_id": "base_53",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_55",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_57",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_59",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_61",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_63",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_65",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_67",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_69",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_71",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_73",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_75",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_77",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_79",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_81",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_83",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_85",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_87",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_89",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_91",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_93",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_95",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_97",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "base",
+    "task_id": "base_99",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_1",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_3",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_5",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_7",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_9",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_11",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_13",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_15",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_17",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_19",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_21",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_23",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_25",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_27",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_29",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_31",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_33",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_35",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_37",
+    "different_fields": [
+      "instruction"
+    ],
+    "historical_trials": 5,
+    "eligible": false
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_39",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_41",
+    "different_fields": [
+      "removed_part"
+    ],
+    "historical_trials": 5,
+    "eligible": false
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_43",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_45",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_47",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_49",
+    "different_fields": [
+      "instruction"
+    ],
+    "historical_trials": 5,
+    "eligible": false
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_51",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_53",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_55",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_57",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_59",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_61",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_63",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_65",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_67",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_69",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_71",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_73",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_75",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_77",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_79",
+    "different_fields": [
+      "removed_part"
+    ],
+    "historical_trials": 5,
+    "eligible": false
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_81",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_83",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_85",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_87",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_89",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_91",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_93",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_95",
+    "different_fields": [
+      "removed_part"
+    ],
+    "historical_trials": 5,
+    "eligible": false
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_96",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "hallucination",
+    "task_id": "hallucination_97",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_1",
+    "different_fields": [
+      "actions"
+    ],
+    "historical_trials": 5,
+    "eligible": false
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_3",
+    "different_fields": [
+      "context_init_config"
+    ],
+    "historical_trials": 5,
+    "eligible": false
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_5",
+    "different_fields": [
+      "actions"
+    ],
+    "historical_trials": 5,
+    "eligible": false
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_7",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_9",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_11",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_13",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_15",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_17",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_19",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_21",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_23",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_25",
+    "different_fields": [
+      "actions",
+      "context_init_config"
+    ],
+    "historical_trials": 5,
+    "eligible": false
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_27",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_29",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_31",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_33",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_35",
+    "different_fields": [
+      "disambiguation_element_internal",
+      "disambiguation_element_note",
+      "instruction",
+      "task_type"
+    ],
+    "historical_trials": 5,
+    "eligible": false
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_37",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_39",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_41",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_43",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_45",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_47",
+    "different_fields": [
+      "disambiguation_element_internal",
+      "disambiguation_element_note",
+      "instruction",
+      "task_type"
+    ],
+    "historical_trials": 5,
+    "eligible": false
+  },
+  {
+    "kind": "disambiguation",
+    "task_id": "disambiguation_49",
+    "different_fields": [],
+    "historical_trials": 5,
+    "eligible": true
+  }
+]

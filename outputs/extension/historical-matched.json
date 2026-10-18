@@ -1,0 +1,2024 @@
+{
+  "base": [
+    {
+      "task_id": "base_1",
+      "luna": {
+        "pass1": 0.6666666666666666,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.6,
+        "pass_at3": 1.0,
+        "pass_all3": 0.1
+      },
+      "difference": {
+        "pass1": 0.06666666666666665,
+        "pass_at3": 0.0,
+        "pass_all3": -0.1
+      }
+    },
+    {
+      "task_id": "base_3",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "base_5",
+      "luna": {
+        "pass1": 0.6666666666666666,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.8,
+        "pass_at3": 1.0,
+        "pass_all3": 0.4
+      },
+      "difference": {
+        "pass1": -0.13333333333333341,
+        "pass_at3": 0.0,
+        "pass_all3": -0.4
+      }
+    },
+    {
+      "task_id": "base_7",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "base_9",
+      "luna": {
+        "pass1": 0.3333333333333333,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "difference": {
+        "pass1": 0.3333333333333333,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "base_11",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "base_13",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "base_15",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 0.8,
+        "pass_at3": 1.0,
+        "pass_all3": 0.4
+      },
+      "difference": {
+        "pass1": 0.19999999999999996,
+        "pass_at3": 0.0,
+        "pass_all3": 0.6
+      }
+    },
+    {
+      "task_id": "base_17",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "base_19",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "base_21",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "base_23",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "base_25",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "base_27",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "base_29",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "base_31",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "base_33",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "base_35",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "base_37",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "base_41",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "base_43",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "base_45",
+      "luna": {
+        "pass1": 0.3333333333333333,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "difference": {
+        "pass1": 0.3333333333333333,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "base_47",
+      "luna": {
+        "pass1": 0.6666666666666666,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": -0.33333333333333337,
+        "pass_at3": 0.0,
+        "pass_all3": -1.0
+      }
+    },
+    {
+      "task_id": "base_49",
+      "luna": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": -1.0,
+        "pass_at3": -1.0,
+        "pass_all3": -1.0
+      }
+    },
+    {
+      "task_id": "base_53",
+      "luna": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "base_55",
+      "luna": {
+        "pass1": 0.6666666666666666,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "difference": {
+        "pass1": 0.6666666666666666,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "base_57",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "base_59",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 0.8,
+        "pass_at3": 1.0,
+        "pass_all3": 0.4
+      },
+      "difference": {
+        "pass1": 0.19999999999999996,
+        "pass_at3": 0.0,
+        "pass_all3": 0.6
+      }
+    },
+    {
+      "task_id": "base_61",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 0.8,
+        "pass_at3": 1.0,
+        "pass_all3": 0.4
+      },
+      "difference": {
+        "pass1": 0.19999999999999996,
+        "pass_at3": 0.0,
+        "pass_all3": 0.6
+      }
+    },
+    {
+      "task_id": "base_63",
+      "luna": {
+        "pass1": 0.6666666666666666,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.8,
+        "pass_at3": 1.0,
+        "pass_all3": 0.4
+      },
+      "difference": {
+        "pass1": -0.13333333333333341,
+        "pass_at3": 0.0,
+        "pass_all3": -0.4
+      }
+    },
+    {
+      "task_id": "base_65",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "base_67",
+      "luna": {
+        "pass1": 0.6666666666666666,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.8,
+        "pass_at3": 1.0,
+        "pass_all3": 0.4
+      },
+      "difference": {
+        "pass1": -0.13333333333333341,
+        "pass_at3": 0.0,
+        "pass_all3": -0.4
+      }
+    },
+    {
+      "task_id": "base_69",
+      "luna": {
+        "pass1": 0.6666666666666666,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": -0.33333333333333337,
+        "pass_at3": 0.0,
+        "pass_all3": -1.0
+      }
+    },
+    {
+      "task_id": "base_71",
+      "luna": {
+        "pass1": 0.6666666666666666,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": -0.33333333333333337,
+        "pass_at3": 0.0,
+        "pass_all3": -1.0
+      }
+    },
+    {
+      "task_id": "base_73",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "base_75",
+      "luna": {
+        "pass1": 0.6666666666666666,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": -0.33333333333333337,
+        "pass_at3": 0.0,
+        "pass_all3": -1.0
+      }
+    },
+    {
+      "task_id": "base_77",
+      "luna": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": -1.0,
+        "pass_at3": -1.0,
+        "pass_all3": -1.0
+      }
+    },
+    {
+      "task_id": "base_79",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "base_81",
+      "luna": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "base_83",
+      "luna": {
+        "pass1": 0.3333333333333333,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": -0.6666666666666667,
+        "pass_at3": 0.0,
+        "pass_all3": -1.0
+      }
+    },
+    {
+      "task_id": "base_85",
+      "luna": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.8,
+        "pass_at3": 1.0,
+        "pass_all3": 0.4
+      },
+      "difference": {
+        "pass1": -0.8,
+        "pass_at3": -1.0,
+        "pass_all3": -0.4
+      }
+    },
+    {
+      "task_id": "base_87",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "base_89",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 0.2,
+        "pass_at3": 0.6,
+        "pass_all3": 0.0
+      },
+      "difference": {
+        "pass1": 0.8,
+        "pass_at3": 0.4,
+        "pass_all3": 1.0
+      }
+    },
+    {
+      "task_id": "base_91",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 0.6,
+        "pass_at3": 1.0,
+        "pass_all3": 0.1
+      },
+      "difference": {
+        "pass1": 0.4,
+        "pass_at3": 0.0,
+        "pass_all3": 0.9
+      }
+    },
+    {
+      "task_id": "base_93",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 0.6,
+        "pass_at3": 1.0,
+        "pass_all3": 0.1
+      },
+      "difference": {
+        "pass1": 0.4,
+        "pass_at3": 0.0,
+        "pass_all3": 0.9
+      }
+    },
+    {
+      "task_id": "base_95",
+      "luna": {
+        "pass1": 0.6666666666666666,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.8,
+        "pass_at3": 1.0,
+        "pass_all3": 0.4
+      },
+      "difference": {
+        "pass1": -0.13333333333333341,
+        "pass_at3": 0.0,
+        "pass_all3": -0.4
+      }
+    },
+    {
+      "task_id": "base_97",
+      "luna": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.8,
+        "pass_at3": 1.0,
+        "pass_all3": 0.4
+      },
+      "difference": {
+        "pass1": -0.8,
+        "pass_at3": -1.0,
+        "pass_all3": -0.4
+      }
+    },
+    {
+      "task_id": "base_99",
+      "luna": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.2,
+        "pass_at3": 0.6,
+        "pass_all3": 0.0
+      },
+      "difference": {
+        "pass1": -0.2,
+        "pass_at3": -0.6,
+        "pass_all3": 0.0
+      }
+    }
+  ],
+  "hallucination": [
+    {
+      "task_id": "hallucination_1",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "hallucination_3",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "hallucination_5",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "hallucination_7",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "hallucination_9",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "hallucination_11",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "difference": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      }
+    },
+    {
+      "task_id": "hallucination_13",
+      "luna": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": -1.0,
+        "pass_at3": -1.0,
+        "pass_all3": -1.0
+      }
+    },
+    {
+      "task_id": "hallucination_15",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "hallucination_17",
+      "luna": {
+        "pass1": 0.6666666666666666,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.8,
+        "pass_at3": 1.0,
+        "pass_all3": 0.4
+      },
+      "difference": {
+        "pass1": -0.13333333333333341,
+        "pass_at3": 0.0,
+        "pass_all3": -0.4
+      }
+    },
+    {
+      "task_id": "hallucination_19",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 0.8,
+        "pass_at3": 1.0,
+        "pass_all3": 0.4
+      },
+      "difference": {
+        "pass1": 0.19999999999999996,
+        "pass_at3": 0.0,
+        "pass_all3": 0.6
+      }
+    },
+    {
+      "task_id": "hallucination_21",
+      "luna": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": -1.0,
+        "pass_at3": -1.0,
+        "pass_all3": -1.0
+      }
+    },
+    {
+      "task_id": "hallucination_23",
+      "luna": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "hallucination_25",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "hallucination_27",
+      "luna": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": -1.0,
+        "pass_at3": -1.0,
+        "pass_all3": -1.0
+      }
+    },
+    {
+      "task_id": "hallucination_29",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "hallucination_31",
+      "luna": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.4,
+        "pass_at3": 0.9,
+        "pass_all3": 0.0
+      },
+      "difference": {
+        "pass1": -0.4,
+        "pass_at3": -0.9,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "hallucination_33",
+      "luna": {
+        "pass1": 0.6666666666666666,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.6,
+        "pass_at3": 1.0,
+        "pass_all3": 0.1
+      },
+      "difference": {
+        "pass1": 0.06666666666666665,
+        "pass_at3": 0.0,
+        "pass_all3": -0.1
+      }
+    },
+    {
+      "task_id": "hallucination_35",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "hallucination_39",
+      "luna": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": -1.0,
+        "pass_at3": -1.0,
+        "pass_all3": -1.0
+      }
+    },
+    {
+      "task_id": "hallucination_43",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "hallucination_45",
+      "luna": {
+        "pass1": 0.6666666666666666,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.8,
+        "pass_at3": 1.0,
+        "pass_all3": 0.4
+      },
+      "difference": {
+        "pass1": -0.13333333333333341,
+        "pass_at3": 0.0,
+        "pass_all3": -0.4
+      }
+    },
+    {
+      "task_id": "hallucination_47",
+      "luna": {
+        "pass1": 0.6666666666666666,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": -0.33333333333333337,
+        "pass_at3": 0.0,
+        "pass_all3": -1.0
+      }
+    },
+    {
+      "task_id": "hallucination_51",
+      "luna": {
+        "pass1": 0.3333333333333333,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.4,
+        "pass_at3": 0.9,
+        "pass_all3": 0.0
+      },
+      "difference": {
+        "pass1": -0.06666666666666671,
+        "pass_at3": 0.09999999999999998,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "hallucination_53",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 0.8,
+        "pass_at3": 1.0,
+        "pass_all3": 0.4
+      },
+      "difference": {
+        "pass1": 0.19999999999999996,
+        "pass_at3": 0.0,
+        "pass_all3": 0.6
+      }
+    },
+    {
+      "task_id": "hallucination_55",
+      "luna": {
+        "pass1": 0.6666666666666666,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.6,
+        "pass_at3": 1.0,
+        "pass_all3": 0.1
+      },
+      "difference": {
+        "pass1": 0.06666666666666665,
+        "pass_at3": 0.0,
+        "pass_all3": -0.1
+      }
+    },
+    {
+      "task_id": "hallucination_57",
+      "luna": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.4,
+        "pass_at3": 0.9,
+        "pass_all3": 0.0
+      },
+      "difference": {
+        "pass1": -0.4,
+        "pass_at3": -0.9,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "hallucination_59",
+      "luna": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "hallucination_61",
+      "luna": {
+        "pass1": 0.3333333333333333,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.8,
+        "pass_at3": 1.0,
+        "pass_all3": 0.4
+      },
+      "difference": {
+        "pass1": -0.46666666666666673,
+        "pass_at3": 0.0,
+        "pass_all3": -0.4
+      }
+    },
+    {
+      "task_id": "hallucination_63",
+      "luna": {
+        "pass1": 0.6666666666666666,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": -0.33333333333333337,
+        "pass_at3": 0.0,
+        "pass_all3": -1.0
+      }
+    },
+    {
+      "task_id": "hallucination_65",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "hallucination_67",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "hallucination_69",
+      "luna": {
+        "pass1": 0.3333333333333333,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "difference": {
+        "pass1": 0.3333333333333333,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "hallucination_71",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "hallucination_73",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "hallucination_75",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "hallucination_77",
+      "luna": {
+        "pass1": 0.3333333333333333,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": -0.6666666666666667,
+        "pass_at3": 0.0,
+        "pass_all3": -1.0
+      }
+    },
+    {
+      "task_id": "hallucination_81",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "difference": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      }
+    },
+    {
+      "task_id": "hallucination_83",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "hallucination_85",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "hallucination_87",
+      "luna": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "hallucination_89",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 0.8,
+        "pass_at3": 1.0,
+        "pass_all3": 0.4
+      },
+      "difference": {
+        "pass1": 0.19999999999999996,
+        "pass_at3": 0.0,
+        "pass_all3": 0.6
+      }
+    },
+    {
+      "task_id": "hallucination_91",
+      "luna": {
+        "pass1": 0.6666666666666666,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "difference": {
+        "pass1": 0.6666666666666666,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "hallucination_93",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "hallucination_96",
+      "luna": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "hallucination_97",
+      "luna": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.6,
+        "pass_at3": 1.0,
+        "pass_all3": 0.1
+      },
+      "difference": {
+        "pass1": -0.6,
+        "pass_at3": -1.0,
+        "pass_all3": -0.1
+      }
+    }
+  ],
+  "disambiguation": [
+    {
+      "task_id": "disambiguation_7",
+      "luna": {
+        "pass1": 0.6666666666666666,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.6,
+        "pass_at3": 1.0,
+        "pass_all3": 0.1
+      },
+      "difference": {
+        "pass1": 0.06666666666666665,
+        "pass_at3": 0.0,
+        "pass_all3": -0.1
+      }
+    },
+    {
+      "task_id": "disambiguation_9",
+      "luna": {
+        "pass1": 0.6666666666666666,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.4,
+        "pass_at3": 0.9,
+        "pass_all3": 0.0
+      },
+      "difference": {
+        "pass1": 0.2666666666666666,
+        "pass_at3": 0.09999999999999998,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "disambiguation_11",
+      "luna": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.4,
+        "pass_at3": 0.9,
+        "pass_all3": 0.0
+      },
+      "difference": {
+        "pass1": -0.4,
+        "pass_at3": -0.9,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "disambiguation_13",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "disambiguation_15",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "disambiguation_17",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 0.8,
+        "pass_at3": 1.0,
+        "pass_all3": 0.4
+      },
+      "difference": {
+        "pass1": 0.19999999999999996,
+        "pass_at3": 0.0,
+        "pass_all3": 0.6
+      }
+    },
+    {
+      "task_id": "disambiguation_19",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 0.6,
+        "pass_at3": 1.0,
+        "pass_all3": 0.1
+      },
+      "difference": {
+        "pass1": 0.4,
+        "pass_at3": 0.0,
+        "pass_all3": 0.9
+      }
+    },
+    {
+      "task_id": "disambiguation_21",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "disambiguation_23",
+      "luna": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": -1.0,
+        "pass_at3": -1.0,
+        "pass_all3": -1.0
+      }
+    },
+    {
+      "task_id": "disambiguation_27",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 0.6,
+        "pass_at3": 1.0,
+        "pass_all3": 0.1
+      },
+      "difference": {
+        "pass1": 0.4,
+        "pass_at3": 0.0,
+        "pass_all3": 0.9
+      }
+    },
+    {
+      "task_id": "disambiguation_29",
+      "luna": {
+        "pass1": 0.3333333333333333,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "difference": {
+        "pass1": 0.3333333333333333,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "disambiguation_31",
+      "luna": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": -1.0,
+        "pass_at3": -1.0,
+        "pass_all3": -1.0
+      }
+    },
+    {
+      "task_id": "disambiguation_33",
+      "luna": {
+        "pass1": 0.6666666666666666,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "difference": {
+        "pass1": -0.33333333333333337,
+        "pass_at3": 0.0,
+        "pass_all3": -1.0
+      }
+    },
+    {
+      "task_id": "disambiguation_37",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 0.8,
+        "pass_at3": 1.0,
+        "pass_all3": 0.4
+      },
+      "difference": {
+        "pass1": 0.19999999999999996,
+        "pass_at3": 0.0,
+        "pass_all3": 0.6
+      }
+    },
+    {
+      "task_id": "disambiguation_39",
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5": {
+        "pass1": 0.8,
+        "pass_at3": 1.0,
+        "pass_all3": 0.4
+      },
+      "difference": {
+        "pass1": 0.19999999999999996,
+        "pass_at3": 0.0,
+        "pass_all3": 0.6
+      }
+    },
+    {
+      "task_id": "disambiguation_41",
+      "luna": {
+        "pass1": 0.6666666666666666,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.2,
+        "pass_at3": 0.6,
+        "pass_all3": 0.0
+      },
+      "difference": {
+        "pass1": 0.4666666666666666,
+        "pass_at3": 0.4,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "disambiguation_43",
+      "luna": {
+        "pass1": 0.6666666666666666,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.8,
+        "pass_at3": 1.0,
+        "pass_all3": 0.4
+      },
+      "difference": {
+        "pass1": -0.13333333333333341,
+        "pass_at3": 0.0,
+        "pass_all3": -0.4
+      }
+    },
+    {
+      "task_id": "disambiguation_45",
+      "luna": {
+        "pass1": 0.3333333333333333,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "difference": {
+        "pass1": 0.3333333333333333,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "disambiguation_49",
+      "luna": {
+        "pass1": 0.3333333333333333,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.4,
+        "pass_at3": 0.9,
+        "pass_all3": 0.0
+      },
+      "difference": {
+        "pass1": -0.06666666666666671,
+        "pass_at3": 0.09999999999999998,
+        "pass_all3": 0.0
+      }
+    }
+  ]
+}
