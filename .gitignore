@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.venv/
+work/venv/
+work/hf769/
+work/token-cache/
+outputs/*.zip
+work/tmp/*
+!work/tmp/.gitkeep

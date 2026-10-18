@@ -1,0 +1,146 @@
+[
+  {
+    "task_id": "disambiguation_1",
+    "baseline_id": "1",
+    "different_fields": [
+      "actions"
+    ]
+  },
+  {
+    "task_id": "disambiguation_3",
+    "baseline_id": "3",
+    "different_fields": [
+      "context_init_config"
+    ]
+  },
+  {
+    "task_id": "disambiguation_5",
+    "baseline_id": "5",
+    "different_fields": [
+      "actions"
+    ]
+  },
+  {
+    "task_id": "disambiguation_7",
+    "baseline_id": "7",
+    "different_fields": []
+  },
+  {
+    "task_id": "disambiguation_9",
+    "baseline_id": "9",
+    "different_fields": []
+  },
+  {
+    "task_id": "disambiguation_11",
+    "baseline_id": "11",
+    "different_fields": []
+  },
+  {
+    "task_id": "disambiguation_13",
+    "baseline_id": "13",
+    "different_fields": []
+  },
+  {
+    "task_id": "disambiguation_15",
+    "baseline_id": "15",
+    "different_fields": []
+  },
+  {
+    "task_id": "disambiguation_17",
+    "baseline_id": "17",
+    "different_fields": []
+  },
+  {
+    "task_id": "disambiguation_19",
+    "baseline_id": "19",
+    "different_fields": []
+  },
+  {
+    "task_id": "disambiguation_21",
+    "baseline_id": "21",
+    "different_fields": []
+  },
+  {
+    "task_id": "disambiguation_23",
+    "baseline_id": "23",
+    "different_fields": []
+  },
+  {
+    "task_id": "disambiguation_25",
+    "baseline_id": "25",
+    "different_fields": [
+      "actions",
+      "context_init_config"
+    ]
+  },
+  {
+    "task_id": "disambiguation_27",
+    "baseline_id": "27",
+    "different_fields": []
+  },
+  {
+    "task_id": "disambiguation_29",
+    "baseline_id": "29",
+    "different_fields": []
+  },
+  {
+    "task_id": "disambiguation_31",
+    "baseline_id": "31",
+    "different_fields": []
+  },
+  {
+    "task_id": "disambiguation_33",
+    "baseline_id": "33",
+    "different_fields": []
+  },
+  {
+    "task_id": "disambiguation_35",
+    "baseline_id": "35",
+    "different_fields": [
+      "instruction",
+      "task_type",
+      "disambiguation_element_internal",
+      "disambiguation_element_note"
+    ]
+  },
+  {
+    "task_id": "disambiguation_37",
+    "baseline_id": "37",
+    "different_fields": []
+  },
+  {
+    "task_id": "disambiguation_39",
+    "baseline_id": "39",
+    "different_fields": []
+  },
+  {
+    "task_id": "disambiguation_41",
+    "baseline_id": "41",
+    "different_fields": []
+  },
+  {
+    "task_id": "disambiguation_43",
+    "baseline_id": "43",
+    "different_fields": []
+  },
+  {
+    "task_id": "disambiguation_45",
+    "baseline_id": "45",
+    "different_fields": []
+  },
+  {
+    "task_id": "disambiguation_47",
+    "baseline_id": "47",
+    "different_fields": [
+      "instruction",
+      "task_type",
+      "disambiguation_element_internal",
+      "disambiguation_element_note"
+    ]
+  },
+  {
+    "task_id": "disambiguation_49",
+    "baseline_id": "49",
+    "different_fields": []
+  }
+]

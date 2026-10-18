@@ -1,0 +1,87 @@
+[
+    {
+      "name": "Berlin Brandenburg Airport",
+      "longitude": 13.50068,
+      "latitude": 52.36225
+    },
+    {
+      "name": "Berlin-Tegel Airport",
+      "longitude": 13.2877,
+      "latitude": 52.5597
+    },
+    {
+      "name": "Bremen Airport",
+      "longitude": 8.78667,
+      "latitude": 53.0475
+    },
+    {
+      "name": "Cologne Bonn Airport",
+      "longitude": 7.14278,
+      "latitude": 50.8659
+    },
+    {
+      "name": "Dortmund Airport",
+      "longitude": 7.61222,
+      "latitude": 51.51833
+    },
+    {
+      "name": "Dresden Airport",
+      "longitude": 13.7672,
+      "latitude": 51.1328
+    },
+    {
+      "name": "Düsseldorf Airport",
+      "longitude": 6.76667,
+      "latitude": 51.28944
+    },
+    {
+      "name": "Frankfurt am Main Airport",
+      "longitude": 8.54064,
+      "latitude": 50.03263
+    },
+    {
+      "name": "Hamburg Airport",
+      "longitude": 9.98530,
+      "latitude": 53.63375
+    },
+    {
+      "name": "Hannover Airport",
+      "longitude": 9.6851,
+      "latitude": 52.4611
+    },
+    {
+      "name": "Karlsruhe Baden-Baden Airport",
+      "longitude": 8.0805,
+      "latitude": 48.7793
+    },
+    {
+      "name": "Leipzig/Halle Airport",
+      "longitude": 12.2228,
+      "latitude": 51.4239
+    },
+    {
+      "name": "Munich Airport",
+      "longitude": 11.78610,
+      "latitude": 48.35380
+    },
+    {
+      "name": "Münster Osnabrück Airport",
+      "longitude": 7.6848,
+      "latitude": 52.1346
+    },
+    {
+      "name": "Nuremberg Airport",
+      "longitude": 11.0781,
+      "latitude": 49.4987
+    },
+    {
+      "name": "Ramstein Air Base",
+      "longitude": 7.60033,
+      "latitude": 49.43683
+    },
+    {
+      "name": "Stuttgart Airport",
+      "longitude": 9.22196,
+      "latitude": 48.68988
+    }
+  ]

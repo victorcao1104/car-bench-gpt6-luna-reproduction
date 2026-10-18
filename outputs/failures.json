@@ -1,0 +1,639 @@
+[
+  {
+    "task_id": "disambiguation_1",
+    "trial": 1,
+    "reward_details": {
+      "r_actions": 0.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "task_id": "disambiguation_1",
+    "trial": 2,
+    "reward_details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "task_id": "disambiguation_11",
+    "trial": 0,
+    "reward_details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "task_id": "disambiguation_11",
+    "trial": 1,
+    "reward_details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "task_id": "disambiguation_11",
+    "trial": 2,
+    "reward_details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "task_id": "disambiguation_23",
+    "trial": 0,
+    "reward_details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The assistant failed to present detailed information about the fastest/shortest routes, inform the user about the number of further alternatives, and ask for user preference before proceeding with the route replacement, despite multiple alternatives being available for both route segments.",
+        "The agent proactively took the fastest route for both segments and informed the user about it, as well as the absence of tolls. However, it failed to ask the user if they wanted more information on alternative routes."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "task_id": "disambiguation_23",
+    "trial": 1,
+    "reward_details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The assistant failed to provide detailed information (duration, distance) about the fastest routes it chose for both legs, as required by the policy. It only stated that it chose the fastest routes."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "task_id": "disambiguation_23",
+    "trial": 2,
+    "reward_details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The assistant failed to provide detailed information about the fastest/shortest routes for each segment, only stating that it chose them. It also did not ask the user if they wanted to start navigation for the chosen routes, as there was no prior explicit authorization to start navigation for the new route."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "task_id": "disambiguation_25",
+    "trial": 0,
+    "reward_details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "task_id": "disambiguation_25",
+    "trial": 1,
+    "reward_details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "task_id": "disambiguation_25",
+    "trial": 2,
+    "reward_details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "task_id": "disambiguation_29",
+    "trial": 0,
+    "reward_details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The assistant informed the user about the fastest route and mentioned \"other route options\" but did not specify the exact number of further route alternatives, which is required by the policy."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "task_id": "disambiguation_29",
+    "trial": 2,
+    "reward_details": {
+      "r_actions": 0.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "task_id": "disambiguation_31",
+    "trial": 0,
+    "reward_details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The assistant failed to inform the user about the number of alternative routes and ask if they wanted more information after the first route query to Munich, even though multiple alternatives were available and the user had authorized the shortest route. The policy requires stating the number of alternatives and offering more information even with prior authorization."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "task_id": "disambiguation_31",
+    "trial": 1,
+    "reward_details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The agent failed to inform the user about the number of alternative routes found when presenting the chosen shortest/fastest route for both the Milan to Munich leg and the Andorra la Vella to Milan leg. Additionally, for the Andorra la Vella to Milan leg, it did not provide detailed information about the chosen shortest route."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "task_id": "disambiguation_31",
+    "trial": 2,
+    "reward_details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The policy requires the agent to ask the user if they want more information on further route alternatives. In the second relevant interaction (changing destination to Munich), the agent presented the fastest/shortest route and stated there were 2 other alternatives, but failed to ask if the user wanted details on those alternatives."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "task_id": "disambiguation_33",
+    "trial": 2,
+    "reward_details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "task_id": "disambiguation_35",
+    "trial": 0,
+    "reward_details": {
+      "r_actions": 0.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "task_id": "disambiguation_41",
+    "trial": 2,
+    "reward_details": {
+      "r_actions": 1.0,
+      "r_actions_final": 1.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 0.0,
+      "tool_execution_errors": [
+        "SetNewNavigation_001: Navigation already active. Use editing tools or delete current navigation first."
+      ],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The agent failed to ask the user if they wanted more information on the further route alternatives, only asking if they wanted to start navigation on the fastest route, which violates the policy's requirement to offer both options."
+      ],
+      "policy_aut_errors": [
+        "SetNewNavigation_001: SetNewNavigation_001: Navigation already active. Use editing tools or delete current navigation first."
+      ],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "task_id": "disambiguation_43",
+    "trial": 0,
+    "reward_details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 0.0,
+      "tool_subset_missing_tools": [
+        "set_climate_temperature"
+      ],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "DISAMBIGUATION_ERROR",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "task_id": "disambiguation_45",
+    "trial": 1,
+    "reward_details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The assistant failed to inform the user about the shortest route, only providing details for the fastest route, despite the fastest and shortest routes being different. The policy explicitly requires presenting both the fastest and shortest routes."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "task_id": "disambiguation_45",
+    "trial": 2,
+    "reward_details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The agent failed to provide detailed information about both the fastest and shortest routes. It only mentioned setting the fastest route without details and completely omitted the shortest route, violating the policy's requirement to present both in detail."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "task_id": "disambiguation_47",
+    "trial": 0,
+    "reward_details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 0.0,
+      "tool_subset_missing_tools": [
+        "set_new_navigation",
+        "calculate_charging_time_by_soc"
+      ],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The agent failed to inform the user about the number of further route alternatives beyond the fastest and shortest, and did not ask if the user wanted more information on these additional routes, as required by the policy."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "DISAMBIGUATION_ERROR",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "task_id": "disambiguation_47",
+    "trial": 1,
+    "reward_details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 0.0,
+      "tool_subset_missing_tools": [
+        "search_poi_at_location",
+        "calculate_charging_time_by_soc",
+        "set_new_navigation"
+      ],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The agent failed to inform the user about the number of further route alternatives and did not ask if the user wanted more information on those alternatives, as required by the policy."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "OUT_OF_SCOPE",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "task_id": "disambiguation_47",
+    "trial": 2,
+    "reward_details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 0.0,
+      "tool_subset_missing_tools": [
+        "set_new_navigation",
+        "calculate_charging_time_by_soc"
+      ],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The assistant asked for redundant navigation confirmation ('Which route should I start: fastest or shortest?') despite prior user authorization ('Navigate to Hamburg'). It also failed to ask if the user wanted more information on the further route alternatives."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "DISAMBIGUATION_ERROR",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "task_id": "disambiguation_49",
+    "trial": 1,
+    "reward_details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 0.0,
+      "tool_subset_missing_tools": [
+        "call_phone_by_number"
+      ],
+      "r_tool_execution": 0.0,
+      "tool_execution_errors": [
+        "SetNewNavigation_001: Navigation already active. Use editing tools or delete current navigation first."
+      ],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The assistant failed to inform the user about the number of further route alternatives when presenting the shortest route to Barcelona, which violates policy point 7, even with prior user authorization to set the route.",
+        "The agent did not proactively take the fastest route when the user asked for multiple route options without specifying a selection. Instead, it asked the user for confirmation before setting the route."
+      ],
+      "policy_aut_errors": [
+        "SetNewNavigation_001: SetNewNavigation_001: Navigation already active. Use editing tools or delete current navigation first."
+      ],
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "DISAMBIGUATION_ERROR",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "task_id": "disambiguation_49",
+    "trial": 2,
+    "reward_details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 0.0,
+      "policy_llm_errors": [
+        "The user asked for multiple route options without specifying a preference. The agent identified the fastest route but did not proactively set it; instead, it asked the user for confirmation before setting the route. The policy requires proactively taking the fastest route."
+      ],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "task_id": "disambiguation_7",
+    "trial": 1,
+    "reward_details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 0.0,
+      "r_tool_subset": 1.0,
+      "tool_subset_missing_tools": [],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 1.0,
+      "end_conversation_keyword": null,
+      "r_outputs": null,
+      "outputs": {}
+    }
+  },
+  {
+    "task_id": "disambiguation_9",
+    "trial": 1,
+    "reward_details": {
+      "r_actions": 0.0,
+      "r_actions_final": 0.0,
+      "r_actions_intermediate": 1.0,
+      "r_tool_subset": 0.0,
+      "tool_subset_missing_tools": [
+        "set_head_lights_high_beams",
+        "get_exterior_lights_status"
+      ],
+      "r_tool_execution": 1.0,
+      "tool_execution_errors": [],
+      "r_policy": 1.0,
+      "policy_llm_errors": [],
+      "policy_aut_errors": [],
+      "r_user_end_conversation": 0.0,
+      "end_conversation_keyword": "DISAMBIGUATION_ERROR",
+      "r_outputs": null,
+      "outputs": {}
+    }
+  }
+]

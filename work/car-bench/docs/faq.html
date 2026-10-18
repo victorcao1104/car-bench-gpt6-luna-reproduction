@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - CAR-bench Challenge @ IJCAI-ECAI 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css?v=20260519-registration">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="topbar">
+    <div class="container">
+        <a href="index.html" class="brand">
+            <span class="brand-mark">CB</span>
+            <span>CAR-bench <span class="brand-sub">Challenge</span></span>
+        </a>
+        <button class="mobile-toggle" onclick="toggleNav()" aria-label="Toggle menu">&#9776;</button>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="leaderboard.html">Results</a></li>
+            <li><a href="tracks.html">Tracks</a></li>
+            <li><a href="data.html">Data &amp; Starter Kit</a></li>
+            <li><a href="rules.html">Rules</a></li>
+            <li><a href="benchmark.html">Benchmark</a></li>
+            <li><a href="organizers.html">Organizers</a></li>
+        </ul>
+        <div class="nav-actions">
+            <a href="https://discord.gg/SJnVC2wuW" target="_blank" class="discord-icon" title="Join our Discord" aria-label="Discord">
+                <svg width="20" height="15" viewBox="0 0 71 55" fill="none"><path d="M60.1 4.9A58.5 58.5 0 0045.4.2a.2.2 0 00-.2.1 40.8 40.8 0 00-1.8 3.7 54 54 0 00-16.2 0A26.5 26.5 0 0025.4.3a.2.2 0 00-.2-.1A58.4 58.4 0 0010.5 4.9a.2.2 0 00-.1.1C1.5 18.7-.9 32.2.3 45.5v.1a58.7 58.7 0 0017.7 9a.2.2 0 00.3-.1 42 42 0 003.6-5.9.2.2 0 00-.1-.3 38.6 38.6 0 01-5.5-2.7.2.2 0 01 0-.4c.4-.3.7-.6 1.1-.8a.2.2 0 01.2 0c11.6 5.3 24.1 5.3 35.5 0a.2.2 0 01.2 0l1.1.9a.2.2 0 010 .3c-1.8 1-3.6 1.9-5.5 2.7a.2.2 0 00-.1.3 47.2 47.2 0 003.6 5.9.2.2 0 00.3.1A58.5 58.5 0 0070.4 45.6v-.1c1.4-15-2.3-28-9.8-39.6a.2.2 0 00-.1-.1zM23.7 37.3c-3.4 0-6.2-3.1-6.2-7s2.7-7 6.2-7 6.3 3.2 6.2 7-2.8 7-6.2 7zm23 0c-3.4 0-6.2-3.1-6.2-7s2.7-7 6.2-7 6.3 3.2 6.2 7-2.8 7-6.2 7z" fill="currentColor"/></svg>
+            </a>
+        </div>
+    </div>
+</nav>
+
+<!-- Page header -->
+<div class="page-header">
+    <div class="container">
+        <h1>Frequently Asked Questions</h1>
+        <p>Can&rsquo;t find your answer? Reach us at <a href="mailto:johannes1.kirmayr@uni-a.de" style="color:var(--color-cta);">johannes1.kirmayr@uni-a.de</a> or on <a href="https://discord.gg/SJnVC2wuW" target="_blank" style="color:var(--color-cta);">Discord</a>.</p>
+    </div>
+</div>
+
+<section>
+    <div class="container">
+        <div class="faq-list">
+
+            <!-- General -->
+            <details class="faq-item">
+                <summary class="faq-q">Is any LLM allowed, or are there restrictions on proprietary vs open-source?</summary>
+                <div class="faq-a">
+                    <p>In the <strong>Open Track</strong>, any LLM was allowed - proprietary, open-source, and any size. In the <strong>Cerebras Fast-Reasoning Track</strong>, submitted agents used direct Cerebras-hosted <code>gpt-oss</code> inference through the starter kit. Larger closed-source models could be used for internal planner, verifier, or condenser steps if the complete agent stayed within the Track 2 inference-compute constraints.</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary class="faq-q">What happens if my agent hangs during evaluation?</summary>
+                <div class="faq-a">
+                    <p>If your agent does not respond within the evaluator timeout, that trial is scored as a failure and evaluation continues with remaining tasks. Track 2 also has inference-compute constraints: up to 5 sequential LLM calls per baseline LLM step and token usage up to 500k input, reasoning, and output tokens on average per task.</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary class="faq-q">How is the hidden test set protected?</summary>
+                <div class="faq-a">
+                    <p>The hidden test set is a completely novel set that is never shared with participants. Evaluation runs in a controlled environment. Agents cannot observe or extract test set tasks. Any attempt to probe the test set is a rule violation resulting in disqualification.</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary class="faq-q">Will the test set be released after the competition?</summary>
+                <div class="faq-a">
+                    <p>Post-competition release will be decided and announced separately. The public train and validation splits are available under the MIT License.</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary class="faq-q">What counts as &ldquo;hard-coding&rdquo; vs &ldquo;clever prompting&rdquo;?</summary>
+                <div class="faq-a">
+                    <p><strong>Hard-coding</strong> means encoding specific task answers or building lookup tables that map task descriptions to pre-determined solutions. This is prohibited. <strong>Clever prompting</strong> means crafting system prompts, few-shot examples, or reasoning strategies that help the agent generalize - this is encouraged. The litmus test: would your approach work on novel tasks it hasn&rsquo;t seen? If yes, it&rsquo;s prompting. If it only works on tasks whose answers you&rsquo;ve memorized, it&rsquo;s hard-coding.</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary class="faq-q">Can I use retrieval / RAG over the environment data?</summary>
+                <div class="faq-a">
+                    <p>Yes. Retrieval-augmented generation over the environment data (tools, policies, world data) is explicitly allowed and encouraged as a research direction.</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary class="faq-q">Can I use the training data for fine-tuning?</summary>
+                <div class="faq-a">
+                    <p>Yes. You may fine-tune on the provided training data using any method (SFT, RLHF, DPO, etc.). You may also use the public validation split for model and harness selection. The public data is released under the MIT License.</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary class="faq-q">Will technical reports be published? Where?</summary>
+                <div class="faq-a">
+                    <p>Submitted technical reports are available through the <a href="leaderboard.html#explore">results explorer</a>. The requirements used for those reports remain in the <a href="submission.html">submission archive</a>.</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary class="faq-q">How does the A2A protocol work?</summary>
+                <div class="faq-a">
+                    <p>The A2A (Agent-to-Agent) protocol is the structured communication format between the CAR-bench evaluator and your agent under test. Your agent receives user messages, tool definitions, and tool results. It sends back user-facing responses and/or tool calls. The evaluator is the only component that executes CAR-bench tools and computes scores. See the <a href="data.html">Data &amp; Starter Kit</a> page for the quickstart.</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary class="faq-q">What are scenario TOML files?</summary>
+                <div class="faq-a">
+                    <p>Scenario TOML files are run configs. They specify which evaluator and agent to start or pull, which task split to run, how many tasks and trials to execute, and which environment variables, Docker images, or GHCR images to use. Start with <code>local_smoke.toml</code>, then move to Docker and GHCR scenarios when reproducing the packaged competition setup.</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary class="faq-q">What artifacts were submitted?</summary>
+                <div class="faq-a">
+                    <p>Teams provided a public digest-pinned GHCR agent image, a <code>scenario.toml</code> configuration using the official evaluator and hidden-set settings, required environment-variable names without secret values, and a technical report. See the <a href="submission.html">submission archive</a> for the complete requirements.</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary class="faq-q">How are awards judged?</summary>
+                <div class="faq-a">
+                    <p>Track 1 had a Rank Award decided solely by hidden-set Pass^3 and an Innovation Award judged on real-world deployment criteria such as cost, latency, methods, and performance relative to the LLM models used. Track 2 had a Cerebras Award focused on compute-time-aware faster-inference methods, latency, and performance. See the <a href="leaderboard.html#awards">award winners</a> and the <a href="submission.html">archived criteria</a>.</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary class="faq-q">How does Track 2 use Cerebras during development?</summary>
+                <div class="faq-a">
+                    <p>The Track 2 reference agents call Cerebras-hosted <code>gpt-oss</code> directly through the Cerebras SDK or direct API. Cerebras accounts can have strict limits, so use task scheduling or waiting between longer runs. Competition teams could self-host the open-source executor models during development before testing the speed gain on Cerebras-hosted inference.</p>
+                </div>
+            </details>
+
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="section-alt" style="text-align:center;">
+    <div class="container">
+        <h2 class="section-title">Still Have Questions?</h2>
+        <p class="section-subtitle">Join the Discord for real-time help, or email us directly.</p>
+        <div class="hero-buttons">
+            <a href="https://discord.gg/SJnVC2wuW" target="_blank" class="btn btn-primary btn-lg" style="background:var(--color-discord);">Join Discord</a>
+            <a href="mailto:johannes1.kirmayr@uni-a.de" class="btn btn-outline btn-lg">Email Us</a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <p class="footer-about"><strong>CAR-bench Challenge</strong> @ IJCAI-ECAI 2026, Bremen, Germany. Building reliable LLM agents under real-world uncertainty.</p>
+                <p class="footer-contact">Join <a href="https://discord.gg/SJnVC2wuW" target="_blank">Discord</a> for questions. For personal inquiries: <a href="mailto:johannes1.kirmayr@uni-a.de">johannes1.kirmayr@uni-a.de</a></p>
+            </div>
+            <div class="footer-col">
+                <h4>Competition</h4>
+                <ul>
+                    <li><a href="tracks.html">Tracks</a></li>
+                    <li><a href="data.html">Data &amp; Starter Kit</a></li>
+                    <li><a href="leaderboard.html">Results</a></li>
+                    <li><a href="rules.html">Rules</a></li>
+        
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="https://aclanthology.org/2026.acl-long.1886/" target="_blank">Paper</a></li>
+                    <li><a href="https://github.com/CAR-bench/car-bench-ijcai" target="_blank">GitHub</a></li>
+                    <li><a href="https://huggingface.co/datasets/johanneskirmayr/car-bench-dataset" target="_blank">Dataset (HF)</a></li>
+                    <li><a href="benchmark.html">Benchmark Details</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="organizers.html">Organizers</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Community</h4>
+                <ul>
+                    <li><a href="https://discord.gg/SJnVC2wuW" target="_blank">Discord</a></li>
+                    <li><a href="https://github.com/CAR-bench/car-bench-ijcai" target="_blank">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; 2026 CAR-bench. Released under the <a href="https://github.com/CAR-bench/car-bench-ijcai/blob/main/LICENSE">MIT License</a>.</span>
+            <div class="footer-bottom-links">
+                <a href="organizers.html#contact">Contact</a>
+                <a href="disclaimer.html">Disclaimer</a>
+                <a href="privacy.html">Privacy</a>
+                <a href="#imprint" onclick="document.getElementById('imprint').style.display=document.getElementById('imprint').style.display==='block'?'none':'block';return false;">Imprint</a>
+            </div>
+        </div>
+        <div id="imprint" style="display:none;text-align:left;margin-top:1rem;padding-top:1rem;border-top:1px solid var(--color-border);font-size:0.82rem;color:var(--color-text-light);line-height:1.6;">
+            <strong>Imprint (&sect; 5 TMG)</strong><br>
+            Johannes Kirmayr M.Sc.<br>
+            Chair for Human-Centered Artificial Intelligence<br>
+            Universit&auml;tsstra&szlig;e 6a, 86159 Augsburg, Germany<br>
+            Email: <a href="mailto:johannes1.kirmayr@uni-a.de">johannes1.kirmayr@uni-a.de</a>
+        </div>
+    </div>
+</footer>
+
+<script src="assets/js/main.js?v=20260519-registration"></script>
+</body>
+</html>

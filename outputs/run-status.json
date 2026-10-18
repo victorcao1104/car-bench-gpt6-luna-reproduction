@@ -1,0 +1,9 @@
+{
+  "completed_trials": 75,
+  "infrastructure_retries": 1,
+  "task_id": "disambiguation_47",
+  "trial": 1,
+  "reason": "Transient Windows ledger rename denial, not an agent failure",
+  "replacement_reward": 0.0,
+  "model_or_prompt_changes": false
+}
