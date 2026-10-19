@@ -6,15 +6,15 @@
       "primary_trials": 150,
       "valid_trials_all": 341,
       "scores": {
-        "pass1": 0.7333333333333333,
+        "pass1": 0.76,
         "pass_at3": 0.84,
         "pass_all3": 0.58,
         "gap": 0.26
       },
       "bootstrap_95ci": {
         "pass1": [
-          0.6266666666666666,
-          0.8333333333333333
+          0.64,
+          0.88
         ],
         "pass_at3": [
           0.74,
@@ -65,32 +65,32 @@
       },
       "matched": {
         "luna": {
-          "pass1": 0.7430555555555555,
+          "pass1": 0.7708333333333334,
           "pass_at3": 0.8541666666666666,
           "pass_all3": 0.5833333333333334
         },
         "gpt5": {
-          "pass1": 0.7999999999999999,
-          "pass_at3": 0.8791666666666668,
-          "pass_all3": 0.6854166666666667
+          "pass1": 0.7708333333333334,
+          "pass_at3": 0.875,
+          "pass_all3": 0.6666666666666666
         },
         "difference": {
-          "pass1": -0.056944444444444464,
-          "pass_at3": -0.024999999999999998,
-          "pass_all3": -0.10208333333333335
+          "pass1": 0.0,
+          "pass_at3": -0.020833333333333332,
+          "pass_all3": -0.08333333333333333
         },
         "difference_bootstrap_95ci": {
           "pass1": [
-            -0.15833333333333335,
-            0.03888888888888888
+            -0.16666666666666666,
+            0.16666666666666666
           ],
           "pass_at3": [
-            -0.13333333333333333,
-            0.08750000000000001
+            -0.14583333333333334,
+            0.10416666666666667
           ],
           "pass_all3": [
-            -0.24166666666666667,
-            0.03125
+            -0.22916666666666666,
+            0.0625
           ]
         }
       },
@@ -164,15 +164,15 @@
       "primary_trials": 150,
       "valid_trials_all": 343,
       "scores": {
-        "pass1": 0.6533333333333333,
+        "pass1": 0.66,
         "pass_at3": 0.78,
         "pass_all3": 0.5,
         "gap": 0.28
       },
       "bootstrap_95ci": {
         "pass1": [
-          0.5333333333333333,
-          0.7666666666666667
+          0.52,
+          0.78
         ],
         "pass_at3": [
           0.66,
@@ -224,27 +224,27 @@
           "pass_all3": 0.5111111111111111
         },
         "gpt5": {
-          "pass1": 0.7288888888888888,
-          "pass_at3": 0.8155555555555556,
-          "pass_all3": 0.6155555555555555
+          "pass1": 0.7333333333333333,
+          "pass_at3": 0.8222222222222222,
+          "pass_all3": 0.6
         },
         "difference": {
-          "pass1": -0.08444444444444446,
-          "pass_at3": -0.060000000000000005,
-          "pass_all3": -0.10444444444444445
+          "pass1": -0.08888888888888889,
+          "pass_at3": -0.06666666666666667,
+          "pass_all3": -0.08888888888888889
         },
         "difference_bootstrap_95ci": {
           "pass1": [
-            -0.20740740740740743,
-            0.03999999999999999
+            -0.24444444444444444,
+            0.06666666666666667
           ],
           "pass_at3": [
-            -0.20222222222222222,
-            0.07555555555555556
+            -0.2222222222222222,
+            0.06666666666666667
           ],
           "pass_all3": [
             -0.24444444444444444,
-            0.033333333333333326
+            0.044444444444444446
           ]
         }
       },
@@ -318,15 +318,15 @@
       "primary_trials": 75,
       "valid_trials_all": 150,
       "scores": {
-        "pass1": 0.6133333333333333,
+        "pass1": 0.68,
         "pass_at3": 0.8,
         "pass_all3": 0.4,
         "gap": 0.4
       },
       "bootstrap_95ci": {
         "pass1": [
-          0.4666666666666666,
-          0.76
+          0.48,
+          0.84
         ],
         "pass_at3": [
           0.64,
@@ -378,32 +378,32 @@
       },
       "matched": {
         "luna": {
-          "pass1": 0.6491228070175439,
+          "pass1": 0.7368421052631579,
           "pass_at3": 0.8421052631578947,
           "pass_all3": 0.42105263157894735
         },
         "gpt5": {
-          "pass1": 0.6526315789473685,
-          "pass_at3": 0.8578947368421053,
-          "pass_all3": 0.41578947368421054
+          "pass1": 0.5789473684210527,
+          "pass_at3": 0.7894736842105263,
+          "pass_all3": 0.47368421052631576
         },
         "difference": {
-          "pass1": -0.003508771929824584,
-          "pass_at3": -0.01578947368421053,
-          "pass_all3": 0.005263157894736839
+          "pass1": 0.15789473684210525,
+          "pass_at3": 0.05263157894736842,
+          "pass_all3": -0.05263157894736842
         },
         "difference_bootstrap_95ci": {
           "pass1": [
-            -0.20701754385964913,
-            0.16491228070175437
+            -0.10526315789473684,
+            0.42105263157894735
           ],
           "pass_at3": [
-            -0.25263157894736843,
-            0.21052631578947367
+            -0.15789473684210525,
+            0.2631578947368421
           ],
           "pass_all3": [
-            -0.2473684210526316,
-            0.2421052631578947
+            -0.3157894736842105,
+            0.21052631578947367
           ]
         }
       },
@@ -682,5 +682,12 @@
       "reason": "User stopped seventh round; subsequent authorization only supplements Disambiguation to six total rounds"
     }
   ],
-  "note": "First 3 repetitions are primary. Matched historical estimates average all triplets of original repeats. No causal model improvement claim."
+  "primary_trial_ids": [
+    0,
+    1,
+    2
+  ],
+  "primary_method": "Both models: Pass@1=trial 0 success; Pass@3=any success in trials 0,1,2; Pass^3=all three successful. Matches author analyze_results.py and analyze_results_v2.py.",
+  "supplementary_method": "Luna six-run and historical GPT-5 five-run combination estimates only. Supplementary pass1 means average per-run success, not primary first-trial Pass@1.",
+  "note": "Offline recalculation only. No API calls. Original task matching cohort retained. No causal model improvement claim."
 }

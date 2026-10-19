@@ -11,7 +11,7 @@ assert s['unfinished_api_calls']==0,'Run still in progress'
 assert s['n_tasks']==25,'Expected all 25 test tasks'
 pct=lambda x:f'{100*x:.1f}%'
 interval=lambda a:f'{pct(a[0])}–{pct(a[1])}'
-labels={'pass1':'Pass@1：单次成功率','pass_at3':'Pass@3：三次至少成功一次','pass_all3':'Pass^3：三次全部成功','gap':'一致性差距：Pass@3 − Pass^3'}
+labels={'pass1':'Pass@1：第一轮成功率','pass_at3':'Pass@3：三次至少成功一次','pass_all3':'Pass^3：三次全部成功','gap':'一致性差距：Pass@3 − Pass^3'}
 score_rows=''.join(f'<tr><td>{v}</td><td>{pct(s["scores"][k])}</td><td>{interval(s["wilson_95ci"].get(k,s["task_bootstrap_95ci"][k]))}</td></tr>' for k,v in labels.items())
 subgroup_rows=''.join(f'<tr><td>{label}</td><td>{s["subgroups"][key]["n_tasks"]}</td><td>{pct(s["subgroups"][key]["pass_at3"])}</td><td>{pct(s["subgroups"][key]["pass_all3"])}</td></tr>' for key,label in [('internal','查询环境/偏好自行消歧'),('user','向用户询问消歧')])
 c=s['cost_usd'];matched=s.get('historical_matched_tasks',{})
@@ -25,7 +25,7 @@ case_section=f'''<h2>失败类型与原始案例</h2><p>下表按单次试验统
 <p class="note">这些案例是轨迹抽查，不是全量人工重标注。模拟用户本身也可能偏离脚本：例如 disambiguation_29 的脚本要求 agent 主动选路时结束对话，但该轮用户继续询问路线。保留官方评分，不人为修正分数；这也是解释结果时的限制。</p>'''
 if matched:
     comp_rows=''.join(f'<tr><td>{labels[k]}</td><td>{pct(matched["luna"][k])}</td><td>{pct(matched["gpt5"][k])}</td><td>{100*matched["difference"][k]:+.1f} 个百分点</td></tr>' for k in ['pass1','pass_at3','pass_all3'])
-    comparison=f'<h2>历史同题参考：{matched["n"]} 题</h2><p>仅保留任务定义完全一致且历史记录无运行错误的题目。GPT-5 每题有 5 次历史试验，这里对全部 10 种三次组合求平均，计算与三次实验对应的指标。</p><table><tr><th>指标</th><th>Luna 本次</th><th>GPT-5 历史</th><th>差值</th></tr>{comp_rows}</table><p>这是历史参考，不是控制实验：代码、评分器版本、服务端模型及运行时间不同。即使任务定义一致，也不能把差值完全归因于 agent 模型升级。</p>'
+    comparison=f'<h2>历史同题参考：{matched["n"]} 题</h2><p>仅保留任务定义完全一致且历史记录无运行错误的题目。双方均仅使用 trial ID 0、1、2；Pass@1 只看 trial 0，Pass@3 看前三轮是否至少成功一次，Pass^3 看是否全部成功。</p><table><tr><th>指标</th><th>Luna 本次</th><th>GPT-5 历史</th><th>差值</th></tr>{comp_rows}</table><p>这是历史参考，不是控制实验：代码、评分器版本、服务端模型及运行时间不同。即使任务定义一致，也不能把差值完全归因于 agent 模型升级。</p>'
     lo,hi=matched['difference_bootstrap_95ci']['pass_all3']
     comparison+=f'<p>三次全成功率差值的配对题目 bootstrap 95% 区间：{100*lo:+.1f} 至 {100*hi:+.1f} 个百分点。'+('区间包含零，当前样本不足以支持稳定提升的结论。' if lo<=0<=hi else '该区间仅描述当前样本的不确定性，不能消除历史比较的混杂因素。')+'</p>'
 dist=s['success_distribution']
@@ -44,11 +44,11 @@ conclusion=f'本次 {s["n_tasks"]} 题、{s["n_trials"]} 次试验中，{dist.ge
 claims=[f'一致性：本次差距为 {100*s["scores"]["gap"]:.1f} 个百分点。差距必须与成功率一起解读，稳定失败不等于可靠。',
         f'消歧可靠性：本次 Pass^3 为 {pct(s["scores"]["pass_all3"])}，95% Wilson 区间为 {interval(s["wilson_95ci"]["pass_all3"])}。论文 GPT-5 的 36% / 68%（Pass^3 / Pass@3）来自不同的原始评测范围，不能直接作为同样本显著性检验。',
         '推理的因果效果：未设置 Luna reasoning=none 对照，不能据此判断开启推理带来多少提升。',
-        '幻觉与 Base 任务：本次未测，不能把 Disambiguation 的结果推广到论文其他结论。']
+        '此页仅为首批消歧子报告；Base 和 Hallucination 的结果已纳入完整三类任务报告。']
 text=f'''<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>CAR-bench 一致性复现实验</title>
 <style>body{{font:16px/1.7 system-ui,"Microsoft YaHei",sans-serif;color:#22313a;max-width:1000px;margin:40px auto;padding:0 24px}}h1{{font-size:28px}}h2{{font-size:21px;margin-top:32px}}table{{border-collapse:collapse;width:100%;font-size:15px}}td,th{{padding:10px;border-bottom:1px solid #dce3e6;text-align:left}}th{{background:#edf3f2}}.lead{{padding:18px;background:#eaf4f0;border-left:4px solid #237c67}}.note{{color:#58666d}}img{{width:100%;max-width:760px}}code{{overflow-wrap:anywhere}}</style>
 <h1>CAR-bench：GPT-6 Luna 消歧一致性实验</h1><p class="note">2026-10-19 · 原题 / 原工具环境 / 原评分逻辑 · 当前官方 test split</p>
-<p class="lead">{conclusion}</p>
+<p class="lead">{conclusion}</p><p>本页已按作者前三轮算法修正。完整三类任务结果及六轮补充分析见 <a href="extension/comparison-report.html">完整报告</a>。下方费用仅为首批消歧实验费用，累计费用请看完整报告。</p>
 <p class="note">运行审计：有 {s['infrastructure_retries']} 轮因本地费用账本文件锁中断，仅补跑该轮，未修改模型、题目或提示词。原始错误与替代轨迹保留在 infrastructure-errors；费用包含中断前已发生的调用。</p>
 <h2>主要结果</h2><table><tr><th>指标</th><th>结果</th><th>95% 区间</th></tr>{score_rows}</table>
 <p class="note">Pass@3 与 Pass^3 的区间采用题目层面的 Wilson 区间；其他区间采用题目重采样 10,000 次。区间不涵盖模拟用户和评分器系统误差，也不代表整个真实世界任务分布。</p>
@@ -76,9 +76,4 @@ The local Gemini guard controls only calls made through this runner, not unrelat
 This is a current-code replication with a Responses API adapter, not an exact historical code reproduction.
 '''
 (OUT/'README.txt').write_text(readme,encoding='utf-8')
-with zipfile.ZipFile(OUT/'car-bench-reproduction.zip','w',zipfile.ZIP_DEFLATED) as z:
-    for f in OUT.rglob('*'):
-        if f.is_file() and f.suffix!='.zip':z.write(f,'outputs/'+str(f.relative_to(OUT)))
-    for name in ['experiment.py','budget.py','test_budget.py','analyze_experiment.py','build_report.py','repair_infrastructure_trial.py','dependency-versions.txt']:
-        z.write(ROOT/'work'/name,'work/'+name)
-print('Report and reproducibility bundle generated.')
+print('Corrected initial disambiguation subreport generated.')

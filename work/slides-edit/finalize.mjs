@@ -1,0 +1,9 @@
+import path from 'node:path';import fs from 'node:fs/promises';import crypto from 'node:crypto';
+import {finalizePresentation} from 'file:///C:/Users/victo/.codex/plugins/cache/openai-primary-runtime/presentations/26.1015.12040/skills/presentations/container_tools/artifact_tool_utils.mjs';
+// Windows sandbox disallows hard links. Exclusive copy preserves no-overwrite publication; finalizer still verifies identical hashes.
+const nativeLink=fs.link.bind(fs);fs.link=async(a,b)=>{try{return await nativeLink(a,b);}catch(e){if(e.code!=='EPERM')throw e;return fs.copyFile(a,b,1);}};
+const root=process.cwd(), skill='C:/Users/victo/.codex/plugins/cache/openai-primary-runtime/presentations/26.1015.12040/skills/presentations';
+const source='C:/Users/victo/Downloads/CAR_bench_presentation_FIXED_backup.pptx';
+const result=await finalizePresentation({workspaceDir:root,candidatePath:path.join(root,'work/slides-edit/portable.pptx'),finalPath:path.join(root,'outputs/CAR_bench_presentation_corrected_first3.pptx'),pythonExecutable:'C:/Users/victo/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe',integrityValidatorPath:path.join(skill,'container_tools/inspect_presentation_package_integrity.py'),layoutValidatorPath:path.join(skill,'container_tools/inspect_presentation_layout_geometry.py'),layoutArgs:['--expected-slide-size-emu','12192000,6858000','--validate-bullet-geometry','--validate-heading-fit','--require-native-table-slide','20','--require-native-table-slide','25'],explicitTotalSlideCount:25,requiredNativeTableOwnerSlides:[20,25],requiredNativeChartOwnerSlides:[21,22],materializeLiteralChartWorkbooks:false,fontPolicy:{basis:'reference',families:['Aptos'],referencePath:source,referenceSha256:crypto.createHash('sha256').update(await fs.readFile(source)).digest('hex')},verifyArtifactToolImport:true,receiptPath:path.join(root,'work/slides-edit/corrected-validation.json')});console.log(JSON.stringify(result));process.exit(0);
+
+

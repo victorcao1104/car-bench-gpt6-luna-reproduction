@@ -2,30 +2,50 @@
   "base": [
     {
       "task_id": "base_1",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
-        "pass1": 0.6666666666666666,
+        "pass1": 0.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.6,
         "pass_at3": 1.0,
         "pass_all3": 0.1
       },
       "difference": {
-        "pass1": 0.06666666666666665,
+        "pass1": -1.0,
         "pass_at3": 0.0,
-        "pass_all3": -0.1
+        "pass_all3": 0.0
       }
     },
     {
       "task_id": "base_3",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -38,30 +58,50 @@
     },
     {
       "task_id": "base_5",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
-        "pass1": 0.6666666666666666,
+        "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.8,
         "pass_at3": 1.0,
         "pass_all3": 0.4
       },
       "difference": {
-        "pass1": -0.13333333333333341,
+        "pass1": 1.0,
         "pass_at3": 0.0,
-        "pass_all3": -0.4
+        "pass_all3": 0.0
       }
     },
     {
       "task_id": "base_7",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -74,8 +114,13 @@
     },
     {
       "task_id": "base_9",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
-        "pass1": 0.3333333333333333,
+        "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       },
@@ -84,20 +129,35 @@
         "pass_at3": 0.0,
         "pass_all3": 0.0
       },
+      "gpt5_combinatorial_supplement": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
       "difference": {
-        "pass1": 0.3333333333333333,
+        "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       }
     },
     {
       "task_id": "base_11",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -110,12 +170,22 @@
     },
     {
       "task_id": "base_13",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -128,30 +198,50 @@
     },
     {
       "task_id": "base_15",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.8,
         "pass_at3": 1.0,
         "pass_all3": 0.4
       },
       "difference": {
-        "pass1": 0.19999999999999996,
+        "pass1": 1.0,
         "pass_at3": 0.0,
-        "pass_all3": 0.6
+        "pass_all3": 1.0
       }
     },
     {
       "task_id": "base_17",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -164,12 +254,22 @@
     },
     {
       "task_id": "base_19",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -182,12 +282,22 @@
     },
     {
       "task_id": "base_21",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -200,12 +310,22 @@
     },
     {
       "task_id": "base_23",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -218,12 +338,22 @@
     },
     {
       "task_id": "base_25",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -236,12 +366,22 @@
     },
     {
       "task_id": "base_27",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -254,12 +394,22 @@
     },
     {
       "task_id": "base_29",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -272,12 +422,22 @@
     },
     {
       "task_id": "base_31",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -290,12 +450,22 @@
     },
     {
       "task_id": "base_33",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -308,12 +478,22 @@
     },
     {
       "task_id": "base_35",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -326,12 +506,22 @@
     },
     {
       "task_id": "base_37",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -344,12 +534,22 @@
     },
     {
       "task_id": "base_41",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -362,12 +562,22 @@
     },
     {
       "task_id": "base_43",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -380,8 +590,13 @@
     },
     {
       "task_id": "base_45",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
-        "pass1": 0.3333333333333333,
+        "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       },
@@ -390,16 +605,26 @@
         "pass_at3": 0.0,
         "pass_all3": 0.0
       },
+      "gpt5_combinatorial_supplement": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
       "difference": {
-        "pass1": 0.3333333333333333,
+        "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       }
     },
     {
       "task_id": "base_47",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
-        "pass1": 0.6666666666666666,
+        "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       },
@@ -408,20 +633,35 @@
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
+      "gpt5_combinatorial_supplement": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
       "difference": {
-        "pass1": -0.33333333333333337,
+        "pass1": 0.0,
         "pass_at3": 0.0,
         "pass_all3": -1.0
       }
     },
     {
       "task_id": "base_49",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 0.0,
         "pass_at3": 0.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -434,12 +674,22 @@
     },
     {
       "task_id": "base_53",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 0.0,
         "pass_at3": 0.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.0,
         "pass_at3": 0.0,
         "pass_all3": 0.0
@@ -452,8 +702,13 @@
     },
     {
       "task_id": "base_55",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
-        "pass1": 0.6666666666666666,
+        "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       },
@@ -462,20 +717,35 @@
         "pass_at3": 0.0,
         "pass_all3": 0.0
       },
+      "gpt5_combinatorial_supplement": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
       "difference": {
-        "pass1": 0.6666666666666666,
+        "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       }
     },
     {
       "task_id": "base_57",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -488,66 +758,106 @@
     },
     {
       "task_id": "base_59",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.8,
         "pass_at3": 1.0,
         "pass_all3": 0.4
       },
       "difference": {
-        "pass1": 0.19999999999999996,
+        "pass1": 0.0,
         "pass_at3": 0.0,
-        "pass_all3": 0.6
+        "pass_all3": 0.0
       }
     },
     {
       "task_id": "base_61",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.8,
         "pass_at3": 1.0,
         "pass_all3": 0.4
       },
       "difference": {
-        "pass1": 0.19999999999999996,
+        "pass1": 0.0,
         "pass_at3": 0.0,
-        "pass_all3": 0.6
+        "pass_all3": 0.0
       }
     },
     {
       "task_id": "base_63",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
-        "pass1": 0.6666666666666666,
+        "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.8,
         "pass_at3": 1.0,
         "pass_all3": 0.4
       },
       "difference": {
-        "pass1": -0.13333333333333341,
+        "pass1": 1.0,
         "pass_at3": 0.0,
-        "pass_all3": -0.4
+        "pass_all3": 0.0
       }
     },
     {
       "task_id": "base_65",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -560,26 +870,41 @@
     },
     {
       "task_id": "base_67",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
-        "pass1": 0.6666666666666666,
+        "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.8,
         "pass_at3": 1.0,
         "pass_all3": 0.4
       },
       "difference": {
-        "pass1": -0.13333333333333341,
+        "pass1": 1.0,
         "pass_at3": 0.0,
-        "pass_all3": -0.4
+        "pass_all3": 0.0
       }
     },
     {
       "task_id": "base_69",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
-        "pass1": 0.6666666666666666,
+        "pass1": 0.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       },
@@ -588,16 +913,26 @@
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
+      "gpt5_combinatorial_supplement": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
       "difference": {
-        "pass1": -0.33333333333333337,
+        "pass1": -1.0,
         "pass_at3": 0.0,
         "pass_all3": -1.0
       }
     },
     {
       "task_id": "base_71",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
-        "pass1": 0.6666666666666666,
+        "pass1": 0.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       },
@@ -606,20 +941,35 @@
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
+      "gpt5_combinatorial_supplement": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
       "difference": {
-        "pass1": -0.33333333333333337,
+        "pass1": -1.0,
         "pass_at3": 0.0,
         "pass_all3": -1.0
       }
     },
     {
       "task_id": "base_73",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -632,8 +982,13 @@
     },
     {
       "task_id": "base_75",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
-        "pass1": 0.6666666666666666,
+        "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       },
@@ -642,20 +997,35 @@
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
+      "gpt5_combinatorial_supplement": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
       "difference": {
-        "pass1": -0.33333333333333337,
+        "pass1": 0.0,
         "pass_at3": 0.0,
         "pass_all3": -1.0
       }
     },
     {
       "task_id": "base_77",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 0.0,
         "pass_at3": 0.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -668,12 +1038,22 @@
     },
     {
       "task_id": "base_79",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -686,12 +1066,22 @@
     },
     {
       "task_id": "base_81",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 0.0,
         "pass_at3": 0.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.0,
         "pass_at3": 0.0,
         "pass_all3": 0.0
@@ -704,8 +1094,13 @@
     },
     {
       "task_id": "base_83",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
-        "pass1": 0.3333333333333333,
+        "pass1": 0.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       },
@@ -714,38 +1109,63 @@
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
+      "gpt5_combinatorial_supplement": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
       "difference": {
-        "pass1": -0.6666666666666667,
+        "pass1": -1.0,
         "pass_at3": 0.0,
         "pass_all3": -1.0
       }
     },
     {
       "task_id": "base_85",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 0.0,
         "pass_at3": 0.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.8,
         "pass_at3": 1.0,
         "pass_all3": 0.4
       },
       "difference": {
-        "pass1": -0.8,
+        "pass1": -1.0,
         "pass_at3": -1.0,
-        "pass_all3": -0.4
+        "pass_all3": 0.0
       }
     },
     {
       "task_id": "base_87",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -758,109 +1178,169 @@
     },
     {
       "task_id": "base_89",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.2,
         "pass_at3": 0.6,
         "pass_all3": 0.0
       },
       "difference": {
-        "pass1": 0.8,
-        "pass_at3": 0.4,
+        "pass1": 1.0,
+        "pass_at3": 1.0,
         "pass_all3": 1.0
       }
     },
     {
       "task_id": "base_91",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.6,
         "pass_at3": 1.0,
         "pass_all3": 0.1
       },
       "difference": {
-        "pass1": 0.4,
+        "pass1": 0.0,
         "pass_at3": 0.0,
-        "pass_all3": 0.9
+        "pass_all3": 1.0
       }
     },
     {
       "task_id": "base_93",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.6,
         "pass_at3": 1.0,
         "pass_all3": 0.1
       },
       "difference": {
-        "pass1": 0.4,
+        "pass1": 0.0,
         "pass_at3": 0.0,
-        "pass_all3": 0.9
+        "pass_all3": 1.0
       }
     },
     {
       "task_id": "base_95",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
-        "pass1": 0.6666666666666666,
+        "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.8,
         "pass_at3": 1.0,
         "pass_all3": 0.4
       },
       "difference": {
-        "pass1": -0.13333333333333341,
+        "pass1": 0.0,
         "pass_at3": 0.0,
-        "pass_all3": -0.4
+        "pass_all3": 0.0
       }
     },
     {
       "task_id": "base_97",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 0.0,
         "pass_at3": 0.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.8,
         "pass_at3": 1.0,
         "pass_all3": 0.4
       },
       "difference": {
-        "pass1": -0.8,
+        "pass1": -1.0,
         "pass_at3": -1.0,
-        "pass_all3": -0.4
+        "pass_all3": -1.0
       }
     },
     {
       "task_id": "base_99",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 0.0,
         "pass_at3": 0.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.2,
         "pass_at3": 0.6,
         "pass_all3": 0.0
       },
       "difference": {
-        "pass1": -0.2,
-        "pass_at3": -0.6,
+        "pass1": 0.0,
+        "pass_at3": -1.0,
         "pass_all3": 0.0
       }
     }
@@ -868,12 +1348,22 @@
   "hallucination": [
     {
       "task_id": "hallucination_1",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -886,12 +1376,22 @@
     },
     {
       "task_id": "hallucination_3",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -904,12 +1404,22 @@
     },
     {
       "task_id": "hallucination_5",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -922,12 +1432,22 @@
     },
     {
       "task_id": "hallucination_7",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -940,12 +1460,22 @@
     },
     {
       "task_id": "hallucination_9",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -958,12 +1488,22 @@
     },
     {
       "task_id": "hallucination_11",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.0,
         "pass_at3": 0.0,
         "pass_all3": 0.0
@@ -976,12 +1516,22 @@
     },
     {
       "task_id": "hallucination_13",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 0.0,
         "pass_at3": 0.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -994,12 +1544,22 @@
     },
     {
       "task_id": "hallucination_15",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -1012,48 +1572,78 @@
     },
     {
       "task_id": "hallucination_17",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
-        "pass1": 0.6666666666666666,
+        "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.8,
         "pass_at3": 1.0,
         "pass_all3": 0.4
       },
       "difference": {
-        "pass1": -0.13333333333333341,
+        "pass1": 0.0,
         "pass_at3": 0.0,
-        "pass_all3": -0.4
+        "pass_all3": 0.0
       }
     },
     {
       "task_id": "hallucination_19",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.8,
         "pass_at3": 1.0,
         "pass_all3": 0.4
       },
       "difference": {
-        "pass1": 0.19999999999999996,
+        "pass1": 0.0,
         "pass_at3": 0.0,
-        "pass_all3": 0.6
+        "pass_all3": 0.0
       }
     },
     {
       "task_id": "hallucination_21",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 0.0,
         "pass_at3": 0.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -1066,12 +1656,22 @@
     },
     {
       "task_id": "hallucination_23",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 0.0,
         "pass_at3": 0.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.0,
         "pass_at3": 0.0,
         "pass_all3": 0.0
@@ -1084,12 +1684,22 @@
     },
     {
       "task_id": "hallucination_25",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -1102,12 +1712,22 @@
     },
     {
       "task_id": "hallucination_27",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 0.0,
         "pass_at3": 0.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -1120,12 +1740,22 @@
     },
     {
       "task_id": "hallucination_29",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -1138,48 +1768,78 @@
     },
     {
       "task_id": "hallucination_31",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 0.0,
         "pass_at3": 0.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.4,
         "pass_at3": 0.9,
         "pass_all3": 0.0
       },
       "difference": {
-        "pass1": -0.4,
-        "pass_at3": -0.9,
+        "pass1": 0.0,
+        "pass_at3": -1.0,
         "pass_all3": 0.0
       }
     },
     {
       "task_id": "hallucination_33",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
-        "pass1": 0.6666666666666666,
+        "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.6,
         "pass_at3": 1.0,
         "pass_all3": 0.1
       },
       "difference": {
-        "pass1": 0.06666666666666665,
+        "pass1": 0.0,
         "pass_at3": 0.0,
-        "pass_all3": -0.1
+        "pass_all3": 0.0
       }
     },
     {
       "task_id": "hallucination_35",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -1192,12 +1852,22 @@
     },
     {
       "task_id": "hallucination_39",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 0.0,
         "pass_at3": 0.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -1210,12 +1880,22 @@
     },
     {
       "task_id": "hallucination_43",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -1228,26 +1908,41 @@
     },
     {
       "task_id": "hallucination_45",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
-        "pass1": 0.6666666666666666,
+        "pass1": 0.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.8,
         "pass_at3": 1.0,
         "pass_all3": 0.4
       },
       "difference": {
-        "pass1": -0.13333333333333341,
+        "pass1": -1.0,
         "pass_at3": 0.0,
-        "pass_all3": -0.4
+        "pass_all3": 0.0
       }
     },
     {
       "task_id": "hallucination_47",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
-        "pass1": 0.6666666666666666,
+        "pass1": 0.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       },
@@ -1256,92 +1951,147 @@
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
+      "gpt5_combinatorial_supplement": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
       "difference": {
-        "pass1": -0.33333333333333337,
+        "pass1": -1.0,
         "pass_at3": 0.0,
         "pass_all3": -1.0
       }
     },
     {
       "task_id": "hallucination_51",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
-        "pass1": 0.3333333333333333,
+        "pass1": 0.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.4,
         "pass_at3": 0.9,
         "pass_all3": 0.0
       },
       "difference": {
-        "pass1": -0.06666666666666671,
-        "pass_at3": 0.09999999999999998,
+        "pass1": -1.0,
+        "pass_at3": 0.0,
         "pass_all3": 0.0
       }
     },
     {
       "task_id": "hallucination_53",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.8,
         "pass_at3": 1.0,
         "pass_all3": 0.4
       },
       "difference": {
-        "pass1": 0.19999999999999996,
+        "pass1": 0.0,
         "pass_at3": 0.0,
-        "pass_all3": 0.6
+        "pass_all3": 1.0
       }
     },
     {
       "task_id": "hallucination_55",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
-        "pass1": 0.6666666666666666,
+        "pass1": 0.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.6,
         "pass_at3": 1.0,
         "pass_all3": 0.1
       },
       "difference": {
-        "pass1": 0.06666666666666665,
+        "pass1": -1.0,
         "pass_at3": 0.0,
-        "pass_all3": -0.1
+        "pass_all3": -1.0
       }
     },
     {
       "task_id": "hallucination_57",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 0.0,
         "pass_at3": 0.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.4,
         "pass_at3": 0.9,
         "pass_all3": 0.0
       },
       "difference": {
-        "pass1": -0.4,
-        "pass_at3": -0.9,
+        "pass1": 0.0,
+        "pass_at3": -1.0,
         "pass_all3": 0.0
       }
     },
     {
       "task_id": "hallucination_59",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 0.0,
         "pass_at3": 0.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.0,
         "pass_at3": 0.0,
         "pass_all3": 0.0
@@ -1354,26 +2104,41 @@
     },
     {
       "task_id": "hallucination_61",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
-        "pass1": 0.3333333333333333,
+        "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.8,
         "pass_at3": 1.0,
         "pass_all3": 0.4
       },
       "difference": {
-        "pass1": -0.46666666666666673,
+        "pass1": 1.0,
         "pass_at3": 0.0,
-        "pass_all3": -0.4
+        "pass_all3": 0.0
       }
     },
     {
       "task_id": "hallucination_63",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
-        "pass1": 0.6666666666666666,
+        "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       },
@@ -1382,20 +2147,35 @@
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
+      "gpt5_combinatorial_supplement": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
       "difference": {
-        "pass1": -0.33333333333333337,
+        "pass1": 0.0,
         "pass_at3": 0.0,
         "pass_all3": -1.0
       }
     },
     {
       "task_id": "hallucination_65",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -1408,12 +2188,22 @@
     },
     {
       "task_id": "hallucination_67",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -1426,8 +2216,13 @@
     },
     {
       "task_id": "hallucination_69",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
-        "pass1": 0.3333333333333333,
+        "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       },
@@ -1436,20 +2231,35 @@
         "pass_at3": 0.0,
         "pass_all3": 0.0
       },
+      "gpt5_combinatorial_supplement": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
       "difference": {
-        "pass1": 0.3333333333333333,
+        "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       }
     },
     {
       "task_id": "hallucination_71",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -1462,12 +2272,22 @@
     },
     {
       "task_id": "hallucination_73",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -1480,12 +2300,22 @@
     },
     {
       "task_id": "hallucination_75",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -1498,8 +2328,13 @@
     },
     {
       "task_id": "hallucination_77",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
-        "pass1": 0.3333333333333333,
+        "pass1": 0.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       },
@@ -1508,20 +2343,35 @@
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
+      "gpt5_combinatorial_supplement": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
       "difference": {
-        "pass1": -0.6666666666666667,
+        "pass1": -1.0,
         "pass_at3": 0.0,
         "pass_all3": -1.0
       }
     },
     {
       "task_id": "hallucination_81",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.0,
         "pass_at3": 0.0,
         "pass_all3": 0.0
@@ -1534,12 +2384,22 @@
     },
     {
       "task_id": "hallucination_83",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -1552,12 +2412,22 @@
     },
     {
       "task_id": "hallucination_85",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -1570,12 +2440,22 @@
     },
     {
       "task_id": "hallucination_87",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 0.0,
         "pass_at3": 0.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.0,
         "pass_at3": 0.0,
         "pass_all3": 0.0
@@ -1588,26 +2468,41 @@
     },
     {
       "task_id": "hallucination_89",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.8,
         "pass_at3": 1.0,
         "pass_all3": 0.4
       },
       "difference": {
-        "pass1": 0.19999999999999996,
+        "pass1": 0.0,
         "pass_at3": 0.0,
-        "pass_all3": 0.6
+        "pass_all3": 1.0
       }
     },
     {
       "task_id": "hallucination_91",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
-        "pass1": 0.6666666666666666,
+        "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       },
@@ -1616,20 +2511,35 @@
         "pass_at3": 0.0,
         "pass_all3": 0.0
       },
+      "gpt5_combinatorial_supplement": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
       "difference": {
-        "pass1": 0.6666666666666666,
+        "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       }
     },
     {
       "task_id": "hallucination_93",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -1642,12 +2552,22 @@
     },
     {
       "task_id": "hallucination_96",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 0.0,
         "pass_at3": 0.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.0,
         "pass_at3": 0.0,
         "pass_all3": 0.0
@@ -1660,86 +2580,136 @@
     },
     {
       "task_id": "hallucination_97",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 0.0,
         "pass_at3": 0.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.6,
         "pass_at3": 1.0,
         "pass_all3": 0.1
       },
       "difference": {
-        "pass1": -0.6,
+        "pass1": 0.0,
         "pass_at3": -1.0,
-        "pass_all3": -0.1
+        "pass_all3": 0.0
       }
     }
   ],
   "disambiguation": [
     {
       "task_id": "disambiguation_7",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
-        "pass1": 0.6666666666666666,
+        "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.6,
         "pass_at3": 1.0,
         "pass_all3": 0.1
       },
       "difference": {
-        "pass1": 0.06666666666666665,
+        "pass1": 0.0,
         "pass_at3": 0.0,
-        "pass_all3": -0.1
+        "pass_all3": -1.0
       }
     },
     {
       "task_id": "disambiguation_9",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
-        "pass1": 0.6666666666666666,
+        "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.4,
         "pass_at3": 0.9,
         "pass_all3": 0.0
       },
       "difference": {
-        "pass1": 0.2666666666666666,
-        "pass_at3": 0.09999999999999998,
+        "pass1": 0.0,
+        "pass_at3": 0.0,
         "pass_all3": 0.0
       }
     },
     {
       "task_id": "disambiguation_11",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 0.0,
         "pass_at3": 0.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.4,
         "pass_at3": 0.9,
         "pass_all3": 0.0
       },
       "difference": {
-        "pass1": -0.4,
-        "pass_at3": -0.9,
+        "pass1": 0.0,
+        "pass_at3": 0.0,
         "pass_all3": 0.0
       }
     },
     {
       "task_id": "disambiguation_13",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -1752,12 +2722,22 @@
     },
     {
       "task_id": "disambiguation_15",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -1770,48 +2750,78 @@
     },
     {
       "task_id": "disambiguation_17",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.8,
         "pass_at3": 1.0,
         "pass_all3": 0.4
       },
       "difference": {
-        "pass1": 0.19999999999999996,
+        "pass1": 1.0,
         "pass_at3": 0.0,
-        "pass_all3": 0.6
+        "pass_all3": 1.0
       }
     },
     {
       "task_id": "disambiguation_19",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.6,
         "pass_at3": 1.0,
         "pass_all3": 0.1
       },
       "difference": {
-        "pass1": 0.4,
+        "pass1": 0.0,
         "pass_at3": 0.0,
-        "pass_all3": 0.9
+        "pass_all3": 1.0
       }
     },
     {
       "task_id": "disambiguation_21",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -1824,12 +2834,22 @@
     },
     {
       "task_id": "disambiguation_23",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 0.0,
         "pass_at3": 0.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -1842,26 +2862,41 @@
     },
     {
       "task_id": "disambiguation_27",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.6,
         "pass_at3": 1.0,
         "pass_all3": 0.1
       },
       "difference": {
-        "pass1": 0.4,
+        "pass1": 1.0,
         "pass_at3": 0.0,
-        "pass_all3": 0.9
+        "pass_all3": 1.0
       }
     },
     {
       "task_id": "disambiguation_29",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
-        "pass1": 0.3333333333333333,
+        "pass1": 0.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       },
@@ -1870,20 +2905,35 @@
         "pass_at3": 0.0,
         "pass_all3": 0.0
       },
+      "gpt5_combinatorial_supplement": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
       "difference": {
-        "pass1": 0.3333333333333333,
+        "pass1": 0.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       }
     },
     {
       "task_id": "disambiguation_31",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 0.0,
         "pass_at3": 0.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
@@ -1896,8 +2946,13 @@
     },
     {
       "task_id": "disambiguation_33",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
-        "pass1": 0.6666666666666666,
+        "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       },
@@ -1906,88 +2961,82 @@
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
+      "gpt5_combinatorial_supplement": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
       "difference": {
-        "pass1": -0.33333333333333337,
+        "pass1": 0.0,
         "pass_at3": 0.0,
         "pass_all3": -1.0
       }
     },
     {
       "task_id": "disambiguation_37",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.8,
         "pass_at3": 1.0,
         "pass_all3": 0.4
       },
       "difference": {
-        "pass1": 0.19999999999999996,
+        "pass1": 0.0,
         "pass_at3": 0.0,
-        "pass_all3": 0.6
+        "pass_all3": 0.0
       }
     },
     {
       "task_id": "disambiguation_39",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
         "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 1.0
       },
       "gpt5": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 1.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.8,
         "pass_at3": 1.0,
         "pass_all3": 0.4
       },
       "difference": {
-        "pass1": 0.19999999999999996,
+        "pass1": 0.0,
         "pass_at3": 0.0,
-        "pass_all3": 0.6
+        "pass_all3": 0.0
       }
     },
     {
       "task_id": "disambiguation_41",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
-        "pass1": 0.6666666666666666,
-        "pass_at3": 1.0,
-        "pass_all3": 0.0
-      },
-      "gpt5": {
-        "pass1": 0.2,
-        "pass_at3": 0.6,
-        "pass_all3": 0.0
-      },
-      "difference": {
-        "pass1": 0.4666666666666666,
-        "pass_at3": 0.4,
-        "pass_all3": 0.0
-      }
-    },
-    {
-      "task_id": "disambiguation_43",
-      "luna": {
-        "pass1": 0.6666666666666666,
-        "pass_at3": 1.0,
-        "pass_all3": 0.0
-      },
-      "gpt5": {
-        "pass1": 0.8,
-        "pass_at3": 1.0,
-        "pass_all3": 0.4
-      },
-      "difference": {
-        "pass1": -0.13333333333333341,
-        "pass_at3": 0.0,
-        "pass_all3": -0.4
-      }
-    },
-    {
-      "task_id": "disambiguation_45",
-      "luna": {
-        "pass1": 0.3333333333333333,
+        "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       },
@@ -1996,27 +3045,98 @@
         "pass_at3": 0.0,
         "pass_all3": 0.0
       },
+      "gpt5_combinatorial_supplement": {
+        "pass1": 0.2,
+        "pass_at3": 0.6,
+        "pass_all3": 0.0
+      },
       "difference": {
-        "pass1": 0.3333333333333333,
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "disambiguation_43",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
+      "luna": {
+        "pass1": 0.0,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
+        "pass1": 0.8,
+        "pass_at3": 1.0,
+        "pass_all3": 0.4
+      },
+      "difference": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      }
+    },
+    {
+      "task_id": "disambiguation_45",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
+      "luna": {
+        "pass1": 1.0,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
+        "pass1": 0.0,
+        "pass_at3": 0.0,
+        "pass_all3": 0.0
+      },
+      "difference": {
+        "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       }
     },
     {
       "task_id": "disambiguation_49",
+      "used_trial_ids": [
+        0,
+        1,
+        2
+      ],
       "luna": {
-        "pass1": 0.3333333333333333,
+        "pass1": 1.0,
         "pass_at3": 1.0,
         "pass_all3": 0.0
       },
       "gpt5": {
+        "pass1": 0.0,
+        "pass_at3": 1.0,
+        "pass_all3": 0.0
+      },
+      "gpt5_combinatorial_supplement": {
         "pass1": 0.4,
         "pass_at3": 0.9,
         "pass_all3": 0.0
       },
       "difference": {
-        "pass1": -0.06666666666666671,
-        "pass_at3": 0.09999999999999998,
+        "pass1": 1.0,
+        "pass_at3": 0.0,
         "pass_all3": 0.0
       }
     }

@@ -8,7 +8,7 @@ s=json.loads((EXT/'summary.json').read_text())
 assert s['reserved_calls']==0,'Unresolved API charges require review'
 assert any(e['state'] in ['budget_stop','user_stop'] for e in s['stops']),'Expected budget-limited completion'
 shutil.copytree(EXT,REPO/'outputs/extension',dirs_exist_ok=True,ignore=shutil.ignore_patterns('*.zip'))
-for name in ['extend_experiment.py','supplement_disambiguation.py','analyze_extension.py','plot_extension.py','package_extension.py','pdf_extension.py','verify_extension.py','test_extension_transport.py']:
+for name in ['extend_experiment.py','supplement_disambiguation.py','analyze_extension.py','plot_extension.py','package_extension.py','pdf_extension.py','verify_extension.py','test_extension_transport.py','analyze_experiment.py','build_report.py','verify_first_three.py','build_english_report.py']:
     shutil.copy2(ROOT/'work'/name,REPO/'work'/name)
 for kind in ['base','hallucination']:
     # Runner consumes this frozen snapshot before writing the output snapshot.
@@ -25,10 +25,7 @@ for p in (ROOT/'work').glob('disambiguation-supplement*.log'):shutil.copy2(p,REP
 for p in (ROOT/'work').glob('final-*-tests.log'):shutil.copy2(p,REPO/'evidence'/p.name)
 pdf=ROOT/'outputs/CAR-bench_GPT6-Luna_完整实验报告.pdf'
 if pdf.exists():shutil.copy2(pdf,REPO/'outputs'/pdf.name)
-readme=(REPO/'README.md').read_text(encoding='utf-8').split('\n## 三类任务扩展实验')[0]
-readme=readme.replace('# CAR-bench：GPT-6 Luna 消歧一致性复现','# CAR-bench：GPT-6 Luna 三类任务复现')
-if '## 首批：Disambiguation' not in readme:
-    readme=readme.replace('2026-10-19 完成。','> 最新扩展：[三类任务对比报告](outputs/extension/comparison-report.html) · [扩展实验数据与图表](outputs/extension/)\n\n## 首批：Disambiguation\n\n2026-10-19 完成。',1)
+readme='# CAR-bench：GPT-6 Luna 三类任务复现（前三轮算法修正版）\n\n2026-10-19 离线重算。主结果与历史 GPT-5 均取 trial ID 0、1、2。Pass@1 仅看 trial 0，Pass@3 看前三轮任意成功，Pass^3 看前三轮全部成功。直接用作者 analyze_results.py 和 analyze_results_v2.py 中的函数交叉核验。此前多轮平均与组合结果仅保留为补充分析。\n'
 rows='\n'.join(f'| {k} | {v["primary_complete_tasks"]}/{v["available_tasks"]} | {v["valid_trials_all"]} | {100*v["scores"]["pass1"]:.1f}% | {100*v["scores"]["pass_at3"]:.1f}% | {100*v["scores"]["pass_all3"]:.1f}% |' for k,v in s['categories'].items())
 c=s['total_cost_including_prior']
 balanced_rows='\n'.join(f'| {k} | {v["balanced_repeats"]} | {100*v["balanced_scores"]["pass1"]:.1f}% | {100*v["balanced_scores"]["pass_at3"]:.1f}% | {100*v["balanced_scores"]["pass_all3"]:.1f}% |' for k,v in s['categories'].items())
@@ -45,11 +42,11 @@ readme+=f'''
 
 六轮对齐补充结果（k=3 的组合估计）：
 
-| 类别 | 完整轮次 | Pass@1 | Pass@3 | Pass^3 |
+| 类别 | 完整轮次 | 平均单次成功率 | 组合 Pass@3 | 组合 Pass^3 |
 |---|---:|---:|---:|---:|
 {balanced_rows}
 
-[PDF 报告](outputs/extension/CAR-bench_三类任务六轮对比报告.pdf) · [完整对比报告](outputs/extension/comparison-report.html) · [详细汇总与区间](outputs/extension/summary.json) · [逐题结果](outputs/extension/per-task-results.csv) · [题目定义审计](outputs/extension/task-definition-audit.json) · [停止事件](outputs/extension/events.jsonl)
+[PDF 报告](outputs/extension/CAR-bench_前三轮算法修正版报告.pdf) · [完整对比报告](outputs/extension/comparison-report.html) · [详细汇总与区间](outputs/extension/summary.json) · [逐题结果](outputs/extension/per-task-results.csv) · [题目定义审计](outputs/extension/task-definition-audit.json) · [停止事件](outputs/extension/events.jsonl)
 
 ![历史同题对比](outputs/extension/matched-comparison.png)
 
@@ -59,8 +56,16 @@ readme+=f'''
 
 无需密钥的重新分析：`python work/analyze_extension.py`，然后 `python work/plot_extension.py`。付费扩展入口是 `python work/extend_experiment.py`，使用已有凭据，继承之前费用账本；请先阅读源代码中的停止条件。它不会自动设置平台预算，且不得与其他实验进程同时运行。
 
-`outputs/usage-ledger.json` 是前次消歧实验账本；`outputs/extension/usage-ledger.json` 包含其完整前缀及新增调用，累计费用以扩展账本为准，不要把两个账本相加。原始报告保持历史结果，新结论以扩展报告为准。
+`outputs/usage-ledger.json` 是前次消歧实验账本；`outputs/extension/usage-ledger.json` 包含其完整前缀及新增调用，累计费用以扩展账本为准，不要把两个账本相加。首批消歧子报告也已修正。完整结果以扩展报告为准。
 '''
+readme+='\n[修正版 slides](outputs/CAR_bench_presentation_corrected_first3.pptx) · [作者算法核验](outputs/extension/first-three-verification.json)\n\n本次新增 API 调用和费用均为零。所有原始轨迹与费用账本哈希保持不变。执行 `python work/verify_first_three.py` 可离线检查。\n'
+for name in ['summary.json','historical-comparison.json','per-task-results.csv','report.html','README.txt','consistency.png','CAR-bench_GPT6-Luna_完整实验报告.pdf','CAR_bench_presentation_corrected_first3.pptx']:
+    shutil.copy2(ROOT/'outputs'/name,REPO/'outputs'/name)
+for relative in ['immutable-hashes.json','outputs/extension/summary.json']:
+    src=ROOT/'work/correction-before'/relative;dest=REPO/'work/correction-before'/relative
+    dest.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(src,dest)
+shutil.copytree(ROOT/'work/slides-edit',REPO/'work/slides-edit',dirs_exist_ok=True,ignore=shutil.ignore_patterns('*.png','*.webp','*.pptx','*.log','*.ndjson'))
+readme='[English report (PDF)](outputs/extension/CAR-bench_Corrected_First3_Report_EN.pdf) | [English report (HTML)](outputs/extension/comparison-report-en.html) | [Corrected slides](outputs/CAR_bench_presentation_corrected_first3.pptx)\n\n'+readme
 (REPO/'README.md').write_text(readme,encoding='utf-8')
 paths=sorted(p for p in REPO.rglob('*') if p.is_file() and '.git' not in p.parts and '__pycache__' not in p.parts and p.suffix!='.zip' and p.name!='checksums.sha256')
 secrets=[v.encode() for k,v in dotenv_values(ROOT/'.env.local').items() if k.endswith('API_KEY') and v]

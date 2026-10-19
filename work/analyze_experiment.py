@@ -4,6 +4,17 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parent.parent
 OUT=ROOT/'outputs'
 
+def paper_scores(values):
+    """Author analyze_results_v2.py: first trial, any/all of trials 0,1,2."""
+    assert len(values)==3
+    return {'pass1':float(values[0]),'pass_at3':float(any(values)),'pass_all3':float(all(values))}
+
+def first_three(records):
+    by_trial={r['trial']:r for r in records}
+    assert len(by_trial)==len(records), 'Duplicate trial identifiers'
+    assert all(i in by_trial for i in range(3)), 'Missing primary trial'
+    return [int(by_trial[i]['reward']==1) for i in range(3)]
+
 def scores(values,k=3):
     n=len(values);c=sum(values)
     choose=lambda a,b: math.comb(a,b) if a>=b else 0
@@ -35,7 +46,7 @@ def main():
         if any('error' in x['info'] for x in r):raise ValueError('Infrastructure errors: '+path.stem)
         values=[int(x['reward']==1) for x in sorted(r,key=lambda x:x['trial'])]
         grouped[path.stem]=r
-        s=scores(values);s['gap']=s['pass_at3']-s['pass_all3']
+        s=paper_scores(values);s['gap']=s['pass_at3']-s['pass_all3']
         rows.append({'task_id':path.stem,'successes':sum(values),'trials':3,**s})
         for x in r:
             ri=x['info'].get('reward_info',{}).get('info',{})
@@ -67,15 +78,16 @@ def main():
         old=[r for r in baseline if str(r['task_id'])==old_id]
         if len(old)!=5 or any('error' in r.get('info',{}) for r in old):
             excluded.append(task_id);continue
-        newscore=scores([int(r['reward']==1) for r in grouped[task_id]])
-        oldscore=scores([int(r['reward']==1) for r in old])
+        newscore=paper_scores(first_three(grouped[task_id]))
+        oldscore=paper_scores(first_three(old))
         pairs.append({'task_id':task_id,'luna':newscore,'gpt5':oldscore,'difference':{k:newscore[k]-oldscore[k] for k in newscore}})
     if pairs:
         summary['historical_matched_tasks']={'n':len(pairs),'luna':average([p['luna'] for p in pairs]),
             'gpt5':average([p['gpt5'] for p in pairs]),'difference':average([p['difference'] for p in pairs]),
             'difference_bootstrap_95ci':bootstrap([p['difference'] for p in pairs]),
             'excluded_infrastructure_tasks':excluded,'baseline_n_trials':5,
-            'method':'Historical GPT-5: average over all 10 triplets among 5 repeats. Identical task definitions, but historical code/models/judges not controlled.'}
+            'used_trial_ids':[0,1,2],
+            'method':'Both models use trial IDs 0,1,2. Pass@1 uses trial 0 only, Pass@3 any of these three, Pass^3 all three. Identical task definitions, but historical code/models/judges not controlled.'}
     (OUT/'summary.json').write_text(json.dumps(summary,indent=2),encoding='utf-8')
     (OUT/'failures.json').write_text(json.dumps(failures,indent=2),encoding='utf-8')
     (OUT/'historical-comparison.json').write_text(json.dumps(pairs,indent=2),encoding='utf-8')

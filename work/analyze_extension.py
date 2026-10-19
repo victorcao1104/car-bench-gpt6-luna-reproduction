@@ -2,7 +2,7 @@
 import json, math, csv, hashlib, html
 from pathlib import Path
 from collections import defaultdict,Counter
-from analyze_experiment import scores,average,bootstrap
+from analyze_experiment import scores,paper_scores,first_three,average,bootstrap
 ROOT=Path(__file__).resolve().parent.parent
 OUT=ROOT/'outputs';EXT=OUT/'extension'
 KINDS=['base','hallucination','disambiguation']
@@ -33,7 +33,7 @@ def main():
         primary={k:[v[i] for i in range(3)] for k,v in groups.items() if all(i in v for i in range(3))}
         primary_scores=[];components=Counter();endwords=Counter()
         for task_id,rs in primary.items():
-            values=[int(r['reward']==1) for r in rs];sc=scores(values);sc['gap']=sc['pass_at3']-sc['pass_all3']
+            values=[int(r['reward']==1) for r in rs];sc=paper_scores(values);sc['gap']=sc['pass_at3']-sc['pass_all3']
             primary_scores.append(sc)
             csvrows.append({'kind':kind,'task_id':task_id,'primary_successes':sum(values),'valid_repetitions':len(groups[task_id]),**sc})
             for i,r in enumerate(rs):
@@ -55,9 +55,9 @@ def main():
             eligible=bool(oldtasks) and not differences and len(old)>=3 and not any('error' in r.get('info',{}) for r in old)
             audit.append({'kind':kind,'task_id':task_id,'different_fields':differences,'historical_trials':len(old),'eligible':eligible})
             if eligible and task_id in primary:
-                ns=scores([int(r['reward']==1) for r in primary[task_id]])
-                os=scores([int(r['reward']==1) for r in old])
-                pairs.append({'task_id':task_id,'luna':ns,'gpt5':os,'difference':{k:ns[k]-os[k] for k in ns}})
+                ns=paper_scores([int(r['reward']==1) for r in primary[task_id]])
+                os=paper_scores(first_three(old))
+                pairs.append({'task_id':task_id,'used_trial_ids':[0,1,2],'luna':ns,'gpt5':os,'gpt5_combinatorial_supplement':scores([int(r['reward']==1) for r in old]),'difference':{k:ns[k]-os[k] for k in ns}})
         common=min(len(v) for v in groups.values()) if len(groups)==len(tasks) else 0
         balanced=[]
         if common>=3:
@@ -82,7 +82,8 @@ def main():
                 extra=[]
                 for p in pairs:
                     ns=scores([int(groups[p['task_id']][i]['reward']==1) for i in range(common)])
-                    extra.append({'luna':ns,'gpt5':p['gpt5'],'difference':{k:ns[k]-p['gpt5'][k] for k in ns}})
+                    old_supp=p['gpt5_combinatorial_supplement']
+                    extra.append({'luna':ns,'gpt5':old_supp,'difference':{k:ns[k]-old_supp[k] for k in ns}})
                 record['balanced_matched']={label:average([p[label] for p in extra]) for label in ['luna','gpt5','difference']}
                 record['balanced_matched']['difference_bootstrap_95ci']=bootstrap([p['difference'] for p in extra])
         if common>=3 and len(balanced)==len(tasks):
@@ -98,7 +99,10 @@ def main():
        'uncertain_calls':sum(r['status']=='uncertain' for r in ledger),
        'uncertain_cost_reserved':sum(r['cost_usd'] for r in ledger if r['status']=='uncertain'),
        'stops':[e for e in events if e['state'] in ['budget_stop','interrupted','user_stop']],
-       'note':'First 3 repetitions are primary. Matched historical estimates average all triplets of original repeats. No causal model improvement claim.'}
+       'primary_trial_ids':[0,1,2],
+       'primary_method':'Both models: Pass@1=trial 0 success; Pass@3=any success in trials 0,1,2; Pass^3=all three successful. Matches author analyze_results.py and analyze_results_v2.py.',
+       'supplementary_method':'Luna six-run and historical GPT-5 five-run combination estimates only. Supplementary pass1 means average per-run success, not primary first-trial Pass@1.',
+       'note':'Offline recalculation only. No API calls. Original task matching cohort retained. No causal model improvement claim.'}
     for name,data in [('summary.json',result),('task-definition-audit.json',audit),('historical-matched.json',matched_details),('failures.json',failures)]:
         (EXT/name).write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf-8')
     with (EXT/'per-task-results.csv').open('w',encoding='utf-8-sig',newline='') as f:

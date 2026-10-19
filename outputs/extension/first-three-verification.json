@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "author_functions_checked_in": [
+    "analyze_results.py",
+    "analyze_results_v2.py"
+  ],
+  "used_trial_ids": [
+    0,
+    1,
+    2
+  ],
+  "pass1": "trial 0 only",
+  "categories": {
+    "base": {
+      "primary_tasks": 50,
+      "primary_trials": 150,
+      "matched_tasks": 48
+    },
+    "hallucination": {
+      "primary_tasks": 50,
+      "primary_trials": 150,
+      "matched_tasks": 45
+    },
+    "disambiguation": {
+      "primary_tasks": 25,
+      "primary_trials": 75,
+      "matched_tasks": 19
+    }
+  },
+  "six_run_supplementary_results_unchanged": true,
+  "raw_data_and_ledgers_unchanged": true,
+  "immutable_file_count": 786,
+  "new_api_calls": 0,
+  "new_api_cost_usd": 0,
+  "total_cost_including_prior": {
+    "openai": 0.930797165,
+    "gemini": 4.9896778
+  }
+}
