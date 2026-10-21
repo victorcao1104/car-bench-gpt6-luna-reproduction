@@ -1,4 +1,4 @@
-[English report (PDF)](outputs/extension/CAR-bench_Corrected_First3_Report_EN.pdf) | [English report (HTML)](outputs/extension/comparison-report-en.html) | [Corrected slides](outputs/CAR_bench_presentation_corrected_first3.pptx)
+[English report (PDF)](outputs/extension/CAR-bench_Corrected_First3_Report_EN.pdf) | [English report (HTML)](outputs/extension/comparison-report-en.html) | [Latest slides: safety insight and links](outputs/CAR_bench_presentation_safety_insight.pptx)
 
 # CAR-bench：GPT-6 Luna 三类任务复现（前三轮算法修正版）
 
