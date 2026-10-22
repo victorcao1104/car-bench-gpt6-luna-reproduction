@@ -1,41 +1,125 @@
-[English report (PDF)](outputs/extension/CAR-bench_Corrected_First3_Report_EN.pdf) | [English report (HTML)](outputs/extension/comparison-report-en.html) | [Latest slides: safety insight and links](outputs/CAR_bench_presentation_safety_insight.pptx)
+# CAR-bench: GPT-6 Luna Reproduction
 
-# CAR-bench：GPT-6 Luna 三类任务复现（前三轮算法修正版）
+[English report (PDF)](outputs/extension/CAR-bench_Corrected_First3_Report_EN.pdf) | [English report (HTML)](outputs/extension/comparison-report-en.html) | [Presentation](outputs/CAR_bench_presentation_safety_insight.pptx)
 
-2026-10-19 离线重算。主结果与历史 GPT-5 均取 trial ID 0、1、2。Pass@1 仅看 trial 0，Pass@3 看前三轮任意成功，Pass^3 看前三轮全部成功。直接用作者 analyze_results.py 和 analyze_results_v2.py 中的函数交叉核验。此前多轮平均与组合结果仅保留为补充分析。
+Success and consistency across Base, Hallucination and Disambiguation tasks, using the official CAR-bench environment and saved historical GPT-5 results. The experiment was completed in October 2026.
 
-## 三类任务扩展实验
+The corrected primary analysis uses **the first three trials for both models**, following the authors' analysis functions. Six-run combinatorial estimates are supplementary only. Recalculation and report preparation incurred no additional model API charges.
 
-新增 Base 与 Hallucination，仍使用原模型与固定数据版本，累计预算包含前次 Disambiguation。先每题三次，再均衡增加重复。用户在第七轮要求停止 Base/Hallucination，随后要求将 Disambiguation 补至六轮，仍受总预算保护。用户后续追加 Gemini NZ$10；程序保守增加 US$5 额度，累计本地停止线调整为 US$9.50，完成补跑即停止，不继续耗尽充值。预算中断不作为模型失败。
+## Experiment setup
 
-| 类别 | 完成三轮/总题数 | 全部有效试验 | Pass@1 | Pass@3 | Pass^3 |
+- Agent: GPT-6 Luna with medium reasoning.
+- Simulated user and scoring: Gemini 2.5 Flash, using the benchmark's prompts and scoring pipeline.
+- Current test split: 50 Base, 50 Hallucination and 25 Disambiguation tasks.
+- Official code: [CAR-bench/car-bench](https://github.com/CAR-bench/car-bench), commit `ce6dc9d08f4ff81eb4c1a5c317aff25112ee950b`.
+- Dataset: [johanneskirmayr/car-bench-dataset](https://huggingface.co/datasets/johanneskirmayr/car-bench-dataset), revision `1fcf24ad802c42e04a0d8fe05b5ca0d481a4e7af`.
+
+All 125 tasks have six complete repetitions, giving 750 balanced trials. An incomplete seventh round adds 41 Base and 43 Hallucination trials, for 834 stored valid trials in total. The primary analysis uses only 375 trials: trial IDs `0`, `1` and `2` for each task. Budget interruptions are not counted as model failures.
+
+## Primary results: first three trials
+
+| Task type | Tasks | All stored valid trials | Pass@1 | Pass@3 | Pass^3 |
 |---|---:|---:|---:|---:|---:|
-| base | 50/50 | 341 | 76.0% | 84.0% | 58.0% |
-| hallucination | 50/50 | 343 | 66.0% | 78.0% | 50.0% |
-| disambiguation | 25/25 | 150 | 68.0% | 80.0% | 40.0% |
+| Base | 50 | 341 | 76.0% | 84.0% | 58.0% |
+| Hallucination | 50 | 343 | 66.0% | 78.0% | 50.0% |
+| Disambiguation | 25 | 150 | 68.0% | 80.0% | 40.0% |
 
-表中主指标仅使用前三次；额外重复在补充结果中单独报告。累计估算费用：OpenAI $0.930797，Gemini $4.989678。其中 3 次服务异常或进程中断未返回用量，保留 $0.078386 最坏情况费用预留，未将其视为免费。
+- **Pass@1:** proportion of tasks successful on the first trial only.
+- **Pass@3:** proportion successful at least once in the first three trials.
+- **Pass^3:** proportion successful in all three trials.
 
-六轮对齐补充结果（k=3 的组合估计）：
+The consistency gap is Pass@3 minus Pass^3. It must be interpreted alongside success rates: a task that always fails also has a zero gap.
 
-| 类别 | 完整轮次 | 平均单次成功率 | 组合 Pass@3 | 组合 Pass^3 |
+An earlier analysis used a multi-run average for Pass@1 and five-run combinatorial estimates for historical GPT-5. The corrected analysis follows the first-trial/first-three-trial implementation in the authors' `analyze_results.py` and `analyze_results_v2.py`. Previous values are explicitly marked as superseded in the [correction audit](outputs/extension/metric-correction-audit.json).
+
+## Historical comparison on identical tasks
+
+The current task snapshots differ from some definitions stored with the historical results. A shared task ID does not guarantee an identical task. We retain only matching task definitions without historical infrastructure errors. Both models use trial IDs `0`, `1` and `2`.
+
+| Task type | Matched tasks | Luna Pass^3 | Historical GPT-5 Pass^3 | Difference (pp) | Paired 95% CI (pp) |
+|---|---:|---:|---:|---:|---:|
+| Base | 48 | 58.3% | 66.7% | -8.3 | -22.9 to +6.2 |
+| Hallucination | 45 | 51.1% | 60.0% | -8.9 | -24.4 to +4.4 |
+| Disambiguation | 19 | 42.1% | 47.4% | -5.3 | -31.6 to +21.1 |
+
+Intervals use 10,000 paired task-bootstrap resamples with seed 769. All intervals cross zero, so this sample does not establish a clear improvement or deterioration in consistency. This is not evidence of equivalence. Historical code, model-service, simulator and judge conditions were not fully controlled, so differences cannot be attributed solely to a model upgrade.
+
+The report separately shows the paper's Table 4 as descriptive context. Those aggregate values use a different evaluation population and are not a matched-task comparison.
+
+![Historical comparison on identical tasks](outputs/extension/matched-comparison.png)
+
+![Success counts in the first three trials](outputs/extension/consistency-distribution.png)
+
+## Supplementary analysis: six-run combinations
+
+| Task type | Complete runs | Mean success per run | Estimated Pass@3 | Estimated Pass^3 |
 |---|---:|---:|---:|---:|
-| base | 6 | 75.3% | 87.1% | 61.5% |
-| hallucination | 6 | 66.0% | 77.3% | 53.3% |
-| disambiguation | 6 | 56.7% | 75.8% | 37.8% |
+| Base | 6 | 75.3% | 87.1% | 61.5% |
+| Hallucination | 6 | 66.0% | 77.3% | 53.3% |
+| Disambiguation | 6 | 56.7% | 75.8% | 37.8% |
 
-[PDF 报告](outputs/extension/CAR-bench_前三轮算法修正版报告.pdf) · [完整对比报告](outputs/extension/comparison-report.html) · [详细汇总与区间](outputs/extension/summary.json) · [逐题结果](outputs/extension/per-task-results.csv) · [题目定义审计](outputs/extension/task-definition-audit.json) · [停止事件](outputs/extension/events.jsonl)
+These estimates average all 20 three-trial combinations of six Luna runs. The supplementary historical comparison averages all 10 combinations of five GPT-5 runs. For a task with `c` successes in `n` runs:
 
-![历史同题对比](outputs/extension/matched-comparison.png)
+```text
+Estimated Pass^3 = C(c, 3) / C(n, 3)
+Estimated Pass@3 = 1 - C(n - c, 3) / C(n, 3)
+```
 
-![一致性分布](outputs/extension/consistency-distribution.png)
+Here `C(a, 3) = 0` when `a < 3`. Results are averaged equally across tasks. Mean success per run is `c / n`; it differs from primary Pass@1, which uses the first trial only. Supplementary values do not replace the primary comparison.
 
-其他图表（PNG/SVG）位于 `outputs/extension/`。论文表格概览与同题历史对照分开展示；历史代码/模拟用户/评分器未完全控制，不能把差异完全归因于模型升级。Hallucination 任务失败率不等同于直接观测到的编造率。
+Additional trials followed a fixed schedule rather than outcome-based selection. Base and Hallucination were stopped during round seven at the experiment owner's request. Disambiguation was subsequently completed through round six. Partial seventh-round results are excluded from balanced supplementary estimates.
 
-无需密钥的重新分析：`python work/analyze_extension.py`，然后 `python work/plot_extension.py`。付费扩展入口是 `python work/extend_experiment.py`，使用已有凭据，继承之前费用账本；请先阅读源代码中的停止条件。它不会自动设置平台预算，且不得与其他实验进程同时运行。
+## Interpretation and deployment insight
 
-`outputs/usage-ledger.json` 是前次消歧实验账本；`outputs/extension/usage-ledger.json` 包含其完整前缀及新增调用，累计费用以扩展账本为准，不要把两个账本相加。首批消歧子报告也已修正。完整结果以扩展报告为准。
+The replication shows persistent inconsistency: Disambiguation Pass@3 is 80%, while Pass^3 is 40%. A successful run does not establish repeatable behavior. No reasoning-disabled control was run, so the experiment does not isolate the effect of reasoning.
 
-[修正版 slides](outputs/CAR_bench_presentation_corrected_first3.pptx) · [作者算法核验](outputs/extension/first-three-verification.json)
+Hallucination task failures are not a direct measurement of fabrication rates. Invalid tool use, task deviation and other scoring conditions can also cause failure. User simulation and scoring remain imperfect, and there was no full independent human relabelling.
 
-本次新增 API 调用和费用均为零。所有原始轨迹与费用账本哈希保持不变。执行 `python work/verify_first_three.py` 可离线检查。
+The presentation proposes enforcing critical safety policies through an independent rule-based layer. The paper itself discusses external rule-based safety layers in Section 7, Limitations (PDF page 10, printed page 40608). Our powered-door-release illustration is a deployment example, not a benchmark trial. The hypothetical 1% unsafe-action rate on that slide is not an experimental result. Neither a gated agent nor the effectiveness of such a safety layer was evaluated in this replication.
+
+## Recorded costs and budget controls
+
+| Provider | Cumulative estimated cost (USD) |
+|---|---:|
+| OpenAI | $0.930797 |
+| Gemini | $4.989678 |
+| Total | $5.920475 |
+
+The totals include the original Disambiguation experiment and a conservative $0.078386 reservation for three interrupted or failed requests without returned usage data. These requests were not treated as free. Provider billing remains authoritative.
+
+The local OpenAI early-stop threshold was $9.50 under a requested $10 budget. Gemini initially had a $5 budget; a later NZ$10 top-up authorization increased its local threshold conservatively to US$9.50. The supplement stopped when six rounds were complete rather than exhausting the remaining funds. Local guards apply to this runner and do not control unrelated account usage or configure provider-side limits.
+
+`outputs/usage-ledger.json` records the initial experiment. `outputs/extension/usage-ledger.json` includes that entire ledger as a prefix plus later calls. **Do not add the two ledgers together.**
+
+## Reproduce the analysis without API calls
+
+Use a Python environment with the dependencies recorded in this repository. From the repository root:
+
+```bash
+python work/analyze_extension.py
+python work/plot_extension.py
+python work/verify_first_three.py
+python work/build_english_report.py
+```
+
+These commands analyze saved trajectories, regenerate figures, verify metrics against the authors' functions, and build the English report. They do not require model API credentials. Plotting requires NumPy and Matplotlib; English PDF generation requires ReportLab. Verification uses the included historical results and correction snapshots.
+
+Paid experiment entry points are separate: `work/extend_experiment.py` and `work/supplement_disambiguation.py`. They require locally configured credentials and can incur API charges. Read their budget and stopping conditions before use. Do not run competing experiment processes against the same ledger. No credentials are included in this repository.
+
+## Evidence and downloads
+
+- [English PDF report](outputs/extension/CAR-bench_Corrected_First3_Report_EN.pdf)
+- [English HTML report](outputs/extension/comparison-report-en.html)
+- [Presentation](outputs/CAR_bench_presentation_safety_insight.pptx)
+- [Metric summary and confidence intervals](outputs/extension/summary.json)
+- [Per-task results](outputs/extension/per-task-results.csv)
+- [Trial index](outputs/extension/trial-index.csv)
+- [Task-definition audit](outputs/extension/task-definition-audit.json)
+- [Historical matched-task results](outputs/extension/historical-matched.json)
+- [First-three-trial verification](outputs/extension/first-three-verification.json)
+- [Raw-data and ledger hashes](outputs/extension/immutable-data-sha256.json)
+- [Cumulative cost ledger](outputs/extension/usage-ledger.json)
+- [Execution and stopping events](outputs/extension/events.jsonl)
+- [Provenance](evidence/provenance.json) and [file checksums](evidence/checksums.sha256)
+
+PNG/SVG figures and raw trial files are included under `outputs/`. Original trajectories and cost ledgers were preserved through the metric correction. Some archived reports and slides describe the repository as private because they were produced before publication; that access note is historical.
